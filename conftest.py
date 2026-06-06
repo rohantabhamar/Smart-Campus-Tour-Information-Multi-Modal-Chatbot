@@ -28,8 +28,8 @@ def mock_kb(monkeypatch):
 def mock_llm(monkeypatch):
     mock = MagicMock()
     mock.invoke.return_value.content = "The library is on Floor 2 of Block A."
-    monkeypatch.setattr("nodes.final_ans_generation.llm", mock)
-    monkeypatch.setattr("nodes.llm_node.llm", mock)
+    monkeypatch.setattr("nodes.final_ans_generation.get_llm", lambda: mock)
+    monkeypatch.setattr("nodes.llm_node.get_llm", lambda: mock)
     return mock
 
 @pytest.fixture

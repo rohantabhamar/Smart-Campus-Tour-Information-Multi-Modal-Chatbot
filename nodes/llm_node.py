@@ -1,16 +1,23 @@
 import time
 from langchain_groq import ChatGroq
-from config.settings import GROQ_API_KEY, GROQ_MODEL, LLM_TEMPERATURE, LLM_MAX_TOKENS, GROQ_MAX_RETRIES
+from langchain_core.messages import SystemMessage, HumanMessage
+from config.settings import GROQ_API_KEY, GROQ_MODEL, LLM_TEMPERATURE, LLM_MAX_TOKENS, GROQ_MAX_RETRIES, SYSTEM_PROMPT
 from config.logger import get_logger
 
 logger = get_logger(__name__)
 
-llm = ChatGroq(
-    model=GROQ_MODEL,
-    temperature=LLM_TEMPERATURE,
-    max_tokens=LLM_MAX_TOKENS,
-    api_key=GROQ_API_KEY,
-)
+_llm = None
+
+def get_llm():
+    global _llm
+    if _llm is None:
+        _llm = ChatGroq(
+            model=GROQ_MODEL,
+            temperature=LLM_TEMPERATURE,
+            max_tokens=LLM_MAX_TOKENS,
+            api_key=GROQ_API_KEY,
+        )
+    return _llm
 
 
 def llm_node(state: dict):
@@ -39,7 +46,11 @@ def llm_node(state: dict):
 
     for attempt in range(1, GROQ_MAX_RETRIES + 1):
         try:
-            response = llm.invoke(prompt)
+            messages = [
+                    SystemMessage(content=SYSTEM_PROMPT),
+                    HumanMessage(content=prompt),
+                ]
+            response = get_llm().invoke(messages)
             logger.info(f"llm_node → attempt={attempt} duration={time.perf_counter()-t0:.3f}s")
             return {"answer": response.content.strip()}
         except Exception as e:
