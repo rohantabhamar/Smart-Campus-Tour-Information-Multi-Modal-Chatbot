@@ -78,7 +78,7 @@ jobs:
           flake8 nodes/ core/ api/ config/ services/ \
             --max-line-length=120 \
             --exclude=__pycache__,venv \
-            --ignore=E501,W503,W504,E203,E221,E241,E251,E231,W291,W292,W293,W391,E302,E303,E304,E305,E306,F401,E402,E128
+            --ignore=E501,W503,W504
 
   # ── Job 3: Security ───────────────────────────────────────────────────────
   security:
