@@ -10,6 +10,9 @@ frontend/chat_history.json
 *.pt
 *.faiss
 *.pkl
-models/
+models/campus_spacy/
+models/clip_faiss/
+models/distilbert_campus/
+models/fusion_mlp/
 data/images/
 data/audio_samples/
