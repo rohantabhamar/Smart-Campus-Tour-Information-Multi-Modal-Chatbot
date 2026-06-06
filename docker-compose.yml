@@ -1,0 +1,51 @@
+version: "3.9"
+
+services:
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: campus_api
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    env_file:
+      - .env.dev
+    restart: always
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  chat:
+    build:
+      context: .
+      dockerfile: Dockerfile.chat
+    container_name: campus_chat
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    env_file:
+      - .env.dev
+    depends_on:
+      - api
+    restart: always
+
+  admin:
+    build:
+      context: .
+      dockerfile: Dockerfile.admin
+    container_name: campus_admin
+    ports:
+      - "8502:8502"
+    volumes:
+      - .:/app
+    env_file:
+      - .env.dev
+    depends_on:
+      - api
+    restart: always

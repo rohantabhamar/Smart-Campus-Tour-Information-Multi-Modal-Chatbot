@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.env.dev
+.env.staging
+.env.prod
+logs/
+frontend/chat_history.json
+*.pt
+*.faiss
+*.pkl
+models/
+data/images/
+data/audio_samples/

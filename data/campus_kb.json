@@ -1,0 +1,4424 @@
+[
+  {
+    "id": 1,
+    "name": "Main Library",
+    "category": "library",
+    "description": "A four-floor academic library with over 500 study seats, silent reading zones, group study rooms, and access to digital journals and e-books.",
+    "opening_hours": {
+      "monday": "08:00-22:00",
+      "tuesday": "08:00-22:00",
+      "wednesday": "08:00-22:00",
+      "thursday": "08:00-22:00",
+      "friday": "08:00-20:00",
+      "saturday": "09:00-18:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5074,
+      "lng": 13.4021
+    },
+    "map_reference": "Building A, North Campus, Ground to 4th Floor",
+    "directions_from_entrance": "Enter through the Main Gate. Walk straight 100 metres. Building A is the large red-brick building on your left. The library entrance is the glass-fronted door facing north.",
+    "directions_by_floor": {
+      "ground_floor": "Reception, issue desk, newspapers",
+      "1st_floor": "General study area, books",
+      "2nd_floor": "Academic journals, silent zone",
+      "3rd_floor": "Group study rooms, digital resources",
+      "4th_floor": "Special collections, postgraduate reading room"
+    },
+    "nearby_landmarks": "Opposite the Student Union, next to Admissions Office",
+    "events": [
+      "Research Skills Workshop - 28 May 2026, 14:00",
+      "Academic Writing Seminar - 3 June 2026, 10:00",
+      "Book Fair - 10 June 2026, 09:00-17:00"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Main Cafeteria",
+    "category": "cafeteria",
+    "description": "The primary dining facility on campus offering hot meals, sandwiches, salads, and beverages. Features vegetarian, vegan, and halal options. Seating capacity of 300.",
+    "opening_hours": {
+      "monday": "07:30-20:00",
+      "tuesday": "07:30-20:00",
+      "wednesday": "07:30-20:00",
+      "thursday": "07:30-20:00",
+      "friday": "07:30-18:00",
+      "saturday": "09:00-15:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5069,
+      "lng": 13.4018
+    },
+    "map_reference": "Building B, South Campus, Ground Floor",
+    "directions_from_entrance": "Enter through the Main Gate. Take the left fork at the fountain. Walk 80 metres south. Building B is the modern glass building on your right. Cafeteria is on the ground floor.",
+    "nearby_landmarks": "Next to Coffee Shop and Printing Centre, south of the Garden",
+    "events": [
+      "International Food Festival - 30 May 2026, 12:00-15:00",
+      "Student Chef Competition - 6 June 2026, 13:00"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Lecture Hall A",
+    "category": "lecture_hall",
+    "description": "A large auditorium-style lecture hall seating 400 students. Equipped with projectors, microphones, and live-streaming capabilities.",
+    "opening_hours": {
+      "monday": "08:00-21:00",
+      "tuesday": "08:00-21:00",
+      "wednesday": "08:00-21:00",
+      "thursday": "08:00-21:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5077,
+      "lng": 13.4025
+    },
+    "map_reference": "Building C, East Wing, Ground Floor",
+    "directions_from_entrance": "Enter through the Main Gate. Walk 80 metres. Turn right. Building C is ahead. Lecture Hall A is on the ground floor, turn left after the main lobby.",
+    "nearby_landmarks": "East of Main Library, next to Lecture Hall B",
+    "events": [
+      "AI & Machine Learning Guest Lecture - 27 May 2026, 15:00",
+      "MSc Orientation Session - 2 June 2026, 10:00"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Student Union",
+    "category": "student_union",
+    "description": "The hub of student life. Houses student society offices, lounge area, games room, and a small cafe. Hosts weekly events.",
+    "opening_hours": {
+      "monday": "09:00-22:00",
+      "tuesday": "09:00-22:00",
+      "wednesday": "09:00-22:00",
+      "thursday": "09:00-22:00",
+      "friday": "09:00-23:00",
+      "saturday": "10:00-23:00",
+      "sunday": "12:00-20:00"
+    },
+    "coordinates": {
+      "lat": 52.5071,
+      "lng": 13.403
+    },
+    "map_reference": "Building D, Central Campus, 1st Floor",
+    "directions_from_entrance": "Enter through the Main Gate. Walk 100 metres to the central fountain. Building D is directly opposite — the colourful building with notice boards. Take stairs to 1st Floor.",
+    "nearby_landmarks": "Central Campus, opposite the fountain",
+    "events": [
+      "Welcome Week Mixer - 26 May 2026, 18:00",
+      "Quiz Night - 4 June 2026, 19:00",
+      "Society Fair - 11 June 2026, 12:00-16:00"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "IT & Computer Lab",
+    "category": "it_lab",
+    "description": "A computer lab with 120 workstations running Windows and Linux. Available for programming, data analysis, and research.",
+    "opening_hours": {
+      "monday": "08:00-22:00",
+      "tuesday": "08:00-22:00",
+      "wednesday": "08:00-22:00",
+      "thursday": "08:00-22:00",
+      "friday": "08:00-20:00",
+      "saturday": "10:00-17:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.508,
+      "lng": 13.4022
+    },
+    "map_reference": "Building E, North Wing, 2nd Floor, Room E-201",
+    "directions_from_entrance": "Enter through the Main Gate. Walk 120 metres past Building A. Enter Building E. Take stairs to 2nd Floor. IT Lab is Room E-201.",
+    "nearby_landmarks": "North of Main Library, behind Building A",
+    "events": [
+      "Python Bootcamp - 29 May 2026, 10:00-16:00",
+      "Cybersecurity Workshop - 5 June 2026, 14:00"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Sports & Fitness Centre",
+    "category": "gym",
+    "description": "Fully equipped fitness centre with gym equipment, cardio machines, yoga studio, and multi-purpose sports hall.",
+    "opening_hours": {
+      "monday": "06:30-22:00",
+      "tuesday": "06:30-22:00",
+      "wednesday": "06:30-22:00",
+      "thursday": "06:30-22:00",
+      "friday": "06:30-21:00",
+      "saturday": "08:00-20:00",
+      "sunday": "10:00-18:00"
+    },
+    "coordinates": {
+      "lat": 52.5065,
+      "lng": 13.4015
+    },
+    "map_reference": "Building F, West Campus",
+    "directions_from_entrance": "Enter through the Main Gate. Take the right fork. Follow western path 150 metres. Building F is the large sports complex at the end with automatic sliding doors.",
+    "nearby_landmarks": "West Campus boundary, near student car park",
+    "events": [
+      "Yoga for Beginners - 28 May 2026, 07:00",
+      "Basketball Tournament - 7 June 2026, 14:00"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Admissions & Registry Office",
+    "category": "admin_office",
+    "description": "Handles student enrollment, course registration, transcript requests. Students collect ID cards and access academic records here.",
+    "opening_hours": {
+      "monday": "09:00-17:00",
+      "tuesday": "09:00-17:00",
+      "wednesday": "09:00-17:00",
+      "thursday": "09:00-17:00",
+      "friday": "09:00-16:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5073,
+      "lng": 13.4019
+    },
+    "map_reference": "Building A, Ground Floor, Room 002",
+    "directions_from_entrance": "Enter through the Main Gate. Walk 100 metres. Enter Building A. Admissions Office is Room 002 — immediately on your right after entering the lobby.",
+    "nearby_landmarks": "Ground floor of Main Library building, Room 002",
+    "events": [
+      "Enrollment Deadline Reminder - 30 May 2026",
+      "ID Card Collection Day - 2 June 2026, 10:00-15:00"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Career Services Centre",
+    "category": "career_center",
+    "description": "Career counselling, CV workshops, mock interviews, and job placement support. Partnerships with 200+ employers.",
+    "opening_hours": {
+      "monday": "09:00-18:00",
+      "tuesday": "09:00-18:00",
+      "wednesday": "09:00-18:00",
+      "thursday": "09:00-18:00",
+      "friday": "09:00-17:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5076,
+      "lng": 13.4028
+    },
+    "map_reference": "Building G, 1st Floor, Room 110",
+    "directions_from_entrance": "Enter through the Main Gate. Walk 100 metres. Turn right past fountain. Building G is 50 metres ahead on the left. Take stairs to 1st Floor. Room 110 is third door on the left.",
+    "nearby_landmarks": "Between Building C and D, east side",
+    "events": [
+      "CV Writing Workshop - 27 May 2026, 13:00",
+      "Campus Recruitment Fair - 8 June 2026, 10:00-16:00",
+      "LinkedIn Profile Workshop - 12 June 2026, 14:00"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Medical & Counselling Centre",
+    "category": "medical_center",
+    "description": "On-campus health facility offering GP consultations, mental health counselling, and first aid. Emergency walk-ins always accepted.",
+    "opening_hours": {
+      "monday": "08:30-17:30",
+      "tuesday": "08:30-17:30",
+      "wednesday": "08:30-17:30",
+      "thursday": "08:30-17:30",
+      "friday": "08:30-16:30",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5068,
+      "lng": 13.402
+    },
+    "map_reference": "Building H, Ground Floor",
+    "directions_from_entrance": "Enter through the Main Gate. Turn left. Walk 90 metres south. Building H has a green cross sign on your right. Reception is straight ahead through the main door.",
+    "nearby_landmarks": "South-west campus, green cross sign visible",
+    "events": [
+      "Mental Health Awareness Week - 2-6 June 2026",
+      "Free Health Check - 9 June 2026, 10:00-14:00"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Seminar Room Block",
+    "category": "seminar_room",
+    "description": "15 medium-sized seminar rooms seating 20-40 students. Bookable online via student portal.",
+    "opening_hours": {
+      "monday": "08:00-21:00",
+      "tuesday": "08:00-21:00",
+      "wednesday": "08:00-21:00",
+      "thursday": "08:00-21:00",
+      "friday": "08:00-19:00",
+      "saturday": "09:00-15:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5075,
+      "lng": 13.4023
+    },
+    "map_reference": "Building I, 2nd and 3rd Floor",
+    "directions_from_entrance": "Enter through the Main Gate. Walk 100 metres. Turn right. Building I is behind Building C. Rooms SR-01 to SR-08 on 2nd Floor, SR-09 to SR-15 on 3rd Floor.",
+    "nearby_landmarks": "Behind Lecture Hall A, east campus",
+    "events": [
+      "Group Project Presentations - 3 June 2026, 09:00-17:00"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Main Auditorium",
+    "category": "auditorium",
+    "description": "A 1000-seat theatre-style auditorium for graduation ceremonies, public lectures, and major campus events.",
+    "opening_hours": {
+      "monday": "Event days only",
+      "tuesday": "Event days only",
+      "wednesday": "Event days only",
+      "thursday": "Event days only",
+      "friday": "Event days only",
+      "saturday": "Event days only",
+      "sunday": "Event days only"
+    },
+    "coordinates": {
+      "lat": 52.507,
+      "lng": 13.4035
+    },
+    "map_reference": "Building J, South Campus",
+    "directions_from_entrance": "Enter through Main Gate. Walk straight past fountain. Continue south 200 metres. Building J is the large domed building at the south end. Wide double doors and accessibility ramp at entrance.",
+    "nearby_landmarks": "South end of campus, distinctive domed roof",
+    "events": [
+      "Annual Research Symposium - 5 June 2026, 09:00",
+      "Graduation Ceremony - 15 June 2026, 14:00"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Printing & Stationery Centre",
+    "category": "printing_room",
+    "description": "B&W and colour printing, scanning, binding, and lamination services. Pay-per-use with student accounts.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "10:00-15:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5072,
+      "lng": 13.4016
+    },
+    "map_reference": "Building B, Ground Floor, Room 005",
+    "directions_from_entrance": "Enter through Main Gate. Take left fork. Building B is 80 metres ahead. Enter main door. Printing Centre is Room 005 — straight ahead, left of reception.",
+    "nearby_landmarks": "Ground floor Building B, next to Main Cafeteria",
+    "events": []
+  },
+  {
+    "id": 13,
+    "name": "International Students Office",
+    "category": "admin_office",
+    "description": "Support office for international students handling visa queries, language support, and cultural integration.",
+    "opening_hours": {
+      "monday": "09:00-17:00",
+      "tuesday": "09:00-17:00",
+      "wednesday": "09:00-17:00",
+      "thursday": "09:00-17:00",
+      "friday": "09:00-15:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5074,
+      "lng": 13.4026
+    },
+    "map_reference": "Building A, 1st Floor, Room 105",
+    "directions_from_entrance": "Enter through Main Gate. Walk to Building A. Take stairs/lift to 1st Floor. Room 105 is midway down the corridor on the right — look for the international flag display.",
+    "nearby_landmarks": "1st Floor Main Library building, Room 105",
+    "events": [
+      "Visa & Immigration Advice Session - 29 May 2026, 14:00",
+      "Cultural Integration Workshop - 9 June 2026, 11:00"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Campus Security Office",
+    "category": "security_office",
+    "description": "24/7 campus security. Lost and found, emergency assistance, campus access passes, CCTV monitoring.",
+    "opening_hours": {
+      "monday": "00:00-24:00",
+      "tuesday": "00:00-24:00",
+      "wednesday": "00:00-24:00",
+      "thursday": "00:00-24:00",
+      "friday": "00:00-24:00",
+      "saturday": "00:00-24:00",
+      "sunday": "00:00-24:00"
+    },
+    "coordinates": {
+      "lat": 52.5066,
+      "lng": 13.4017
+    },
+    "map_reference": "Building K, Main Gate Entrance",
+    "directions_from_entrance": "The Security Office is immediately inside the Main Gate on the right — Building K. First building you see entering campus. Open 24/7.",
+    "nearby_landmarks": "Immediately inside Main Gate, right side",
+    "events": []
+  },
+  {
+    "id": 15,
+    "name": "Campus Garden & Outdoor Study Area",
+    "category": "outdoor",
+    "description": "Landscaped garden with benches, outdoor seating, and Wi-Fi. Popular for studying outdoors and informal meetings.",
+    "opening_hours": {
+      "monday": "07:00-22:00",
+      "tuesday": "07:00-22:00",
+      "wednesday": "07:00-22:00",
+      "thursday": "07:00-22:00",
+      "friday": "07:00-22:00",
+      "saturday": "07:00-22:00",
+      "sunday": "07:00-22:00"
+    },
+    "coordinates": {
+      "lat": 52.5067,
+      "lng": 13.4023
+    },
+    "map_reference": "Central Campus, Between Buildings B and D",
+    "directions_from_entrance": "Enter through Main Gate. Walk 60 metres. The Garden is the open green space between Building B (left) and Building D (right). Multiple entry points from all paths.",
+    "nearby_landmarks": "Central Campus between cafeteria and student union",
+    "events": [
+      "Outdoor Yoga - Every Wednesday 08:00",
+      "Summer BBQ - 6 June 2026, 17:00"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Lecture Hall B",
+    "category": "lecture_hall",
+    "description": "Medium-sized lecture hall seating 200 students. Dual projectors, interactive whiteboards, and recording equipment.",
+    "opening_hours": {
+      "monday": "08:00-21:00",
+      "tuesday": "08:00-21:00",
+      "wednesday": "08:00-21:00",
+      "thursday": "08:00-21:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5078,
+      "lng": 13.4024
+    },
+    "map_reference": "Building C, East Wing, 1st Floor, Room C-102",
+    "directions_from_entrance": "Enter through Main Gate. Walk 80 metres. Turn right. Enter Building C. Take stairs to 1st Floor. Lecture Hall B is Room C-102 at end of corridor.",
+    "nearby_landmarks": "Above Lecture Hall A in Building C",
+    "events": [
+      "Data Science Fundamentals Lecture - 26 May 2026, 10:00",
+      "Ethics in AI Panel Discussion - 11 June 2026, 15:00"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Student Accommodation Office",
+    "category": "admin_office",
+    "description": "Manages housing applications, maintenance requests, roommate matching, and off-campus housing information.",
+    "opening_hours": {
+      "monday": "09:00-17:00",
+      "tuesday": "09:00-17:00",
+      "wednesday": "09:00-17:00",
+      "thursday": "09:00-17:00",
+      "friday": "09:00-15:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5063,
+      "lng": 13.4012
+    },
+    "map_reference": "Building L, West Campus, Ground Floor, Room L-001",
+    "directions_from_entrance": "Enter through Main Gate. Take right fork. Follow western path 180 metres past Sports Centre. Building L is the smaller admin building on your left. Room L-001 on ground floor.",
+    "nearby_landmarks": "West Campus near Sports Centre",
+    "events": [
+      "Housing Fair - 1 June 2026, 11:00-15:00"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Campus Coffee Shop",
+    "category": "cafeteria",
+    "description": "Specialty coffees, teas, pastries, and light snacks. Comfortable seating and free Wi-Fi.",
+    "opening_hours": {
+      "monday": "07:00-21:00",
+      "tuesday": "07:00-21:00",
+      "wednesday": "07:00-21:00",
+      "thursday": "07:00-21:00",
+      "friday": "07:00-20:00",
+      "saturday": "08:00-18:00",
+      "sunday": "09:00-16:00"
+    },
+    "coordinates": {
+      "lat": 52.5071,
+      "lng": 13.4019
+    },
+    "map_reference": "Building B, Ground Floor, Room 001",
+    "directions_from_entrance": "Enter through Main Gate. Take left fork. Walk 80 metres to Building B. Coffee Shop is Room 001 — first room on the left as you enter. Look for the chalkboard menu.",
+    "nearby_landmarks": "First room in Building B, next to Cafeteria",
+    "events": [
+      "Open Mic Night - 31 May 2026, 18:00"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Research & Innovation Lab",
+    "category": "it_lab",
+    "description": "Advanced facility with HPC servers, GPU clusters, VR/AR equipment, and robotics workstations. Postgraduate and staff access.",
+    "opening_hours": {
+      "monday": "09:00-20:00",
+      "tuesday": "09:00-20:00",
+      "wednesday": "09:00-20:00",
+      "thursday": "09:00-20:00",
+      "friday": "09:00-18:00",
+      "saturday": "10:00-16:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5082,
+      "lng": 13.4027
+    },
+    "map_reference": "Building E, North Wing, 3rd Floor, Room E-301",
+    "directions_from_entrance": "Enter through Main Gate. Walk 120 metres past Building A. Enter Building E. Take lift to 3rd Floor. Research Lab is Room E-301 at end of corridor — key card access required.",
+    "nearby_landmarks": "3rd Floor Building E, above IT Lab",
+    "events": [
+      "AI Research Showcase - 4 June 2026, 13:00",
+      "Hackathon 2026 - 13-14 June 2026"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Student Support & Disability Services",
+    "category": "admin_office",
+    "description": "Academic and personal support for students with disabilities, learning difficulties, and mental health needs.",
+    "opening_hours": {
+      "monday": "09:00-17:00",
+      "tuesday": "09:00-17:00",
+      "wednesday": "09:00-17:00",
+      "thursday": "09:00-17:00",
+      "friday": "09:00-15:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5069,
+      "lng": 13.4022
+    },
+    "map_reference": "Building H, 1st Floor, Room 112",
+    "directions_from_entrance": "Enter through Main Gate. Turn left. Walk 90 metres to Building H. Take accessible lift to 1st Floor. Room 112 is at far end of corridor — fully wheelchair accessible.",
+    "nearby_landmarks": "1st Floor Medical Centre building, Room 112",
+    "events": [
+      "Disability Awareness Drop-in - 3 June 2026, 10:00",
+      "Exam Accommodations Briefing - 10 June 2026, 14:00"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Engineering College - Main Block",
+    "category": "engineering_college",
+    "description": "Central engineering college housing 7 departments across 7 floors. Ground floor has Dean office and reception. Each upper floor has 6 classrooms, 10 labs, 1 teachers room, 1 HOD office.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.509,
+      "lng": 13.404
+    },
+    "map_reference": "Engineering Block, North-East Campus, 7-Floor Building",
+    "directions_from_entrance": "Enter through Main Gate. Walk 100 metres. Turn right at the Engineering Block signboard. Walk 200 metres north-east. The Engineering Block is the tall 7-floor building with the engineering logo. Main entrance faces west with revolving doors.",
+    "floor_map": {
+      "ground_floor": "Dean Office, Reception, Common Area, Cafeteria",
+      "1st_floor": "Mechanical Engineering Department",
+      "2nd_floor": "Chemical Engineering Department",
+      "3rd_floor": "Information Technology Department",
+      "4th_floor": "Computer Engineering Department",
+      "5th_floor": "Electronics & Telecommunication (ENTC) Department",
+      "6th_floor": "Electrical Engineering Department",
+      "7th_floor": "Civil Engineering Department"
+    },
+    "nearby_landmarks": "North-East Campus, tallest building on campus",
+    "events": [
+      "Engineering Fest 2026 - 7-8 June 2026",
+      "Industry Interaction Day - 12 June 2026, 10:00",
+      "Final Year Project Exhibition - 14 June 2026, 09:00-17:00"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Mechanical Engineering Department",
+    "category": "department",
+    "description": "Located on the 1st Floor of the Engineering Block. Specialises in thermodynamics, fluid mechanics, manufacturing, and robotics. Contains 6 classrooms, 10 labs, 1 teachers room, and 1 HOD office.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor",
+    "floor": 1,
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Department reception is straight ahead from the lift.",
+    "directions_by_zone": {
+      "classrooms": "Turn LEFT from lift — classrooms ME-C101 to ME-C106 along left corridor",
+      "labs": "Turn RIGHT from lift — labs ME-L101 to ME-L110 in right and rear wings",
+      "teachers_room": "ME-TR101 — midway down left corridor",
+      "hod_office": "ME-HOD101 — end of right corridor, corner office"
+    },
+    "classrooms": [
+      "ME-C101",
+      "ME-C102",
+      "ME-C103",
+      "ME-C104",
+      "ME-C105",
+      "ME-C106"
+    ],
+    "labs": [
+      "Thermodynamics Lab (ME-L101)",
+      "Fluid Mechanics Lab (ME-L102)",
+      "CAD/CAM Lab (ME-L103)",
+      "Manufacturing Lab (ME-L104)",
+      "Robotics Lab (ME-L105)",
+      "Automotive Lab (ME-L106)",
+      "Metrology Lab (ME-L107)",
+      "Heat Transfer Lab (ME-L108)",
+      "Machine Design Lab (ME-L109)",
+      "Material Testing Lab (ME-L110)"
+    ],
+    "teachers_room": "ME-TR101 (capacity: 20 faculty)",
+    "hod_room": "ME-HOD101",
+    "nearby_landmarks": "1st Floor Engineering Block",
+    "events": [
+      "Mechanical Design Competition - 28 May 2026, 10:00",
+      "Robotics Workshop - 5 June 2026, 14:00",
+      "Industry Talk: Automotive Engineering - 11 June 2026, 11:00"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Chemical Engineering Department",
+    "category": "department",
+    "description": "Located on the 2nd Floor of the Engineering Block. Specialises in process engineering, chemical reaction engineering, and environmental engineering. Contains 6 classrooms, 10 labs, 1 teachers room, and 1 HOD office.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor",
+    "floor": 2,
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Department reception is straight ahead from the lift. ⚠️ Safety goggles and lab coat required in all lab areas.",
+    "directions_by_zone": {
+      "classrooms": "Turn LEFT from lift — classrooms CE-C201 to CE-C206 along left corridor",
+      "labs": "Turn RIGHT from lift — labs CE-L201 to CE-L210 in right and rear wings",
+      "teachers_room": "CE-TR201 — midway down left corridor",
+      "hod_office": "CE-HOD201 — end of right corridor, corner office"
+    },
+    "classrooms": [
+      "CE-C201",
+      "CE-C202",
+      "CE-C203",
+      "CE-C204",
+      "CE-C205",
+      "CE-C206"
+    ],
+    "labs": [
+      "Process Control Lab (CE-L201)",
+      "Chemical Reaction Lab (CE-L202)",
+      "Thermodynamics Lab (CE-L203)",
+      "Fluid Operations Lab (CE-L204)",
+      "Mass Transfer Lab (CE-L205)",
+      "Heat Transfer Lab (CE-L206)",
+      "Polymer Lab (CE-L207)",
+      "Analytical Chemistry Lab (CE-L208)",
+      "Environmental Engineering Lab (CE-L209)",
+      "Instrumentation Lab (CE-L210)"
+    ],
+    "teachers_room": "CE-TR201 (capacity: 18 faculty)",
+    "hod_room": "CE-HOD201",
+    "nearby_landmarks": "2nd Floor Engineering Block",
+    "events": [
+      "Chemical Process Safety Seminar - 29 May 2026, 10:00",
+      "Green Chemistry Workshop - 6 June 2026, 13:00",
+      "Industry Visit: Chemical Plant - 13 June 2026"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Information Technology Department",
+    "category": "department",
+    "description": "Located on the 3rd Floor of the Engineering Block. Focuses on software development, networking, cloud computing, and cybersecurity. Contains 6 classrooms, 10 labs, 1 teachers room, and 1 HOD office.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor",
+    "floor": 3,
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Department reception is straight ahead from the lift. ⚠️ All lab rooms require student ID card swipe for entry.",
+    "directions_by_zone": {
+      "classrooms": "Turn LEFT from lift — classrooms IT-C301 to IT-C306 along left corridor",
+      "labs": "Turn RIGHT from lift — labs IT-L301 to IT-L310 in right and rear wings",
+      "teachers_room": "IT-TR301 — midway down left corridor",
+      "hod_office": "IT-HOD301 — end of right corridor, corner office"
+    },
+    "classrooms": [
+      "IT-C301",
+      "IT-C302",
+      "IT-C303",
+      "IT-C304",
+      "IT-C305",
+      "IT-C306"
+    ],
+    "labs": [
+      "Programming Lab (IT-L301)",
+      "Networking Lab (IT-L302)",
+      "Database Lab (IT-L303)",
+      "Cloud Computing Lab (IT-L304)",
+      "Cybersecurity Lab (IT-L305)",
+      "Web Development Lab (IT-L306)",
+      "Mobile App Development Lab (IT-L307)",
+      "AI & Machine Learning Lab (IT-L308)",
+      "Data Analytics Lab (IT-L309)",
+      "IoT Lab (IT-L310)"
+    ],
+    "teachers_room": "IT-TR301 (capacity: 22 faculty)",
+    "hod_room": "IT-HOD301",
+    "nearby_landmarks": "3rd Floor Engineering Block",
+    "events": [
+      "Hackathon 2026 - 13-14 June 2026",
+      "Cybersecurity Awareness Talk - 27 May 2026, 14:00",
+      "Cloud Computing Workshop - 3 June 2026, 10:00"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Computer Engineering Department",
+    "category": "department",
+    "description": "Located on the 4th Floor of the Engineering Block. Covers computer architecture, VLSI design, embedded systems, and software engineering. Contains 6 classrooms, 10 labs, 1 teachers room, and 1 HOD office.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor",
+    "floor": 4,
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Department reception is straight ahead from the lift.",
+    "directions_by_zone": {
+      "classrooms": "Turn LEFT from lift — classrooms CSE-C401 to CSE-C406 along left corridor",
+      "labs": "Turn RIGHT from lift — labs CSE-L401 to CSE-L410 in right and rear wings",
+      "teachers_room": "CSE-TR401 — midway down left corridor",
+      "hod_office": "CSE-HOD401 — end of right corridor, corner office"
+    },
+    "classrooms": [
+      "CSE-C401",
+      "CSE-C402",
+      "CSE-C403",
+      "CSE-C404",
+      "CSE-C405",
+      "CSE-C406"
+    ],
+    "labs": [
+      "Computer Architecture Lab (CSE-L401)",
+      "Operating Systems Lab (CSE-L402)",
+      "VLSI Design Lab (CSE-L403)",
+      "Embedded Systems Lab (CSE-L404)",
+      "Software Engineering Lab (CSE-L405)",
+      "Computer Graphics Lab (CSE-L406)",
+      "Compiler Design Lab (CSE-L407)",
+      "Microprocessor Lab (CSE-L408)",
+      "Digital Electronics Lab (CSE-L409)",
+      "Advanced Computing Lab (CSE-L410)"
+    ],
+    "teachers_room": "CSE-TR401 (capacity: 25 faculty)",
+    "hod_room": "CSE-HOD401",
+    "nearby_landmarks": "4th Floor Engineering Block",
+    "events": [
+      "Code Sprint Competition - 30 May 2026, 09:00",
+      "VLSI Design Workshop - 6 June 2026, 11:00",
+      "Open Source Contribution Day - 12 June 2026, 10:00"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Electronics & Telecommunication (ENTC) Department",
+    "category": "department",
+    "description": "Located on the 5th Floor of the Engineering Block. Specialises in analog/digital electronics, signal processing, communication systems, and antenna design. Contains 6 classrooms, 10 labs, 1 teachers room, and 1 HOD office.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor",
+    "floor": 5,
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Department reception is straight ahead from the lift. ⚠️ ESD wrist straps required when handling components.",
+    "directions_by_zone": {
+      "classrooms": "Turn LEFT from lift — classrooms ENTC-C501 to ENTC-C506 along left corridor",
+      "labs": "Turn RIGHT from lift — labs ENTC-L501 to ENTC-L510 in right and rear wings",
+      "teachers_room": "ENTC-TR501 — midway down left corridor",
+      "hod_office": "ENTC-HOD501 — end of right corridor, corner office"
+    },
+    "classrooms": [
+      "ENTC-C501",
+      "ENTC-C502",
+      "ENTC-C503",
+      "ENTC-C504",
+      "ENTC-C505",
+      "ENTC-C506"
+    ],
+    "labs": [
+      "Analog Electronics Lab (ENTC-L501)",
+      "Digital Electronics Lab (ENTC-L502)",
+      "Signal Processing Lab (ENTC-L503)",
+      "Communication Systems Lab (ENTC-L504)",
+      "Antenna & Microwave Lab (ENTC-L505)",
+      "Embedded Systems Lab (ENTC-L506)",
+      "PCB Design Lab (ENTC-L507)",
+      "Optical Fibre Lab (ENTC-L508)",
+      "FPGA Lab (ENTC-L509)",
+      "RF & Wireless Lab (ENTC-L510)"
+    ],
+    "teachers_room": "ENTC-TR501 (capacity: 20 faculty)",
+    "hod_room": "ENTC-HOD501",
+    "nearby_landmarks": "5th Floor Engineering Block",
+    "events": [
+      "Electronics Project Expo - 29 May 2026, 10:00-16:00",
+      "5G Technology Talk - 4 June 2026, 14:00",
+      "PCB Design Workshop - 10 June 2026, 11:00"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Electrical Engineering Department",
+    "category": "department",
+    "description": "Located on the 6th Floor of the Engineering Block. Covers power systems, electrical machines, control systems, renewable energy, and high voltage engineering. Contains 6 classrooms, 10 labs, 1 teachers room, and 1 HOD office.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor",
+    "floor": 6,
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Department reception is straight ahead from the lift. ⚠️ High voltage areas are restricted — follow all safety signs and never enter EE-L605 without supervisor.",
+    "directions_by_zone": {
+      "classrooms": "Turn LEFT from lift — classrooms EE-C601 to EE-C606 along left corridor",
+      "labs": "Turn RIGHT from lift — labs EE-L601 to EE-L610 in right and rear wings",
+      "teachers_room": "EE-TR601 — midway down left corridor",
+      "hod_office": "EE-HOD601 — end of right corridor, corner office"
+    },
+    "classrooms": [
+      "EE-C601",
+      "EE-C602",
+      "EE-C603",
+      "EE-C604",
+      "EE-C605",
+      "EE-C606"
+    ],
+    "labs": [
+      "Power Systems Lab (EE-L601)",
+      "Electrical Machines Lab (EE-L602)",
+      "Control Systems Lab (EE-L603)",
+      "Renewable Energy Lab (EE-L604)",
+      "High Voltage Lab (EE-L605)",
+      "PLC & Automation Lab (EE-L606)",
+      "Power Electronics Lab (EE-L607)",
+      "Switchgear & Protection Lab (EE-L608)",
+      "Simulation Lab (EE-L609)",
+      "Smart Grid Lab (EE-L610)"
+    ],
+    "teachers_room": "EE-TR601 (capacity: 19 faculty)",
+    "hod_room": "EE-HOD601",
+    "nearby_landmarks": "6th Floor Engineering Block",
+    "events": [
+      "Renewable Energy Symposium - 28 May 2026, 10:00",
+      "Smart Grid Workshop - 5 June 2026, 14:00",
+      "Electrical Safety Awareness Day - 11 June 2026, 09:00"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Civil Engineering Department",
+    "category": "department",
+    "description": "Located on the 7th Floor of the Engineering Block. Specialises in structural engineering, geotechnical engineering, transportation, water resources, and construction management. Contains 6 classrooms, 10 labs, 1 teachers room, and 1 HOD office.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor",
+    "floor": 7,
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Department reception is straight ahead from the lift. ⚠️ Hard hats and safety boots required in material testing areas.",
+    "directions_by_zone": {
+      "classrooms": "Turn LEFT from lift — classrooms CVL-C701 to CVL-C706 along left corridor",
+      "labs": "Turn RIGHT from lift — labs CVL-L701 to CVL-L710 in right and rear wings",
+      "teachers_room": "CVL-TR701 — midway down left corridor",
+      "hod_office": "CVL-HOD701 — end of right corridor, corner office"
+    },
+    "classrooms": [
+      "CVL-C701",
+      "CVL-C702",
+      "CVL-C703",
+      "CVL-C704",
+      "CVL-C705",
+      "CVL-C706"
+    ],
+    "labs": [
+      "Structural Engineering Lab (CVL-L701)",
+      "Geotechnical Lab (CVL-L702)",
+      "Surveying Lab (CVL-L703)",
+      "Concrete Technology Lab (CVL-L704)",
+      "Transportation Engineering Lab (CVL-L705)",
+      "Hydraulics Lab (CVL-L706)",
+      "Environmental Engineering Lab (CVL-L707)",
+      "Construction Materials Lab (CVL-L708)",
+      "CAD & GIS Lab (CVL-L709)",
+      "Water Resources Lab (CVL-L710)"
+    ],
+    "teachers_room": "CVL-TR701 (capacity: 21 faculty)",
+    "hod_room": "CVL-HOD701",
+    "nearby_landmarks": "7th Floor Engineering Block",
+    "events": [
+      "Structural Design Challenge - 30 May 2026, 09:00",
+      "Sustainable Construction Workshop - 6 June 2026, 11:00",
+      "Site Visit: Construction Project - 13 June 2026"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Classroom ME-C101",
+    "category": "classroom",
+    "description": "Mechanical Engineering Department classroom seating 60 students. Thermodynamics and fluid mechanics theory lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Left Corridor, Room ME-C101",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn LEFT → First room on the left is ME-C101.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-C101",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 30,
+    "name": "Classroom ME-C102",
+    "category": "classroom",
+    "description": "Mechanical Engineering Department classroom seating 60 students. Manufacturing processes and machine design lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Left Corridor, Room ME-C102",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn LEFT → Second room on the left is ME-C102.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-C102",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 31,
+    "name": "Classroom ME-C103",
+    "category": "classroom",
+    "description": "Mechanical Engineering Department classroom seating 60 students. Robotics theory and automotive engineering lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Left Corridor, Room ME-C103",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn LEFT → Third room on the left is ME-C103.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-C103",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 32,
+    "name": "Classroom ME-C104",
+    "category": "classroom",
+    "description": "Mechanical Engineering Department classroom seating 60 students. Heat transfer and metrology lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Left Corridor, Room ME-C104",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn LEFT → Fourth room on the left is ME-C104.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-C104",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 33,
+    "name": "Classroom ME-C105",
+    "category": "classroom",
+    "description": "Mechanical Engineering Department classroom seating 60 students. Tutorial room for problem-solving sessions. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Left Corridor, Room ME-C105",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn LEFT → Fifth room on the left is ME-C105.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-C105",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 34,
+    "name": "Classroom ME-C106",
+    "category": "classroom",
+    "description": "Mechanical Engineering Department classroom seating 60 students. Seminar and guest lecture room. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Left Corridor, Room ME-C106",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn LEFT → Sixth room on the left is ME-C106 (last room).",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-C106",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 35,
+    "name": "Classroom CE-C201",
+    "category": "classroom",
+    "description": "Chemical Engineering Department classroom seating 60 students. Process engineering and reaction kinetics lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Left Corridor, Room CE-C201",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn LEFT → First room on the left is CE-C201.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-C201",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 36,
+    "name": "Classroom CE-C202",
+    "category": "classroom",
+    "description": "Chemical Engineering Department classroom seating 60 students. Mass transfer and thermodynamics lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Left Corridor, Room CE-C202",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn LEFT → Second room on the left is CE-C202.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-C202",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 37,
+    "name": "Classroom CE-C203",
+    "category": "classroom",
+    "description": "Chemical Engineering Department classroom seating 60 students. Environmental engineering and polymer science lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Left Corridor, Room CE-C203",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn LEFT → Third room on the left is CE-C203.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-C203",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 38,
+    "name": "Classroom CE-C204",
+    "category": "classroom",
+    "description": "Chemical Engineering Department classroom seating 60 students. Fluid operations and instrumentation lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Left Corridor, Room CE-C204",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn LEFT → Fourth room on the left is CE-C204.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-C204",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 39,
+    "name": "Classroom CE-C205",
+    "category": "classroom",
+    "description": "Chemical Engineering Department classroom seating 60 students. Tutorial and problem-solving sessions. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Left Corridor, Room CE-C205",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn LEFT → Fifth room on the left is CE-C205.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-C205",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 40,
+    "name": "Classroom CE-C206",
+    "category": "classroom",
+    "description": "Chemical Engineering Department classroom seating 60 students. Seminar and guest lecture room. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Left Corridor, Room CE-C206",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn LEFT → Sixth room on the left is CE-C206 (last room).",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-C206",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 41,
+    "name": "Classroom IT-C301",
+    "category": "classroom",
+    "description": "Information Technology Department classroom seating 60 students. Software engineering and programming theory lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Left Corridor, Room IT-C301",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn LEFT → First room on the left is IT-C301.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-C301",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 42,
+    "name": "Classroom IT-C302",
+    "category": "classroom",
+    "description": "Information Technology Department classroom seating 60 students. Networking and database management lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Left Corridor, Room IT-C302",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn LEFT → Second room on the left is IT-C302.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-C302",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 43,
+    "name": "Classroom IT-C303",
+    "category": "classroom",
+    "description": "Information Technology Department classroom seating 60 students. Cloud computing and cybersecurity theory lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Left Corridor, Room IT-C303",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn LEFT → Third room on the left is IT-C303.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-C303",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 44,
+    "name": "Classroom IT-C304",
+    "category": "classroom",
+    "description": "Information Technology Department classroom seating 60 students. AI, machine learning and data analytics lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Left Corridor, Room IT-C304",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn LEFT → Fourth room on the left is IT-C304.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-C304",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 45,
+    "name": "Classroom IT-C305",
+    "category": "classroom",
+    "description": "Information Technology Department classroom seating 60 students. IoT and mobile development lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Left Corridor, Room IT-C305",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn LEFT → Fifth room on the left is IT-C305.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-C305",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 46,
+    "name": "Classroom IT-C306",
+    "category": "classroom",
+    "description": "Information Technology Department classroom seating 60 students. Project presentations and seminar room. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Left Corridor, Room IT-C306",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn LEFT → Sixth room on the left is IT-C306 (last room).",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-C306",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 47,
+    "name": "Classroom CSE-C401",
+    "category": "classroom",
+    "description": "Computer Engineering Department classroom seating 60 students. Computer architecture and OS theory lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Left Corridor, Room CSE-C401",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn LEFT → First room on the left is CSE-C401.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-C401",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 48,
+    "name": "Classroom CSE-C402",
+    "category": "classroom",
+    "description": "Computer Engineering Department classroom seating 60 students. VLSI design and embedded systems lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Left Corridor, Room CSE-C402",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn LEFT → Second room on the left is CSE-C402.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-C402",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 49,
+    "name": "Classroom CSE-C403",
+    "category": "classroom",
+    "description": "Computer Engineering Department classroom seating 60 students. Software engineering and compiler design lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Left Corridor, Room CSE-C403",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn LEFT → Third room on the left is CSE-C403.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-C403",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 50,
+    "name": "Classroom CSE-C404",
+    "category": "classroom",
+    "description": "Computer Engineering Department classroom seating 60 students. Microprocessor and digital electronics lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Left Corridor, Room CSE-C404",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn LEFT → Fourth room on the left is CSE-C404.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-C404",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 51,
+    "name": "Classroom CSE-C405",
+    "category": "classroom",
+    "description": "Computer Engineering Department classroom seating 60 students. Tutorial and project guidance sessions. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Left Corridor, Room CSE-C405",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn LEFT → Fifth room on the left is CSE-C405.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-C405",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 52,
+    "name": "Classroom CSE-C406",
+    "category": "classroom",
+    "description": "Computer Engineering Department classroom seating 60 students. Seminar and industry guest lecture room. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Left Corridor, Room CSE-C406",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn LEFT → Sixth room on the left is CSE-C406 (last room).",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-C406",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 53,
+    "name": "Classroom ENTC-C501",
+    "category": "classroom",
+    "description": "Electronics & Telecommunication (ENTC) Department classroom seating 60 students. Analog electronics and signal processing theory lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Left Corridor, Room ENTC-C501",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn LEFT → First room on the left is ENTC-C501.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-C501",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 54,
+    "name": "Classroom ENTC-C502",
+    "category": "classroom",
+    "description": "Electronics & Telecommunication (ENTC) Department classroom seating 60 students. Digital electronics and communication systems lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Left Corridor, Room ENTC-C502",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn LEFT → Second room on the left is ENTC-C502.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-C502",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 55,
+    "name": "Classroom ENTC-C503",
+    "category": "classroom",
+    "description": "Electronics & Telecommunication (ENTC) Department classroom seating 60 students. RF, wireless and antenna design lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Left Corridor, Room ENTC-C503",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn LEFT → Third room on the left is ENTC-C503.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-C503",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 56,
+    "name": "Classroom ENTC-C504",
+    "category": "classroom",
+    "description": "Electronics & Telecommunication (ENTC) Department classroom seating 60 students. FPGA programming and optical fibre lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Left Corridor, Room ENTC-C504",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn LEFT → Fourth room on the left is ENTC-C504.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-C504",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 57,
+    "name": "Classroom ENTC-C505",
+    "category": "classroom",
+    "description": "Electronics & Telecommunication (ENTC) Department classroom seating 60 students. PCB design and embedded systems lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Left Corridor, Room ENTC-C505",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn LEFT → Fifth room on the left is ENTC-C505.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-C505",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 58,
+    "name": "Classroom ENTC-C506",
+    "category": "classroom",
+    "description": "Electronics & Telecommunication (ENTC) Department classroom seating 60 students. Seminar and project presentation room. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Left Corridor, Room ENTC-C506",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn LEFT → Sixth room on the left is ENTC-C506 (last room).",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-C506",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 59,
+    "name": "Classroom EE-C601",
+    "category": "classroom",
+    "description": "Electrical Engineering Department classroom seating 60 students. Power systems and electrical machines lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Left Corridor, Room EE-C601",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn LEFT → First room on the left is EE-C601.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-C601",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 60,
+    "name": "Classroom EE-C602",
+    "category": "classroom",
+    "description": "Electrical Engineering Department classroom seating 60 students. Control systems and renewable energy lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Left Corridor, Room EE-C602",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn LEFT → Second room on the left is EE-C602.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-C602",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 61,
+    "name": "Classroom EE-C603",
+    "category": "classroom",
+    "description": "Electrical Engineering Department classroom seating 60 students. PLC automation and power electronics lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Left Corridor, Room EE-C603",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn LEFT → Third room on the left is EE-C603.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-C603",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 62,
+    "name": "Classroom EE-C604",
+    "category": "classroom",
+    "description": "Electrical Engineering Department classroom seating 60 students. Smart grid and switchgear protection lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Left Corridor, Room EE-C604",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn LEFT → Fourth room on the left is EE-C604.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-C604",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 63,
+    "name": "Classroom EE-C605",
+    "category": "classroom",
+    "description": "Electrical Engineering Department classroom seating 60 students. Tutorial and simulation sessions. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Left Corridor, Room EE-C605",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn LEFT → Fifth room on the left is EE-C605.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-C605",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 64,
+    "name": "Classroom EE-C606",
+    "category": "classroom",
+    "description": "Electrical Engineering Department classroom seating 60 students. Seminar and industry guest lecture room. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Left Corridor, Room EE-C606",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn LEFT → Sixth room on the left is EE-C606 (last room).",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-C606",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 65,
+    "name": "Classroom CVL-C701",
+    "category": "classroom",
+    "description": "Civil Engineering Department classroom seating 60 students. Structural engineering and geotechnical theory lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Left Corridor, Room CVL-C701",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn LEFT → First room on the left is CVL-C701.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-C701",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 66,
+    "name": "Classroom CVL-C702",
+    "category": "classroom",
+    "description": "Civil Engineering Department classroom seating 60 students. Surveying, transportation and hydraulics lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Left Corridor, Room CVL-C702",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn LEFT → Second room on the left is CVL-C702.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-C702",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 67,
+    "name": "Classroom CVL-C703",
+    "category": "classroom",
+    "description": "Civil Engineering Department classroom seating 60 students. Concrete technology and construction materials lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Left Corridor, Room CVL-C703",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn LEFT → Third room on the left is CVL-C703.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-C703",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 68,
+    "name": "Classroom CVL-C704",
+    "category": "classroom",
+    "description": "Civil Engineering Department classroom seating 60 students. Environmental engineering and water resources lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Left Corridor, Room CVL-C704",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn LEFT → Fourth room on the left is CVL-C704.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-C704",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 69,
+    "name": "Classroom CVL-C705",
+    "category": "classroom",
+    "description": "Civil Engineering Department classroom seating 60 students. CAD, GIS and construction management lectures. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Left Corridor, Room CVL-C705",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn LEFT → Fifth room on the left is CVL-C705.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-C705",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 70,
+    "name": "Classroom CVL-C706",
+    "category": "classroom",
+    "description": "Civil Engineering Department classroom seating 60 students. Seminar room with rooftop terrace access for surveying practicals. Equipped with whiteboard, projector, and audio system.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Left Corridor, Room CVL-C706",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn LEFT → Sixth room on the left is CVL-C706 (last room).",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-C706",
+    "capacity": 60,
+    "nearby_landmarks": "Left corridor, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 71,
+    "name": "Thermodynamics Lab (ME-L101)",
+    "category": "lab",
+    "description": "Thermodynamics Lab in the Mechanical Engineering Department. Steam tables, boilers, and heat engine experiments.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Right Wing, Room ME-L101",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn RIGHT → First lab in the right corridor is ME-L101 — Thermodynamics Lab.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-L101",
+    "lab_name": "Thermodynamics Lab",
+    "equipment": "Steam tables, boilers, and heat engine experiments",
+    "nearby_landmarks": "Right wing, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 72,
+    "name": "Fluid Mechanics Lab (ME-L102)",
+    "category": "lab",
+    "description": "Fluid Mechanics Lab in the Mechanical Engineering Department. Flow measurement, pumps, and pipe flow experiments.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Right Wing, Room ME-L102",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn RIGHT → Second lab in the right corridor is ME-L102 — Fluid Mechanics Lab.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-L102",
+    "lab_name": "Fluid Mechanics Lab",
+    "equipment": "Flow measurement, pumps, and pipe flow experiments",
+    "nearby_landmarks": "Right wing, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 73,
+    "name": "CAD/CAM Lab (ME-L103)",
+    "category": "lab",
+    "description": "CAD/CAM Lab in the Mechanical Engineering Department. AutoCAD, SolidWorks, and CNC programming workstations.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Right Wing, Room ME-L103",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn RIGHT → Third lab in the right corridor is ME-L103 — CAD/CAM Lab.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-L103",
+    "lab_name": "CAD/CAM Lab",
+    "equipment": "AutoCAD, SolidWorks, and CNC programming workstations",
+    "nearby_landmarks": "Right wing, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 74,
+    "name": "Manufacturing Lab (ME-L104)",
+    "category": "lab",
+    "description": "Manufacturing Lab in the Mechanical Engineering Department. Lathe, milling, drilling, and welding equipment.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Right Wing, Room ME-L104",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn RIGHT → Fourth lab in the right corridor is ME-L104 — Manufacturing Lab.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-L104",
+    "lab_name": "Manufacturing Lab",
+    "equipment": "Lathe, milling, drilling, and welding equipment",
+    "nearby_landmarks": "Right wing, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 75,
+    "name": "Robotics Lab (ME-L105)",
+    "category": "lab",
+    "description": "Robotics Lab in the Mechanical Engineering Department. Industrial robot arms, path planning, and automation rigs.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Right Wing, Room ME-L105",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn RIGHT → Fifth lab in the right corridor is ME-L105 — Robotics Lab.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-L105",
+    "lab_name": "Robotics Lab",
+    "equipment": "Industrial robot arms, path planning, and automation rigs",
+    "nearby_landmarks": "Right wing, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 76,
+    "name": "Automotive Lab (ME-L106)",
+    "category": "lab",
+    "description": "Automotive Lab in the Mechanical Engineering Department. Engine dismantling, vehicle systems, and diagnostics equipment.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Right Wing, Room ME-L106",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn RIGHT → Sixth lab in the rear wing is ME-L106 — Automotive Lab.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-L106",
+    "lab_name": "Automotive Lab",
+    "equipment": "Engine dismantling, vehicle systems, and diagnostics equipment",
+    "nearby_landmarks": "Right wing, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 77,
+    "name": "Metrology Lab (ME-L107)",
+    "category": "lab",
+    "description": "Metrology Lab in the Mechanical Engineering Department. Precision measurement tools, CMM machine, and gauges.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Right Wing, Room ME-L107",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn RIGHT → Seventh lab in the rear wing is ME-L107 — Metrology Lab.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-L107",
+    "lab_name": "Metrology Lab",
+    "equipment": "Precision measurement tools, CMM machine, and gauges",
+    "nearby_landmarks": "Right wing, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 78,
+    "name": "Heat Transfer Lab (ME-L108)",
+    "category": "lab",
+    "description": "Heat Transfer Lab in the Mechanical Engineering Department. Conduction, convection, and radiation experiment setups.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Right Wing, Room ME-L108",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn RIGHT → Eighth lab in the rear wing is ME-L108 — Heat Transfer Lab.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-L108",
+    "lab_name": "Heat Transfer Lab",
+    "equipment": "Conduction, convection, and radiation experiment setups",
+    "nearby_landmarks": "Right wing, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 79,
+    "name": "Machine Design Lab (ME-L109)",
+    "category": "lab",
+    "description": "Machine Design Lab in the Mechanical Engineering Department. FEA software, design analysis, and stress testing equipment.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Right Wing, Room ME-L109",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn RIGHT → Ninth lab in the rear wing is ME-L109 — Machine Design Lab.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-L109",
+    "lab_name": "Machine Design Lab",
+    "equipment": "FEA software, design analysis, and stress testing equipment",
+    "nearby_landmarks": "Right wing, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 80,
+    "name": "Material Testing Lab (ME-L110)",
+    "category": "lab",
+    "description": "Material Testing Lab in the Mechanical Engineering Department. Tensile testing, hardness testing, and impact testing machines.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Right Wing, Room ME-L110",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn RIGHT → Tenth lab in the rear wing is ME-L110 — Material Testing Lab.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-L110",
+    "lab_name": "Material Testing Lab",
+    "equipment": "Tensile testing, hardness testing, and impact testing machines",
+    "nearby_landmarks": "Right wing, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 81,
+    "name": "Process Control Lab (CE-L201)",
+    "category": "lab",
+    "description": "Process Control Lab in the Chemical Engineering Department. Control loops, PID controllers, and SCADA systems.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Right Wing, Room CE-L201",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn RIGHT → First lab in the right corridor is CE-L201 — Process Control Lab. ⚠️ Safety goggles and lab coat required in all lab areas.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-L201",
+    "lab_name": "Process Control Lab",
+    "equipment": "Control loops, PID controllers, and SCADA systems",
+    "nearby_landmarks": "Right wing, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 82,
+    "name": "Chemical Reaction Lab (CE-L202)",
+    "category": "lab",
+    "description": "Chemical Reaction Lab in the Chemical Engineering Department. Reactor vessels, batch and continuous flow systems.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Right Wing, Room CE-L202",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn RIGHT → Second lab in the right corridor is CE-L202 — Chemical Reaction Lab. ⚠️ Safety goggles and lab coat required in all lab areas.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-L202",
+    "lab_name": "Chemical Reaction Lab",
+    "equipment": "Reactor vessels, batch and continuous flow systems",
+    "nearby_landmarks": "Right wing, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 83,
+    "name": "Thermodynamics Lab (CE-L203)",
+    "category": "lab",
+    "description": "Thermodynamics Lab in the Chemical Engineering Department. Calorimeters, phase equilibrium, and thermodynamic cycles.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Right Wing, Room CE-L203",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn RIGHT → Third lab in the right corridor is CE-L203 — Thermodynamics Lab. ⚠️ Safety goggles and lab coat required in all lab areas.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-L203",
+    "lab_name": "Thermodynamics Lab",
+    "equipment": "Calorimeters, phase equilibrium, and thermodynamic cycles",
+    "nearby_landmarks": "Right wing, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 84,
+    "name": "Fluid Operations Lab (CE-L204)",
+    "category": "lab",
+    "description": "Fluid Operations Lab in the Chemical Engineering Department. Pumps, compressors, and fluid flow measurement equipment.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Right Wing, Room CE-L204",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn RIGHT → Fourth lab in the right corridor is CE-L204 — Fluid Operations Lab. ⚠️ Safety goggles and lab coat required in all lab areas.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-L204",
+    "lab_name": "Fluid Operations Lab",
+    "equipment": "Pumps, compressors, and fluid flow measurement equipment",
+    "nearby_landmarks": "Right wing, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 85,
+    "name": "Mass Transfer Lab (CE-L205)",
+    "category": "lab",
+    "description": "Mass Transfer Lab in the Chemical Engineering Department. Distillation columns, absorption towers, and extraction units.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Right Wing, Room CE-L205",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn RIGHT → Fifth lab in the right corridor is CE-L205 — Mass Transfer Lab. ⚠️ Safety goggles and lab coat required in all lab areas.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-L205",
+    "lab_name": "Mass Transfer Lab",
+    "equipment": "Distillation columns, absorption towers, and extraction units",
+    "nearby_landmarks": "Right wing, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 86,
+    "name": "Heat Transfer Lab (CE-L206)",
+    "category": "lab",
+    "description": "Heat Transfer Lab in the Chemical Engineering Department. Heat exchangers, evaporators, and condenser setups.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Right Wing, Room CE-L206",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn RIGHT → Sixth lab in the rear wing is CE-L206 — Heat Transfer Lab. ⚠️ Safety goggles and lab coat required in all lab areas.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-L206",
+    "lab_name": "Heat Transfer Lab",
+    "equipment": "Heat exchangers, evaporators, and condenser setups",
+    "nearby_landmarks": "Right wing, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 87,
+    "name": "Polymer Lab (CE-L207)",
+    "category": "lab",
+    "description": "Polymer Lab in the Chemical Engineering Department. Polymer synthesis, characterisation, and rheology equipment.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Right Wing, Room CE-L207",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn RIGHT → Seventh lab in the rear wing is CE-L207 — Polymer Lab. ⚠️ Safety goggles and lab coat required in all lab areas.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-L207",
+    "lab_name": "Polymer Lab",
+    "equipment": "Polymer synthesis, characterisation, and rheology equipment",
+    "nearby_landmarks": "Right wing, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 88,
+    "name": "Analytical Chemistry Lab (CE-L208)",
+    "category": "lab",
+    "description": "Analytical Chemistry Lab in the Chemical Engineering Department. Spectrophotometers, chromatography, and titration equipment.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Right Wing, Room CE-L208",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn RIGHT → Eighth lab in the rear wing is CE-L208 — Analytical Chemistry Lab. ⚠️ Safety goggles and lab coat required in all lab areas.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-L208",
+    "lab_name": "Analytical Chemistry Lab",
+    "equipment": "Spectrophotometers, chromatography, and titration equipment",
+    "nearby_landmarks": "Right wing, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 89,
+    "name": "Environmental Engineering Lab (CE-L209)",
+    "category": "lab",
+    "description": "Environmental Engineering Lab in the Chemical Engineering Department. Water quality testing, effluent treatment, and air analysis.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Right Wing, Room CE-L209",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn RIGHT → Ninth lab in the rear wing is CE-L209 — Environmental Engineering Lab. ⚠️ Safety goggles and lab coat required in all lab areas.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-L209",
+    "lab_name": "Environmental Engineering Lab",
+    "equipment": "Water quality testing, effluent treatment, and air analysis",
+    "nearby_landmarks": "Right wing, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 90,
+    "name": "Instrumentation Lab (CE-L210)",
+    "category": "lab",
+    "description": "Instrumentation Lab in the Chemical Engineering Department. Sensors, transducers, data acquisition systems and controllers.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Right Wing, Room CE-L210",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn RIGHT → Tenth lab in the rear wing is CE-L210 — Instrumentation Lab. ⚠️ Safety goggles and lab coat required in all lab areas.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-L210",
+    "lab_name": "Instrumentation Lab",
+    "equipment": "Sensors, transducers, data acquisition systems and controllers",
+    "nearby_landmarks": "Right wing, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 91,
+    "name": "Programming Lab (IT-L301)",
+    "category": "lab",
+    "description": "Programming Lab in the Information Technology Department. 120 workstations with Python, Java, C++, and IDE tools.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Right Wing, Room IT-L301",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn RIGHT → First lab in the right corridor is IT-L301 — Programming Lab. ⚠️ All lab rooms require student ID card swipe for entry.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-L301",
+    "lab_name": "Programming Lab",
+    "equipment": "120 workstations with Python, Java, C++, and IDE tools",
+    "nearby_landmarks": "Right wing, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 92,
+    "name": "Networking Lab (IT-L302)",
+    "category": "lab",
+    "description": "Networking Lab in the Information Technology Department. Cisco routers, switches, and network simulation software.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Right Wing, Room IT-L302",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn RIGHT → Second lab in the right corridor is IT-L302 — Networking Lab. ⚠️ All lab rooms require student ID card swipe for entry.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-L302",
+    "lab_name": "Networking Lab",
+    "equipment": "Cisco routers, switches, and network simulation software",
+    "nearby_landmarks": "Right wing, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 93,
+    "name": "Database Lab (IT-L303)",
+    "category": "lab",
+    "description": "Database Lab in the Information Technology Department. Oracle, MySQL, PostgreSQL, and NoSQL database servers.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Right Wing, Room IT-L303",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn RIGHT → Third lab in the right corridor is IT-L303 — Database Lab. ⚠️ All lab rooms require student ID card swipe for entry.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-L303",
+    "lab_name": "Database Lab",
+    "equipment": "Oracle, MySQL, PostgreSQL, and NoSQL database servers",
+    "nearby_landmarks": "Right wing, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 94,
+    "name": "Cloud Computing Lab (IT-L304)",
+    "category": "lab",
+    "description": "Cloud Computing Lab in the Information Technology Department. AWS, Azure, and Google Cloud practice environments.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Right Wing, Room IT-L304",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn RIGHT → Fourth lab in the right corridor is IT-L304 — Cloud Computing Lab. ⚠️ All lab rooms require student ID card swipe for entry.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-L304",
+    "lab_name": "Cloud Computing Lab",
+    "equipment": "AWS, Azure, and Google Cloud practice environments",
+    "nearby_landmarks": "Right wing, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 95,
+    "name": "Cybersecurity Lab (IT-L305)",
+    "category": "lab",
+    "description": "Cybersecurity Lab in the Information Technology Department. Penetration testing tools, firewalls, and secure sandbox environments.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Right Wing, Room IT-L305",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn RIGHT → Fifth lab in the right corridor is IT-L305 — Cybersecurity Lab. ⚠️ All lab rooms require student ID card swipe for entry.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-L305",
+    "lab_name": "Cybersecurity Lab",
+    "equipment": "Penetration testing tools, firewalls, and secure sandbox environments",
+    "nearby_landmarks": "Right wing, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 96,
+    "name": "Web Development Lab (IT-L306)",
+    "category": "lab",
+    "description": "Web Development Lab in the Information Technology Department. Full-stack development workstations with frameworks and CMS tools.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Right Wing, Room IT-L306",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn RIGHT → Sixth lab in the rear wing is IT-L306 — Web Development Lab. ⚠️ All lab rooms require student ID card swipe for entry.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-L306",
+    "lab_name": "Web Development Lab",
+    "equipment": "Full-stack development workstations with frameworks and CMS tools",
+    "nearby_landmarks": "Right wing, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 97,
+    "name": "Mobile App Development Lab (IT-L307)",
+    "category": "lab",
+    "description": "Mobile App Development Lab in the Information Technology Department. Android and iOS development with emulators and test devices.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Right Wing, Room IT-L307",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn RIGHT → Seventh lab in the rear wing is IT-L307 — Mobile App Development Lab. ⚠️ All lab rooms require student ID card swipe for entry.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-L307",
+    "lab_name": "Mobile App Development Lab",
+    "equipment": "Android and iOS development with emulators and test devices",
+    "nearby_landmarks": "Right wing, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 98,
+    "name": "AI & Machine Learning Lab (IT-L308)",
+    "category": "lab",
+    "description": "AI & Machine Learning Lab in the Information Technology Department. GPU-enabled workstations with TensorFlow, PyTorch, and Jupyter.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Right Wing, Room IT-L308",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn RIGHT → Eighth lab in the rear wing is IT-L308 — AI & Machine Learning Lab. ⚠️ All lab rooms require student ID card swipe for entry.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-L308",
+    "lab_name": "AI & Machine Learning Lab",
+    "equipment": "GPU-enabled workstations with TensorFlow, PyTorch, and Jupyter",
+    "nearby_landmarks": "Right wing, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 99,
+    "name": "Data Analytics Lab (IT-L309)",
+    "category": "lab",
+    "description": "Data Analytics Lab in the Information Technology Department. Big data tools, Tableau, Power BI, and statistical software.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Right Wing, Room IT-L309",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn RIGHT → Ninth lab in the rear wing is IT-L309 — Data Analytics Lab. ⚠️ All lab rooms require student ID card swipe for entry.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-L309",
+    "lab_name": "Data Analytics Lab",
+    "equipment": "Big data tools, Tableau, Power BI, and statistical software",
+    "nearby_landmarks": "Right wing, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 100,
+    "name": "IoT Lab (IT-L310)",
+    "category": "lab",
+    "description": "IoT Lab in the Information Technology Department. Raspberry Pi, Arduino, sensors, and IoT connectivity platforms.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Right Wing, Room IT-L310",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn RIGHT → Tenth lab in the rear wing is IT-L310 — IoT Lab. ⚠️ All lab rooms require student ID card swipe for entry.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-L310",
+    "lab_name": "IoT Lab",
+    "equipment": "Raspberry Pi, Arduino, sensors, and IoT connectivity platforms",
+    "nearby_landmarks": "Right wing, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 101,
+    "name": "Computer Architecture Lab (CSE-L401)",
+    "category": "lab",
+    "description": "Computer Architecture Lab in the Computer Engineering Department. RISC-V simulators, pipeline analysis, and hardware description tools.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Right Wing, Room CSE-L401",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn RIGHT → First lab in the right corridor is CSE-L401 — Computer Architecture Lab.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-L401",
+    "lab_name": "Computer Architecture Lab",
+    "equipment": "RISC-V simulators, pipeline analysis, and hardware description tools",
+    "nearby_landmarks": "Right wing, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 102,
+    "name": "Operating Systems Lab (CSE-L402)",
+    "category": "lab",
+    "description": "Operating Systems Lab in the Computer Engineering Department. Linux kernel, process scheduling, and OS virtualisation setups.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Right Wing, Room CSE-L402",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn RIGHT → Second lab in the right corridor is CSE-L402 — Operating Systems Lab.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-L402",
+    "lab_name": "Operating Systems Lab",
+    "equipment": "Linux kernel, process scheduling, and OS virtualisation setups",
+    "nearby_landmarks": "Right wing, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 103,
+    "name": "VLSI Design Lab (CSE-L403)",
+    "category": "lab",
+    "description": "VLSI Design Lab in the Computer Engineering Department. Cadence, Mentor Graphics, and FPGA prototyping boards.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Right Wing, Room CSE-L403",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn RIGHT → Third lab in the right corridor is CSE-L403 — VLSI Design Lab.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-L403",
+    "lab_name": "VLSI Design Lab",
+    "equipment": "Cadence, Mentor Graphics, and FPGA prototyping boards",
+    "nearby_landmarks": "Right wing, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 104,
+    "name": "Embedded Systems Lab (CSE-L404)",
+    "category": "lab",
+    "description": "Embedded Systems Lab in the Computer Engineering Department. ARM microcontrollers, RTOS, and hardware-software co-design rigs.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Right Wing, Room CSE-L404",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn RIGHT → Fourth lab in the right corridor is CSE-L404 — Embedded Systems Lab.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-L404",
+    "lab_name": "Embedded Systems Lab",
+    "equipment": "ARM microcontrollers, RTOS, and hardware-software co-design rigs",
+    "nearby_landmarks": "Right wing, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 105,
+    "name": "Software Engineering Lab (CSE-L405)",
+    "category": "lab",
+    "description": "Software Engineering Lab in the Computer Engineering Department. Agile tools, version control, CI/CD pipelines, and testing frameworks.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Right Wing, Room CSE-L405",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn RIGHT → Fifth lab in the right corridor is CSE-L405 — Software Engineering Lab.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-L405",
+    "lab_name": "Software Engineering Lab",
+    "equipment": "Agile tools, version control, CI/CD pipelines, and testing frameworks",
+    "nearby_landmarks": "Right wing, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 106,
+    "name": "Computer Graphics Lab (CSE-L406)",
+    "category": "lab",
+    "description": "Computer Graphics Lab in the Computer Engineering Department. OpenGL, Unity, Blender, and VR/AR development workstations.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Right Wing, Room CSE-L406",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn RIGHT → Sixth lab in the rear wing is CSE-L406 — Computer Graphics Lab.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-L406",
+    "lab_name": "Computer Graphics Lab",
+    "equipment": "OpenGL, Unity, Blender, and VR/AR development workstations",
+    "nearby_landmarks": "Right wing, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 107,
+    "name": "Compiler Design Lab (CSE-L407)",
+    "category": "lab",
+    "description": "Compiler Design Lab in the Computer Engineering Department. Lex, Yacc, ANTLR, and language processing tools.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Right Wing, Room CSE-L407",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn RIGHT → Seventh lab in the rear wing is CSE-L407 — Compiler Design Lab.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-L407",
+    "lab_name": "Compiler Design Lab",
+    "equipment": "Lex, Yacc, ANTLR, and language processing tools",
+    "nearby_landmarks": "Right wing, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 108,
+    "name": "Microprocessor Lab (CSE-L408)",
+    "category": "lab",
+    "description": "Microprocessor Lab in the Computer Engineering Department. 8051, ARM, and Intel processors with interfacing kits.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Right Wing, Room CSE-L408",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn RIGHT → Eighth lab in the rear wing is CSE-L408 — Microprocessor Lab.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-L408",
+    "lab_name": "Microprocessor Lab",
+    "equipment": "8051, ARM, and Intel processors with interfacing kits",
+    "nearby_landmarks": "Right wing, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 109,
+    "name": "Digital Electronics Lab (CSE-L409)",
+    "category": "lab",
+    "description": "Digital Electronics Lab in the Computer Engineering Department. Logic gates, flip-flops, counters, and digital circuit trainers.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Right Wing, Room CSE-L409",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn RIGHT → Ninth lab in the rear wing is CSE-L409 — Digital Electronics Lab.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-L409",
+    "lab_name": "Digital Electronics Lab",
+    "equipment": "Logic gates, flip-flops, counters, and digital circuit trainers",
+    "nearby_landmarks": "Right wing, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 110,
+    "name": "Advanced Computing Lab (CSE-L410)",
+    "category": "lab",
+    "description": "Advanced Computing Lab in the Computer Engineering Department. HPC cluster access, parallel computing, and quantum computing simulators.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Right Wing, Room CSE-L410",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn RIGHT → Tenth lab in the rear wing is CSE-L410 — Advanced Computing Lab.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-L410",
+    "lab_name": "Advanced Computing Lab",
+    "equipment": "HPC cluster access, parallel computing, and quantum computing simulators",
+    "nearby_landmarks": "Right wing, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 111,
+    "name": "Analog Electronics Lab (ENTC-L501)",
+    "category": "lab",
+    "description": "Analog Electronics Lab in the Electronics & Telecommunication (ENTC) Department. Op-amp circuits, oscilloscopes, signal generators, and analogue trainers.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Right Wing, Room ENTC-L501",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn RIGHT → First lab in the right corridor is ENTC-L501 — Analog Electronics Lab. ⚠️ ESD wrist straps required when handling components.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-L501",
+    "lab_name": "Analog Electronics Lab",
+    "equipment": "Op-amp circuits, oscilloscopes, signal generators, and analogue trainers",
+    "nearby_landmarks": "Right wing, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 112,
+    "name": "Digital Electronics Lab (ENTC-L502)",
+    "category": "lab",
+    "description": "Digital Electronics Lab in the Electronics & Telecommunication (ENTC) Department. Logic analysers, FPGA kits, and digital circuit design tools.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Right Wing, Room ENTC-L502",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn RIGHT → Second lab in the right corridor is ENTC-L502 — Digital Electronics Lab. ⚠️ ESD wrist straps required when handling components.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-L502",
+    "lab_name": "Digital Electronics Lab",
+    "equipment": "Logic analysers, FPGA kits, and digital circuit design tools",
+    "nearby_landmarks": "Right wing, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 113,
+    "name": "Signal Processing Lab (ENTC-L503)",
+    "category": "lab",
+    "description": "Signal Processing Lab in the Electronics & Telecommunication (ENTC) Department. MATLAB, DSP processors, and spectrum analysers.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Right Wing, Room ENTC-L503",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn RIGHT → Third lab in the right corridor is ENTC-L503 — Signal Processing Lab. ⚠️ ESD wrist straps required when handling components.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-L503",
+    "lab_name": "Signal Processing Lab",
+    "equipment": "MATLAB, DSP processors, and spectrum analysers",
+    "nearby_landmarks": "Right wing, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 114,
+    "name": "Communication Systems Lab (ENTC-L504)",
+    "category": "lab",
+    "description": "Communication Systems Lab in the Electronics & Telecommunication (ENTC) Department. AM/FM/PM modulation, multiplexing, and communication test sets.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Right Wing, Room ENTC-L504",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn RIGHT → Fourth lab in the right corridor is ENTC-L504 — Communication Systems Lab. ⚠️ ESD wrist straps required when handling components.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-L504",
+    "lab_name": "Communication Systems Lab",
+    "equipment": "AM/FM/PM modulation, multiplexing, and communication test sets",
+    "nearby_landmarks": "Right wing, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 115,
+    "name": "Antenna & Microwave Lab (ENTC-L505)",
+    "category": "lab",
+    "description": "Antenna & Microwave Lab in the Electronics & Telecommunication (ENTC) Department. Antenna measurement, waveguides, and microwave test benches.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Right Wing, Room ENTC-L505",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn RIGHT → Fifth lab in the right corridor is ENTC-L505 — Antenna & Microwave Lab. ⚠️ ESD wrist straps required when handling components.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-L505",
+    "lab_name": "Antenna & Microwave Lab",
+    "equipment": "Antenna measurement, waveguides, and microwave test benches",
+    "nearby_landmarks": "Right wing, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 116,
+    "name": "Embedded Systems Lab (ENTC-L506)",
+    "category": "lab",
+    "description": "Embedded Systems Lab in the Electronics & Telecommunication (ENTC) Department. ARM, PIC, and AVR microcontrollers with interfacing kits.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Right Wing, Room ENTC-L506",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn RIGHT → Sixth lab in the rear wing is ENTC-L506 — Embedded Systems Lab. ⚠️ ESD wrist straps required when handling components.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-L506",
+    "lab_name": "Embedded Systems Lab",
+    "equipment": "ARM, PIC, and AVR microcontrollers with interfacing kits",
+    "nearby_landmarks": "Right wing, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 117,
+    "name": "PCB Design Lab (ENTC-L507)",
+    "category": "lab",
+    "description": "PCB Design Lab in the Electronics & Telecommunication (ENTC) Department. Altium Designer, Eagle CAD, and PCB fabrication equipment.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Right Wing, Room ENTC-L507",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn RIGHT → Seventh lab in the rear wing is ENTC-L507 — PCB Design Lab. ⚠️ ESD wrist straps required when handling components.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-L507",
+    "lab_name": "PCB Design Lab",
+    "equipment": "Altium Designer, Eagle CAD, and PCB fabrication equipment",
+    "nearby_landmarks": "Right wing, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 118,
+    "name": "Optical Fibre Lab (ENTC-L508)",
+    "category": "lab",
+    "description": "Optical Fibre Lab in the Electronics & Telecommunication (ENTC) Department. Fibre optic splicing, OTDR, and optical power measurement.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Right Wing, Room ENTC-L508",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn RIGHT → Eighth lab in the rear wing is ENTC-L508 — Optical Fibre Lab. ⚠️ ESD wrist straps required when handling components.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-L508",
+    "lab_name": "Optical Fibre Lab",
+    "equipment": "Fibre optic splicing, OTDR, and optical power measurement",
+    "nearby_landmarks": "Right wing, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 119,
+    "name": "FPGA Lab (ENTC-L509)",
+    "category": "lab",
+    "description": "FPGA Lab in the Electronics & Telecommunication (ENTC) Department. Xilinx and Altera FPGA boards with VHDL/Verilog tools.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Right Wing, Room ENTC-L509",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn RIGHT → Ninth lab in the rear wing is ENTC-L509 — FPGA Lab. ⚠️ ESD wrist straps required when handling components.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-L509",
+    "lab_name": "FPGA Lab",
+    "equipment": "Xilinx and Altera FPGA boards with VHDL/Verilog tools",
+    "nearby_landmarks": "Right wing, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 120,
+    "name": "RF & Wireless Lab (ENTC-L510)",
+    "category": "lab",
+    "description": "RF & Wireless Lab in the Electronics & Telecommunication (ENTC) Department. RF spectrum analysers, vector network analysers, and wireless test equipment.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Right Wing, Room ENTC-L510",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn RIGHT → Tenth lab in the rear wing is ENTC-L510 — RF & Wireless Lab. ⚠️ ESD wrist straps required when handling components.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-L510",
+    "lab_name": "RF & Wireless Lab",
+    "equipment": "RF spectrum analysers, vector network analysers, and wireless test equipment",
+    "nearby_landmarks": "Right wing, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 121,
+    "name": "Power Systems Lab (EE-L601)",
+    "category": "lab",
+    "description": "Power Systems Lab in the Electrical Engineering Department. Power flow analysis, fault simulation, and protection relay testing.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Right Wing, Room EE-L601",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn RIGHT → First lab in the right corridor is EE-L601 — Power Systems Lab. ⚠️ High voltage areas are restricted — follow all safety signs and never enter EE-L605 without supervisor.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-L601",
+    "lab_name": "Power Systems Lab",
+    "equipment": "Power flow analysis, fault simulation, and protection relay testing",
+    "nearby_landmarks": "Right wing, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 122,
+    "name": "Electrical Machines Lab (EE-L602)",
+    "category": "lab",
+    "description": "Electrical Machines Lab in the Electrical Engineering Department. DC motors, induction motors, transformers, and generators.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Right Wing, Room EE-L602",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn RIGHT → Second lab in the right corridor is EE-L602 — Electrical Machines Lab. ⚠️ High voltage areas are restricted — follow all safety signs and never enter EE-L605 without supervisor.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-L602",
+    "lab_name": "Electrical Machines Lab",
+    "equipment": "DC motors, induction motors, transformers, and generators",
+    "nearby_landmarks": "Right wing, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 123,
+    "name": "Control Systems Lab (EE-L603)",
+    "category": "lab",
+    "description": "Control Systems Lab in the Electrical Engineering Department. PID controllers, state-space models, and MATLAB/Simulink.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Right Wing, Room EE-L603",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn RIGHT → Third lab in the right corridor is EE-L603 — Control Systems Lab. ⚠️ High voltage areas are restricted — follow all safety signs and never enter EE-L605 without supervisor.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-L603",
+    "lab_name": "Control Systems Lab",
+    "equipment": "PID controllers, state-space models, and MATLAB/Simulink",
+    "nearby_landmarks": "Right wing, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 124,
+    "name": "Renewable Energy Lab (EE-L604)",
+    "category": "lab",
+    "description": "Renewable Energy Lab in the Electrical Engineering Department. Solar PV panels, wind turbines, and energy storage systems.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Right Wing, Room EE-L604",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn RIGHT → Fourth lab in the right corridor is EE-L604 — Renewable Energy Lab. ⚠️ High voltage areas are restricted — follow all safety signs and never enter EE-L605 without supervisor.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-L604",
+    "lab_name": "Renewable Energy Lab",
+    "equipment": "Solar PV panels, wind turbines, and energy storage systems",
+    "nearby_landmarks": "Right wing, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 125,
+    "name": "High Voltage Lab (EE-L605)",
+    "category": "lab",
+    "description": "High Voltage Lab in the Electrical Engineering Department. HV testing equipment, impulse generators, and insulation testers — restricted access.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Right Wing, Room EE-L605",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn RIGHT → Fifth lab in the right corridor is EE-L605 — High Voltage Lab. ⚠️ High voltage areas are restricted — follow all safety signs and never enter EE-L605 without supervisor.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-L605",
+    "lab_name": "High Voltage Lab",
+    "equipment": "HV testing equipment, impulse generators, and insulation testers — restricted access",
+    "nearby_landmarks": "Right wing, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 126,
+    "name": "PLC & Automation Lab (EE-L606)",
+    "category": "lab",
+    "description": "PLC & Automation Lab in the Electrical Engineering Department. Siemens and Allen-Bradley PLCs, SCADA, and HMI panels.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Right Wing, Room EE-L606",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn RIGHT → Sixth lab in the rear wing is EE-L606 — PLC & Automation Lab. ⚠️ High voltage areas are restricted — follow all safety signs and never enter EE-L605 without supervisor.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-L606",
+    "lab_name": "PLC & Automation Lab",
+    "equipment": "Siemens and Allen-Bradley PLCs, SCADA, and HMI panels",
+    "nearby_landmarks": "Right wing, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 127,
+    "name": "Power Electronics Lab (EE-L607)",
+    "category": "lab",
+    "description": "Power Electronics Lab in the Electrical Engineering Department. Inverters, converters, rectifiers, and drive control systems.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Right Wing, Room EE-L607",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn RIGHT → Seventh lab in the rear wing is EE-L607 — Power Electronics Lab. ⚠️ High voltage areas are restricted — follow all safety signs and never enter EE-L605 without supervisor.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-L607",
+    "lab_name": "Power Electronics Lab",
+    "equipment": "Inverters, converters, rectifiers, and drive control systems",
+    "nearby_landmarks": "Right wing, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 128,
+    "name": "Switchgear & Protection Lab (EE-L608)",
+    "category": "lab",
+    "description": "Switchgear & Protection Lab in the Electrical Engineering Department. Circuit breakers, relays, and protection coordination equipment.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Right Wing, Room EE-L608",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn RIGHT → Eighth lab in the rear wing is EE-L608 — Switchgear & Protection Lab. ⚠️ High voltage areas are restricted — follow all safety signs and never enter EE-L605 without supervisor.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-L608",
+    "lab_name": "Switchgear & Protection Lab",
+    "equipment": "Circuit breakers, relays, and protection coordination equipment",
+    "nearby_landmarks": "Right wing, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 129,
+    "name": "Simulation Lab (EE-L609)",
+    "category": "lab",
+    "description": "Simulation Lab in the Electrical Engineering Department. ETAP, PSCAD, MATLAB, and electrical simulation workstations.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Right Wing, Room EE-L609",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn RIGHT → Ninth lab in the rear wing is EE-L609 — Simulation Lab. ⚠️ High voltage areas are restricted — follow all safety signs and never enter EE-L605 without supervisor.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-L609",
+    "lab_name": "Simulation Lab",
+    "equipment": "ETAP, PSCAD, MATLAB, and electrical simulation workstations",
+    "nearby_landmarks": "Right wing, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 130,
+    "name": "Smart Grid Lab (EE-L610)",
+    "category": "lab",
+    "description": "Smart Grid Lab in the Electrical Engineering Department. AMI systems, demand response, and grid monitoring platforms.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Right Wing, Room EE-L610",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn RIGHT → Tenth lab in the rear wing is EE-L610 — Smart Grid Lab. ⚠️ High voltage areas are restricted — follow all safety signs and never enter EE-L605 without supervisor.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-L610",
+    "lab_name": "Smart Grid Lab",
+    "equipment": "AMI systems, demand response, and grid monitoring platforms",
+    "nearby_landmarks": "Right wing, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 131,
+    "name": "Structural Engineering Lab (CVL-L701)",
+    "category": "lab",
+    "description": "Structural Engineering Lab in the Civil Engineering Department. Load testing frames, strain gauges, and structural analysis equipment.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Right Wing, Room CVL-L701",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn RIGHT → First lab in the right corridor is CVL-L701 — Structural Engineering Lab. ⚠️ Hard hats and safety boots required in material testing areas.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-L701",
+    "lab_name": "Structural Engineering Lab",
+    "equipment": "Load testing frames, strain gauges, and structural analysis equipment",
+    "nearby_landmarks": "Right wing, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 132,
+    "name": "Geotechnical Lab (CVL-L702)",
+    "category": "lab",
+    "description": "Geotechnical Lab in the Civil Engineering Department. Soil testing equipment, triaxial cells, and consolidation apparatus.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Right Wing, Room CVL-L702",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn RIGHT → Second lab in the right corridor is CVL-L702 — Geotechnical Lab. ⚠️ Hard hats and safety boots required in material testing areas.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-L702",
+    "lab_name": "Geotechnical Lab",
+    "equipment": "Soil testing equipment, triaxial cells, and consolidation apparatus",
+    "nearby_landmarks": "Right wing, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 133,
+    "name": "Surveying Lab (CVL-L703)",
+    "category": "lab",
+    "description": "Surveying Lab in the Civil Engineering Department. Total stations, GPS equipment, drones, and GIS workstations.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Right Wing, Room CVL-L703",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn RIGHT → Third lab in the right corridor is CVL-L703 — Surveying Lab. ⚠️ Hard hats and safety boots required in material testing areas.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-L703",
+    "lab_name": "Surveying Lab",
+    "equipment": "Total stations, GPS equipment, drones, and GIS workstations",
+    "nearby_landmarks": "Right wing, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 134,
+    "name": "Concrete Technology Lab (CVL-L704)",
+    "category": "lab",
+    "description": "Concrete Technology Lab in the Civil Engineering Department. Concrete mixing, curing, compression testing, and cube testing.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Right Wing, Room CVL-L704",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn RIGHT → Fourth lab in the right corridor is CVL-L704 — Concrete Technology Lab. ⚠️ Hard hats and safety boots required in material testing areas.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-L704",
+    "lab_name": "Concrete Technology Lab",
+    "equipment": "Concrete mixing, curing, compression testing, and cube testing",
+    "nearby_landmarks": "Right wing, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 135,
+    "name": "Transportation Engineering Lab (CVL-L705)",
+    "category": "lab",
+    "description": "Transportation Engineering Lab in the Civil Engineering Department. Traffic simulation software, vehicle counting equipment, pavement testing.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Right Wing, Room CVL-L705",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn RIGHT → Fifth lab in the right corridor is CVL-L705 — Transportation Engineering Lab. ⚠️ Hard hats and safety boots required in material testing areas.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-L705",
+    "lab_name": "Transportation Engineering Lab",
+    "equipment": "Traffic simulation software, vehicle counting equipment, pavement testing",
+    "nearby_landmarks": "Right wing, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 136,
+    "name": "Hydraulics Lab (CVL-L706)",
+    "category": "lab",
+    "description": "Hydraulics Lab in the Civil Engineering Department. Flow channels, weirs, pumps, and hydraulic modelling equipment.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Right Wing, Room CVL-L706",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn RIGHT → Sixth lab in the rear wing is CVL-L706 — Hydraulics Lab. ⚠️ Hard hats and safety boots required in material testing areas.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-L706",
+    "lab_name": "Hydraulics Lab",
+    "equipment": "Flow channels, weirs, pumps, and hydraulic modelling equipment",
+    "nearby_landmarks": "Right wing, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 137,
+    "name": "Environmental Engineering Lab (CVL-L707)",
+    "category": "lab",
+    "description": "Environmental Engineering Lab in the Civil Engineering Department. Water quality analysers, BOD apparatus, and effluent treatment models.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Right Wing, Room CVL-L707",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn RIGHT → Seventh lab in the rear wing is CVL-L707 — Environmental Engineering Lab. ⚠️ Hard hats and safety boots required in material testing areas.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-L707",
+    "lab_name": "Environmental Engineering Lab",
+    "equipment": "Water quality analysers, BOD apparatus, and effluent treatment models",
+    "nearby_landmarks": "Right wing, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 138,
+    "name": "Construction Materials Lab (CVL-L708)",
+    "category": "lab",
+    "description": "Construction Materials Lab in the Civil Engineering Department. Material testing machines, aggregate testing, and bitumen analysis.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Right Wing, Room CVL-L708",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn RIGHT → Eighth lab in the rear wing is CVL-L708 — Construction Materials Lab. ⚠️ Hard hats and safety boots required in material testing areas.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-L708",
+    "lab_name": "Construction Materials Lab",
+    "equipment": "Material testing machines, aggregate testing, and bitumen analysis",
+    "nearby_landmarks": "Right wing, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 139,
+    "name": "CAD & GIS Lab (CVL-L709)",
+    "category": "lab",
+    "description": "CAD & GIS Lab in the Civil Engineering Department. AutoCAD Civil 3D, ArcGIS, STAAD Pro, and BIM tools.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Right Wing, Room CVL-L709",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn RIGHT → Ninth lab in the rear wing is CVL-L709 — CAD & GIS Lab. ⚠️ Hard hats and safety boots required in material testing areas.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-L709",
+    "lab_name": "CAD & GIS Lab",
+    "equipment": "AutoCAD Civil 3D, ArcGIS, STAAD Pro, and BIM tools",
+    "nearby_landmarks": "Right wing, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 140,
+    "name": "Water Resources Lab (CVL-L710)",
+    "category": "lab",
+    "description": "Water Resources Lab in the Civil Engineering Department. Hydrological models, flood simulation, and watershed analysis tools.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Right Wing, Room CVL-L710",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn RIGHT → Tenth lab in the rear wing is CVL-L710 — Water Resources Lab. ⚠️ Hard hats and safety boots required in material testing areas.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-L710",
+    "lab_name": "Water Resources Lab",
+    "equipment": "Hydrological models, flood simulation, and watershed analysis tools",
+    "nearby_landmarks": "Right wing, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 141,
+    "name": "Teachers Room ME-TR101",
+    "category": "teachers_room",
+    "description": "Faculty room for Mechanical Engineering Department staff. Accommodates 20 faculty members. Used for staff meetings, student consultations, and administrative work.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Left Corridor, Room ME-TR101",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn LEFT → Teachers Room ME-TR101 is midway down the left corridor — large room with frosted glass door.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-TR101",
+    "capacity": 20,
+    "nearby_landmarks": "Left corridor midway, 1st Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 142,
+    "name": "Teachers Room CE-TR201",
+    "category": "teachers_room",
+    "description": "Faculty room for Chemical Engineering Department staff. Accommodates 18 faculty members. Used for staff meetings, student consultations, and administrative work.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Left Corridor, Room CE-TR201",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn LEFT → Teachers Room CE-TR201 is midway down the left corridor — large room with frosted glass door.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-TR201",
+    "capacity": 18,
+    "nearby_landmarks": "Left corridor midway, 2nd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 143,
+    "name": "Teachers Room IT-TR301",
+    "category": "teachers_room",
+    "description": "Faculty room for Information Technology Department staff. Accommodates 22 faculty members. Used for staff meetings, student consultations, and administrative work.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Left Corridor, Room IT-TR301",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn LEFT → Teachers Room IT-TR301 is midway down the left corridor — large room with frosted glass door.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-TR301",
+    "capacity": 22,
+    "nearby_landmarks": "Left corridor midway, 3rd Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 144,
+    "name": "Teachers Room CSE-TR401",
+    "category": "teachers_room",
+    "description": "Faculty room for Computer Engineering Department staff. Accommodates 25 faculty members. Used for staff meetings, student consultations, and administrative work.",
+    "opening_hours": {
+      "monday": "08:00-20:00",
+      "tuesday": "08:00-20:00",
+      "wednesday": "08:00-20:00",
+      "thursday": "08:00-20:00",
+      "friday": "08:00-18:00",
+      "saturday": "09:00-14:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Left Corridor, Room CSE-TR401",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn LEFT → Teachers Room CSE-TR401 is midway down the left corridor — large room with frosted glass door.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-TR401",
+    "capacity": 25,
+    "nearby_landmarks": "Left corridor midway, 4th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 145,
+    "name": "Teachers Room ENTC-TR501",
+    "category": "teachers_room",
+    "description": "Faculty room for Electronics & Telecommunication (ENTC) Department staff. Accommodates 20 faculty members. Used for staff meetings, student consultations, and administrative work.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Left Corridor, Room ENTC-TR501",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn LEFT → Teachers Room ENTC-TR501 is midway down the left corridor — large room with frosted glass door.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-TR501",
+    "capacity": 20,
+    "nearby_landmarks": "Left corridor midway, 5th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 146,
+    "name": "Teachers Room EE-TR601",
+    "category": "teachers_room",
+    "description": "Faculty room for Electrical Engineering Department staff. Accommodates 19 faculty members. Used for staff meetings, student consultations, and administrative work.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Left Corridor, Room EE-TR601",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn LEFT → Teachers Room EE-TR601 is midway down the left corridor — large room with frosted glass door.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-TR601",
+    "capacity": 19,
+    "nearby_landmarks": "Left corridor midway, 6th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 147,
+    "name": "Teachers Room CVL-TR701",
+    "category": "teachers_room",
+    "description": "Faculty room for Civil Engineering Department staff. Accommodates 21 faculty members. Used for staff meetings, student consultations, and administrative work.",
+    "opening_hours": {
+      "monday": "08:00-18:00",
+      "tuesday": "08:00-18:00",
+      "wednesday": "08:00-18:00",
+      "thursday": "08:00-18:00",
+      "friday": "08:00-17:00",
+      "saturday": "09:00-13:00",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Left Corridor, Room CVL-TR701",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn LEFT → Teachers Room CVL-TR701 is midway down the left corridor — large room with frosted glass door.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-TR701",
+    "capacity": 21,
+    "nearby_landmarks": "Left corridor midway, 7th Floor Engineering Block",
+    "events": []
+  },
+  {
+    "id": 148,
+    "name": "HOD Office ME-HOD101",
+    "category": "hod_office",
+    "description": "Office of the Head of Mechanical Engineering Department. Used for official meetings, student appointments, and departmental administration. Appointments recommended.",
+    "opening_hours": {
+      "monday": "09:00-17:00",
+      "tuesday": "09:00-17:00",
+      "wednesday": "09:00-17:00",
+      "thursday": "09:00-17:00",
+      "friday": "09:00-16:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 1st Floor, Right Corridor End, Room ME-HOD101",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 1st Floor → Turn RIGHT → Walk to the very end of the corridor → HOD Office ME-HOD101 is the corner office with a nameplate on the door.",
+    "department": "Mechanical Engineering Department",
+    "floor": 1,
+    "room_number": "ME-HOD101",
+    "hod_title": "Head of Mechanical Engineering Department",
+    "nearby_landmarks": "End of right corridor, 1st Floor Engineering Block, corner office",
+    "events": []
+  },
+  {
+    "id": 149,
+    "name": "HOD Office CE-HOD201",
+    "category": "hod_office",
+    "description": "Office of the Head of Chemical Engineering Department. Used for official meetings, student appointments, and departmental administration. Appointments recommended.",
+    "opening_hours": {
+      "monday": "09:00-17:00",
+      "tuesday": "09:00-17:00",
+      "wednesday": "09:00-17:00",
+      "thursday": "09:00-17:00",
+      "friday": "09:00-16:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5091,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 2nd Floor, Right Corridor End, Room CE-HOD201",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 2nd Floor → Turn RIGHT → Walk to the very end of the corridor → HOD Office CE-HOD201 is the corner office with a nameplate on the door.",
+    "department": "Chemical Engineering Department",
+    "floor": 2,
+    "room_number": "CE-HOD201",
+    "hod_title": "Head of Chemical Engineering Department",
+    "nearby_landmarks": "End of right corridor, 2nd Floor Engineering Block, corner office",
+    "events": []
+  },
+  {
+    "id": 150,
+    "name": "HOD Office IT-HOD301",
+    "category": "hod_office",
+    "description": "Office of the Head of Information Technology Department. Used for official meetings, student appointments, and departmental administration. Appointments recommended.",
+    "opening_hours": {
+      "monday": "09:00-17:00",
+      "tuesday": "09:00-17:00",
+      "wednesday": "09:00-17:00",
+      "thursday": "09:00-17:00",
+      "friday": "09:00-16:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 3rd Floor, Right Corridor End, Room IT-HOD301",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 3rd Floor → Turn RIGHT → Walk to the very end of the corridor → HOD Office IT-HOD301 is the corner office with a nameplate on the door.",
+    "department": "Information Technology Department",
+    "floor": 3,
+    "room_number": "IT-HOD301",
+    "hod_title": "Head of Information Technology Department",
+    "nearby_landmarks": "End of right corridor, 3rd Floor Engineering Block, corner office",
+    "events": []
+  },
+  {
+    "id": 151,
+    "name": "HOD Office CSE-HOD401",
+    "category": "hod_office",
+    "description": "Office of the Head of Computer Engineering Department. Used for official meetings, student appointments, and departmental administration. Appointments recommended.",
+    "opening_hours": {
+      "monday": "09:00-17:00",
+      "tuesday": "09:00-17:00",
+      "wednesday": "09:00-17:00",
+      "thursday": "09:00-17:00",
+      "friday": "09:00-16:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5092,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 4th Floor, Right Corridor End, Room CSE-HOD401",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 4th Floor → Turn RIGHT → Walk to the very end of the corridor → HOD Office CSE-HOD401 is the corner office with a nameplate on the door.",
+    "department": "Computer Engineering Department",
+    "floor": 4,
+    "room_number": "CSE-HOD401",
+    "hod_title": "Head of Computer Engineering Department",
+    "nearby_landmarks": "End of right corridor, 4th Floor Engineering Block, corner office",
+    "events": []
+  },
+  {
+    "id": 152,
+    "name": "HOD Office ENTC-HOD501",
+    "category": "hod_office",
+    "description": "Office of the Head of Electronics & Telecommunication Department. Used for official meetings, student appointments, and departmental administration. Appointments recommended.",
+    "opening_hours": {
+      "monday": "09:00-17:00",
+      "tuesday": "09:00-17:00",
+      "wednesday": "09:00-17:00",
+      "thursday": "09:00-17:00",
+      "friday": "09:00-16:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 5th Floor, Right Corridor End, Room ENTC-HOD501",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 5th Floor → Turn RIGHT → Walk to the very end of the corridor → HOD Office ENTC-HOD501 is the corner office with a nameplate on the door.",
+    "department": "Electronics & Telecommunication (ENTC) Department",
+    "floor": 5,
+    "room_number": "ENTC-HOD501",
+    "hod_title": "Head of Electronics & Telecommunication Department",
+    "nearby_landmarks": "End of right corridor, 5th Floor Engineering Block, corner office",
+    "events": []
+  },
+  {
+    "id": 153,
+    "name": "HOD Office EE-HOD601",
+    "category": "hod_office",
+    "description": "Office of the Head of Electrical Engineering Department. Used for official meetings, student appointments, and departmental administration. Appointments recommended.",
+    "opening_hours": {
+      "monday": "09:00-17:00",
+      "tuesday": "09:00-17:00",
+      "wednesday": "09:00-17:00",
+      "thursday": "09:00-17:00",
+      "friday": "09:00-16:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5093,
+      "lng": 13.4042
+    },
+    "map_reference": "Engineering Block, 6th Floor, Right Corridor End, Room EE-HOD601",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 6th Floor → Turn RIGHT → Walk to the very end of the corridor → HOD Office EE-HOD601 is the corner office with a nameplate on the door.",
+    "department": "Electrical Engineering Department",
+    "floor": 6,
+    "room_number": "EE-HOD601",
+    "hod_title": "Head of Electrical Engineering Department",
+    "nearby_landmarks": "End of right corridor, 6th Floor Engineering Block, corner office",
+    "events": []
+  },
+  {
+    "id": 154,
+    "name": "HOD Office CVL-HOD701",
+    "category": "hod_office",
+    "description": "Office of the Head of Civil Engineering Department. Used for official meetings, student appointments, and departmental administration. Appointments recommended.",
+    "opening_hours": {
+      "monday": "09:00-17:00",
+      "tuesday": "09:00-17:00",
+      "wednesday": "09:00-17:00",
+      "thursday": "09:00-17:00",
+      "friday": "09:00-16:00",
+      "saturday": "Closed",
+      "sunday": "Closed"
+    },
+    "coordinates": {
+      "lat": 52.5094,
+      "lng": 13.4041
+    },
+    "map_reference": "Engineering Block, 7th Floor, Right Corridor End, Room CVL-HOD701",
+    "directions_from_entrance": "Enter Engineering Block → Lift/Stairs to 7th Floor → Turn RIGHT → Walk to the very end of the corridor → HOD Office CVL-HOD701 is the corner office with a nameplate on the door.",
+    "department": "Civil Engineering Department",
+    "floor": 7,
+    "room_number": "CVL-HOD701",
+    "hod_title": "Head of Civil Engineering Department",
+    "nearby_landmarks": "End of right corridor, 7th Floor Engineering Block, corner office",
+    "events": []
+  }
+]

@@ -1,0 +1,735 @@
+query,intent,entity
+Where is the library?,find_location,Main Library
+How do I get to the main library?,find_location,Main Library
+Can you show me where the library is?,find_location,Main Library
+I need to find a place to study with books,find_location,Main Library
+Where are the books and study desks?,find_location,Main Library
+What time does the library open?,ask_hours,Main Library
+Is the library open on Sunday?,ask_hours,Main Library
+When does the library close on Saturday?,ask_hours,Main Library
+What are the library opening hours?,ask_hours,Main Library
+Is the library open late on weekdays?,ask_hours,Main Library
+What events are at the library?,find_event,Main Library
+Are there any workshops at the library?,find_event,Main Library
+Where is the cafeteria?,find_location,Main Cafeteria
+Where can I get food on campus?,find_location,Main Cafeteria
+Where do students eat?,find_location,Main Cafeteria
+I am hungry — where is the dining area?,find_location,Main Cafeteria
+Where is the canteen?,find_location,Main Cafeteria
+Is the cafeteria open on Sunday?,ask_hours,Main Cafeteria
+What time does the cafeteria close?,ask_hours,Main Cafeteria
+Is the cafeteria open on weekends?,ask_hours,Main Cafeteria
+What are the cafeteria hours?,ask_hours,Main Cafeteria
+What events are at the cafeteria?,find_event,Main Cafeteria
+Where is the coffee shop?,find_location,Campus Coffee Shop
+Where can I get a coffee?,find_location,Campus Coffee Shop
+Is there a cafe on campus?,find_location,Campus Coffee Shop
+Where can I get a hot drink?,find_location,Campus Coffee Shop
+Is the coffee shop open on Sunday?,ask_hours,Campus Coffee Shop
+What time does the coffee shop open?,ask_hours,Campus Coffee Shop
+When does the cafe close?,ask_hours,Campus Coffee Shop
+Where is the student union?,find_location,Student Union
+Where is the student union located?,find_location,Student Union
+I need to find the student union building,find_location,Student Union
+Where do students socialise on campus?,find_location,Student Union
+Where is the SU?,find_location,Student Union
+Is the student union open on weekends?,ask_hours,Student Union
+What time does the student union open?,ask_hours,Student Union
+Are there any events at the student union?,find_event,Student Union
+What is on at the student union tonight?,find_event,Student Union
+What events are at the student union?,find_event,Student Union
+Where is the gym?,find_location,Sports & Fitness Centre
+Where is the sports centre?,find_location,Sports & Fitness Centre
+Where can I exercise on campus?,find_location,Sports & Fitness Centre
+Where is the fitness centre?,find_location,Sports & Fitness Centre
+I want to go for a run — where is sports?,find_location,Sports & Fitness Centre
+Is the gym open on Sunday?,ask_hours,Sports & Fitness Centre
+Is the gym open on weekends?,ask_hours,Sports & Fitness Centre
+What time does the gym open?,ask_hours,Sports & Fitness Centre
+When does the fitness centre close?,ask_hours,Sports & Fitness Centre
+Are there sports events this week?,find_event,Sports & Fitness Centre
+What fitness events are on?,find_event,Sports & Fitness Centre
+Where is the IT lab?,find_location,IT & Computer Lab
+Where can I use a computer?,find_location,IT & Computer Lab
+Where is the computer room?,find_location,IT & Computer Lab
+Where can I print and use a PC?,find_location,IT & Computer Lab
+Is the IT lab open on Saturday?,ask_hours,IT & Computer Lab
+When does the computer lab close?,ask_hours,IT & Computer Lab
+Where is the printing room?,find_location,Printing & Stationery Centre
+Where can I print documents?,find_location,Printing & Stationery Centre
+Where can I photocopy something?,find_location,Printing & Stationery Centre
+Where is the print centre?,find_location,Printing & Stationery Centre
+Is the printing room open on Saturday?,ask_hours,Printing & Stationery Centre
+What time does the printing centre close?,ask_hours,Printing & Stationery Centre
+Where is the admissions office?,find_location,Admissions & Registry Office
+Where do I go for student registration?,find_location,Admissions & Registry Office
+Where is the registry?,find_location,Admissions & Registry Office
+Where do I submit my dissertation?,find_location,Admissions & Registry Office
+Where can I get my student ID card?,find_location,Admissions & Registry Office
+Is the admissions office open Saturday?,ask_hours,Admissions & Registry Office
+What time does the registry open?,ask_hours,Admissions & Registry Office
+Where is the career centre?,find_location,Career Services Centre
+Where can I get career advice?,find_location,Career Services Centre
+Where do I go for CV help?,find_location,Career Services Centre
+Where can I find job listings on campus?,find_location,Career Services Centre
+Where is careers and employability?,find_location,Career Services Centre
+What time does the career centre open?,ask_hours,Career Services Centre
+Is the career centre open on Saturday?,ask_hours,Career Services Centre
+Are there career fairs this week?,find_event,Career Services Centre
+What career events are coming up?,find_event,Career Services Centre
+Where is the medical centre?,find_location,Medical & Counselling Centre
+Where can I see a doctor on campus?,find_location,Medical & Counselling Centre
+Where is the health centre?,find_location,Medical & Counselling Centre
+Where do I go if I feel unwell?,find_location,Medical & Counselling Centre
+Is the medical centre open today?,ask_hours,Medical & Counselling Centre
+What time does the health centre open?,ask_hours,Medical & Counselling Centre
+Where is the auditorium?,find_location,Main Auditorium
+Where is the main hall?,find_location,Main Auditorium
+Where are graduation ceremonies held?,find_location,Main Auditorium
+Is there anything on at the auditorium?,find_event,Main Auditorium
+What events are in the auditorium?,find_event,Main Auditorium
+Where is the research lab?,find_location,Research & Innovation Lab
+Where is the innovation centre?,find_location,Research & Innovation Lab
+Is there a hackathon coming up?,find_event,Research & Innovation Lab
+What research events are on?,find_event,Research & Innovation Lab
+Are there any innovation events this week?,find_event,Research & Innovation Lab
+Where is the security office?,find_location,Campus Security Office
+Where do I report a lost item?,find_location,Campus Security Office
+Where can I find campus security?,find_location,Campus Security Office
+What time does security open?,ask_hours,Campus Security Office
+Where is the campus garden?,find_location,Campus Garden & Outdoor Study Area
+Where can I study outside?,find_location,Campus Garden & Outdoor Study Area
+Where are the outdoor benches?,find_location,Campus Garden & Outdoor Study Area
+Where is the accommodation office?,find_location,Student Accommodation Office
+Where do I ask about student housing?,find_location,Student Accommodation Office
+Where is student accommodation?,find_location,Student Accommodation Office
+Where is lecture hall A?,find_location,Lecture Hall A
+How do I get to lecture hall A?,find_location,Lecture Hall A
+Where is the main lecture theatre?,find_location,Lecture Hall A
+Where is seminar room 1?,find_location,Seminar Room 1
+Where are the seminar rooms?,find_location,Seminar Room 1
+Where is the engineering college?,find_location,Engineering College - Main Block
+How do I get to the engineering block?,find_location,Engineering College - Main Block
+Where is the main engineering building?,find_location,Engineering College - Main Block
+What floor is the engineering entrance on?,find_location,Engineering College - Main Block
+What events are at the engineering college?,find_event,Engineering College - Main Block
+Are there engineering fest events this week?,find_event,Engineering College - Main Block
+Is there a project exhibition coming up?,find_event,Engineering College - Main Block
+What competitions are happening in engineering?,find_event,Engineering College - Main Block
+What time does the engineering block open?,ask_hours,Engineering College - Main Block
+Where is the mechanical engineering department?,find_location,Mechanical Engineering Department
+Which floor is mechanical engineering on?,find_location,Mechanical Engineering Department
+How do I get to the mechanical engineering department?,find_location,Mechanical Engineering Department
+Where is the mechanical department?,find_location,Mechanical Engineering Department
+I need to find mechanical engineering,find_location,Mechanical Engineering Department
+What floor is mechanical engineering?,find_location,Mechanical Engineering Department
+What time does mechanical engineering open?,ask_hours,Mechanical Engineering Department
+Is the mechanical engineering department open on Saturday?,ask_hours,Mechanical Engineering Department
+What events are in mechanical engineering?,find_event,Mechanical Engineering Department
+Are there any mechanical engineering workshops this week?,find_event,Mechanical Engineering Department
+Where is the chemical engineering department?,find_location,Chemical Engineering Department
+Which floor is chemical engineering on?,find_location,Chemical Engineering Department
+How do I get to the chemical engineering department?,find_location,Chemical Engineering Department
+Where is the chemical department?,find_location,Chemical Engineering Department
+I need to find chemical engineering,find_location,Chemical Engineering Department
+What floor is chemical engineering?,find_location,Chemical Engineering Department
+What time does chemical engineering open?,ask_hours,Chemical Engineering Department
+Is the chemical engineering department open on Saturday?,ask_hours,Chemical Engineering Department
+What events are in chemical engineering?,find_event,Chemical Engineering Department
+Are there any chemical engineering workshops this week?,find_event,Chemical Engineering Department
+Where is the information technology department?,find_location,Information Technology Department
+Which floor is information technology on?,find_location,Information Technology Department
+How do I get to the information technology department?,find_location,Information Technology Department
+Where is the IT department?,find_location,Information Technology Department
+I need to find information technology,find_location,Information Technology Department
+What floor is information technology?,find_location,Information Technology Department
+What time does information technology open?,ask_hours,Information Technology Department
+Is the information technology department open on Saturday?,ask_hours,Information Technology Department
+What events are in information technology?,find_event,Information Technology Department
+Are there any information technology workshops this week?,find_event,Information Technology Department
+Where is the computer engineering department?,find_location,Computer Engineering Department
+Which floor is computer engineering on?,find_location,Computer Engineering Department
+How do I get to the computer engineering department?,find_location,Computer Engineering Department
+Where is the CSE department?,find_location,Computer Engineering Department
+I need to find computer engineering,find_location,Computer Engineering Department
+What floor is computer engineering?,find_location,Computer Engineering Department
+What time does computer engineering open?,ask_hours,Computer Engineering Department
+Is the computer engineering department open on Saturday?,ask_hours,Computer Engineering Department
+What events are in computer engineering?,find_event,Computer Engineering Department
+Are there any computer engineering workshops this week?,find_event,Computer Engineering Department
+Where is the ENTC department?,find_location,Electronics & Telecommunication (ENTC) Department
+Which floor is ENTC on?,find_location,Electronics & Telecommunication (ENTC) Department
+How do I get to the ENTC department?,find_location,Electronics & Telecommunication (ENTC) Department
+Where is the electronics and telecommunication department?,find_location,Electronics & Telecommunication (ENTC) Department
+I need to find ENTC,find_location,Electronics & Telecommunication (ENTC) Department
+What floor is ENTC?,find_location,Electronics & Telecommunication (ENTC) Department
+What time does ENTC open?,ask_hours,Electronics & Telecommunication (ENTC) Department
+Is the ENTC department open on Saturday?,ask_hours,Electronics & Telecommunication (ENTC) Department
+What events are in ENTC?,find_event,Electronics & Telecommunication (ENTC) Department
+Are there any ENTC workshops this week?,find_event,Electronics & Telecommunication (ENTC) Department
+Where is the electrical engineering department?,find_location,Electrical Engineering Department
+Which floor is electrical engineering on?,find_location,Electrical Engineering Department
+How do I get to the electrical engineering department?,find_location,Electrical Engineering Department
+Where is the electrical department?,find_location,Electrical Engineering Department
+I need to find electrical engineering,find_location,Electrical Engineering Department
+What floor is electrical engineering?,find_location,Electrical Engineering Department
+What time does electrical engineering open?,ask_hours,Electrical Engineering Department
+Is the electrical engineering department open on Saturday?,ask_hours,Electrical Engineering Department
+What events are in electrical engineering?,find_event,Electrical Engineering Department
+Are there any electrical engineering workshops this week?,find_event,Electrical Engineering Department
+Where is the civil engineering department?,find_location,Civil Engineering Department
+Which floor is civil engineering on?,find_location,Civil Engineering Department
+How do I get to the civil engineering department?,find_location,Civil Engineering Department
+Where is the civil department?,find_location,Civil Engineering Department
+I need to find civil engineering,find_location,Civil Engineering Department
+What floor is civil engineering?,find_location,Civil Engineering Department
+What time does civil engineering open?,ask_hours,Civil Engineering Department
+Is the civil engineering department open on Saturday?,ask_hours,Civil Engineering Department
+What events are in civil engineering?,find_event,Civil Engineering Department
+Are there any civil engineering workshops this week?,find_event,Civil Engineering Department
+Where is the HOD office of mechanical engineering?,find_location,HOD Office ME-HOD101
+Where is the mechanical engineering head of department?,find_location,HOD Office ME-HOD101
+Where is the mechanical engineering HOD office?,find_location,HOD Office ME-HOD101
+I need to see the head of mechanical engineering,find_location,HOD Office ME-HOD101
+Where is the mechanical HOD room?,find_location,HOD Office ME-HOD101
+Where is the HOD office of chemical engineering?,find_location,HOD Office CE-HOD202
+Where is the chemical engineering head of department?,find_location,HOD Office CE-HOD202
+Where is the chemical engineering HOD office?,find_location,HOD Office CE-HOD202
+I need to see the head of chemical engineering,find_location,HOD Office CE-HOD202
+Where is the chemical HOD room?,find_location,HOD Office CE-HOD202
+Where is the HOD office of information technology?,find_location,HOD Office IT-HOD303
+Where is the information technology head of department?,find_location,HOD Office IT-HOD303
+Where is the information technology HOD office?,find_location,HOD Office IT-HOD303
+I need to see the head of information technology,find_location,HOD Office IT-HOD303
+Where is the IT HOD room?,find_location,HOD Office IT-HOD303
+Where is the HOD office of computer engineering?,find_location,HOD Office CSE-HOD404
+Where is the computer engineering head of department?,find_location,HOD Office CSE-HOD404
+Where is the computer engineering HOD office?,find_location,HOD Office CSE-HOD404
+I need to see the head of computer engineering,find_location,HOD Office CSE-HOD404
+Where is the CSE HOD room?,find_location,HOD Office CSE-HOD404
+Where is the HOD office of ENTC?,find_location,HOD Office ENTC-HOD505
+Where is the ENTC head of department?,find_location,HOD Office ENTC-HOD505
+Where is the ENTC HOD office?,find_location,HOD Office ENTC-HOD505
+I need to see the head of ENTC,find_location,HOD Office ENTC-HOD505
+Where is the electronics and telecommunication HOD room?,find_location,HOD Office ENTC-HOD505
+Where is the HOD office of electrical engineering?,find_location,HOD Office EE-HOD606
+Where is the electrical engineering head of department?,find_location,HOD Office EE-HOD606
+Where is the electrical engineering HOD office?,find_location,HOD Office EE-HOD606
+I need to see the head of electrical engineering,find_location,HOD Office EE-HOD606
+Where is the electrical HOD room?,find_location,HOD Office EE-HOD606
+Where is the HOD office of civil engineering?,find_location,HOD Office CVL-HOD707
+Where is the civil engineering head of department?,find_location,HOD Office CVL-HOD707
+Where is the civil engineering HOD office?,find_location,HOD Office CVL-HOD707
+I need to see the head of civil engineering,find_location,HOD Office CVL-HOD707
+Where is the civil HOD room?,find_location,HOD Office CVL-HOD707
+Where is the teachers room in mechanical engineering?,find_location,Teachers Room ME-TR101
+Where is the mechanical engineering faculty room?,find_location,Teachers Room ME-TR101
+Where can I find a professor in mechanical engineering?,find_location,Teachers Room ME-TR101
+Where is the mechanical engineering staff room?,find_location,Teachers Room ME-TR101
+Where is the mechanical teachers room?,find_location,Teachers Room ME-TR101
+Where is the teachers room in chemical engineering?,find_location,Teachers Room CE-TR202
+Where is the chemical engineering faculty room?,find_location,Teachers Room CE-TR202
+Where can I find a professor in chemical engineering?,find_location,Teachers Room CE-TR202
+Where is the chemical engineering staff room?,find_location,Teachers Room CE-TR202
+Where is the chemical teachers room?,find_location,Teachers Room CE-TR202
+Where is the teachers room in information technology?,find_location,Teachers Room IT-TR303
+Where is the information technology faculty room?,find_location,Teachers Room IT-TR303
+Where can I find a professor in information technology?,find_location,Teachers Room IT-TR303
+Where is the information technology staff room?,find_location,Teachers Room IT-TR303
+Where is the IT teachers room?,find_location,Teachers Room IT-TR303
+Where is the teachers room in computer engineering?,find_location,Teachers Room CSE-TR404
+Where is the computer engineering faculty room?,find_location,Teachers Room CSE-TR404
+Where can I find a professor in computer engineering?,find_location,Teachers Room CSE-TR404
+Where is the computer engineering staff room?,find_location,Teachers Room CSE-TR404
+Where is the CSE teachers room?,find_location,Teachers Room CSE-TR404
+Where is the teachers room in ENTC?,find_location,Teachers Room ENTC-TR505
+Where is the ENTC faculty room?,find_location,Teachers Room ENTC-TR505
+Where can I find a professor in ENTC?,find_location,Teachers Room ENTC-TR505
+Where is the ENTC staff room?,find_location,Teachers Room ENTC-TR505
+Where is the electronics and telecommunication teachers room?,find_location,Teachers Room ENTC-TR505
+Where is the teachers room in electrical engineering?,find_location,Teachers Room EE-TR606
+Where is the electrical engineering faculty room?,find_location,Teachers Room EE-TR606
+Where can I find a professor in electrical engineering?,find_location,Teachers Room EE-TR606
+Where is the electrical engineering staff room?,find_location,Teachers Room EE-TR606
+Where is the electrical teachers room?,find_location,Teachers Room EE-TR606
+Where is the teachers room in civil engineering?,find_location,Teachers Room CVL-TR707
+Where is the civil engineering faculty room?,find_location,Teachers Room CVL-TR707
+Where can I find a professor in civil engineering?,find_location,Teachers Room CVL-TR707
+Where is the civil engineering staff room?,find_location,Teachers Room CVL-TR707
+Where is the civil teachers room?,find_location,Teachers Room CVL-TR707
+Where is Thermodynamics Lab (ME-L101)?,find_location,Thermodynamics Lab (ME-L101)
+How do I find Thermodynamics Lab (ME-L101)?,find_location,Thermodynamics Lab (ME-L101)
+What floor is Thermodynamics Lab (ME-L101) on?,find_location,Thermodynamics Lab (ME-L101)
+Is Thermodynamics Lab (ME-L101) open on Saturday?,ask_hours,Thermodynamics Lab (ME-L101)
+What time does Thermodynamics Lab (ME-L101) open?,ask_hours,Thermodynamics Lab (ME-L101)
+Where is Fluid Mechanics Lab (ME-L102)?,find_location,Fluid Mechanics Lab (ME-L102)
+How do I find Fluid Mechanics Lab (ME-L102)?,find_location,Fluid Mechanics Lab (ME-L102)
+What floor is Fluid Mechanics Lab (ME-L102) on?,find_location,Fluid Mechanics Lab (ME-L102)
+Is Fluid Mechanics Lab (ME-L102) open on Saturday?,ask_hours,Fluid Mechanics Lab (ME-L102)
+What time does Fluid Mechanics Lab (ME-L102) open?,ask_hours,Fluid Mechanics Lab (ME-L102)
+Where is CAD/CAM Lab (ME-L103)?,find_location,CAD/CAM Lab (ME-L103)
+How do I find CAD/CAM Lab (ME-L103)?,find_location,CAD/CAM Lab (ME-L103)
+What floor is CAD/CAM Lab (ME-L103) on?,find_location,CAD/CAM Lab (ME-L103)
+Is CAD/CAM Lab (ME-L103) open on Saturday?,ask_hours,CAD/CAM Lab (ME-L103)
+What time does CAD/CAM Lab (ME-L103) open?,ask_hours,CAD/CAM Lab (ME-L103)
+Where is Manufacturing Lab (ME-L104)?,find_location,Manufacturing Lab (ME-L104)
+How do I find Manufacturing Lab (ME-L104)?,find_location,Manufacturing Lab (ME-L104)
+What floor is Manufacturing Lab (ME-L104) on?,find_location,Manufacturing Lab (ME-L104)
+Is Manufacturing Lab (ME-L104) open on Saturday?,ask_hours,Manufacturing Lab (ME-L104)
+What time does Manufacturing Lab (ME-L104) open?,ask_hours,Manufacturing Lab (ME-L104)
+Where is Robotics Lab (ME-L105)?,find_location,Robotics Lab (ME-L105)
+How do I find Robotics Lab (ME-L105)?,find_location,Robotics Lab (ME-L105)
+What floor is Robotics Lab (ME-L105) on?,find_location,Robotics Lab (ME-L105)
+Is Robotics Lab (ME-L105) open on Saturday?,ask_hours,Robotics Lab (ME-L105)
+What time does Robotics Lab (ME-L105) open?,ask_hours,Robotics Lab (ME-L105)
+Where is Automotive Lab (ME-L106)?,find_location,Automotive Lab (ME-L106)
+How do I find Automotive Lab (ME-L106)?,find_location,Automotive Lab (ME-L106)
+What floor is Automotive Lab (ME-L106) on?,find_location,Automotive Lab (ME-L106)
+Is Automotive Lab (ME-L106) open on Saturday?,ask_hours,Automotive Lab (ME-L106)
+What time does Automotive Lab (ME-L106) open?,ask_hours,Automotive Lab (ME-L106)
+Where is Metrology Lab (ME-L107)?,find_location,Metrology Lab (ME-L107)
+How do I find Metrology Lab (ME-L107)?,find_location,Metrology Lab (ME-L107)
+What floor is Metrology Lab (ME-L107) on?,find_location,Metrology Lab (ME-L107)
+Is Metrology Lab (ME-L107) open on Saturday?,ask_hours,Metrology Lab (ME-L107)
+What time does Metrology Lab (ME-L107) open?,ask_hours,Metrology Lab (ME-L107)
+Where is Heat Transfer Lab (ME-L108)?,find_location,Heat Transfer Lab (ME-L108)
+How do I find Heat Transfer Lab (ME-L108)?,find_location,Heat Transfer Lab (ME-L108)
+What floor is Heat Transfer Lab (ME-L108) on?,find_location,Heat Transfer Lab (ME-L108)
+Is Heat Transfer Lab (ME-L108) open on Saturday?,ask_hours,Heat Transfer Lab (ME-L108)
+What time does Heat Transfer Lab (ME-L108) open?,ask_hours,Heat Transfer Lab (ME-L108)
+Where is Machine Design Lab (ME-L109)?,find_location,Machine Design Lab (ME-L109)
+How do I find Machine Design Lab (ME-L109)?,find_location,Machine Design Lab (ME-L109)
+What floor is Machine Design Lab (ME-L109) on?,find_location,Machine Design Lab (ME-L109)
+Is Machine Design Lab (ME-L109) open on Saturday?,ask_hours,Machine Design Lab (ME-L109)
+What time does Machine Design Lab (ME-L109) open?,ask_hours,Machine Design Lab (ME-L109)
+Where is Material Testing Lab (ME-L110)?,find_location,Material Testing Lab (ME-L110)
+How do I find Material Testing Lab (ME-L110)?,find_location,Material Testing Lab (ME-L110)
+What floor is Material Testing Lab (ME-L110) on?,find_location,Material Testing Lab (ME-L110)
+Is Material Testing Lab (ME-L110) open on Saturday?,ask_hours,Material Testing Lab (ME-L110)
+What time does Material Testing Lab (ME-L110) open?,ask_hours,Material Testing Lab (ME-L110)
+Where is Process Control Lab (CE-L201)?,find_location,Process Control Lab (CE-L201)
+How do I find Process Control Lab (CE-L201)?,find_location,Process Control Lab (CE-L201)
+What floor is Process Control Lab (CE-L201) on?,find_location,Process Control Lab (CE-L201)
+Is Process Control Lab (CE-L201) open on Saturday?,ask_hours,Process Control Lab (CE-L201)
+What time does Process Control Lab (CE-L201) open?,ask_hours,Process Control Lab (CE-L201)
+Where is Chemical Reaction Lab (CE-L202)?,find_location,Chemical Reaction Lab (CE-L202)
+How do I find Chemical Reaction Lab (CE-L202)?,find_location,Chemical Reaction Lab (CE-L202)
+What floor is Chemical Reaction Lab (CE-L202) on?,find_location,Chemical Reaction Lab (CE-L202)
+Is Chemical Reaction Lab (CE-L202) open on Saturday?,ask_hours,Chemical Reaction Lab (CE-L202)
+What time does Chemical Reaction Lab (CE-L202) open?,ask_hours,Chemical Reaction Lab (CE-L202)
+Where is Thermodynamics Lab (CE-L203)?,find_location,Thermodynamics Lab (CE-L203)
+How do I find Thermodynamics Lab (CE-L203)?,find_location,Thermodynamics Lab (CE-L203)
+What floor is Thermodynamics Lab (CE-L203) on?,find_location,Thermodynamics Lab (CE-L203)
+Is Thermodynamics Lab (CE-L203) open on Saturday?,ask_hours,Thermodynamics Lab (CE-L203)
+What time does Thermodynamics Lab (CE-L203) open?,ask_hours,Thermodynamics Lab (CE-L203)
+Where is Fluid Operations Lab (CE-L204)?,find_location,Fluid Operations Lab (CE-L204)
+How do I find Fluid Operations Lab (CE-L204)?,find_location,Fluid Operations Lab (CE-L204)
+What floor is Fluid Operations Lab (CE-L204) on?,find_location,Fluid Operations Lab (CE-L204)
+Is Fluid Operations Lab (CE-L204) open on Saturday?,ask_hours,Fluid Operations Lab (CE-L204)
+What time does Fluid Operations Lab (CE-L204) open?,ask_hours,Fluid Operations Lab (CE-L204)
+Where is Mass Transfer Lab (CE-L205)?,find_location,Mass Transfer Lab (CE-L205)
+How do I find Mass Transfer Lab (CE-L205)?,find_location,Mass Transfer Lab (CE-L205)
+What floor is Mass Transfer Lab (CE-L205) on?,find_location,Mass Transfer Lab (CE-L205)
+Is Mass Transfer Lab (CE-L205) open on Saturday?,ask_hours,Mass Transfer Lab (CE-L205)
+What time does Mass Transfer Lab (CE-L205) open?,ask_hours,Mass Transfer Lab (CE-L205)
+Where is Heat Transfer Lab (CE-L206)?,find_location,Heat Transfer Lab (CE-L206)
+How do I find Heat Transfer Lab (CE-L206)?,find_location,Heat Transfer Lab (CE-L206)
+What floor is Heat Transfer Lab (CE-L206) on?,find_location,Heat Transfer Lab (CE-L206)
+Is Heat Transfer Lab (CE-L206) open on Saturday?,ask_hours,Heat Transfer Lab (CE-L206)
+What time does Heat Transfer Lab (CE-L206) open?,ask_hours,Heat Transfer Lab (CE-L206)
+Where is Polymer Lab (CE-L207)?,find_location,Polymer Lab (CE-L207)
+How do I find Polymer Lab (CE-L207)?,find_location,Polymer Lab (CE-L207)
+What floor is Polymer Lab (CE-L207) on?,find_location,Polymer Lab (CE-L207)
+Is Polymer Lab (CE-L207) open on Saturday?,ask_hours,Polymer Lab (CE-L207)
+What time does Polymer Lab (CE-L207) open?,ask_hours,Polymer Lab (CE-L207)
+Where is Analytical Chemistry Lab (CE-L208)?,find_location,Analytical Chemistry Lab (CE-L208)
+How do I find Analytical Chemistry Lab (CE-L208)?,find_location,Analytical Chemistry Lab (CE-L208)
+What floor is Analytical Chemistry Lab (CE-L208) on?,find_location,Analytical Chemistry Lab (CE-L208)
+Is Analytical Chemistry Lab (CE-L208) open on Saturday?,ask_hours,Analytical Chemistry Lab (CE-L208)
+What time does Analytical Chemistry Lab (CE-L208) open?,ask_hours,Analytical Chemistry Lab (CE-L208)
+Where is Environmental Engineering Lab (CE-L209)?,find_location,Environmental Engineering Lab (CE-L209)
+How do I find Environmental Engineering Lab (CE-L209)?,find_location,Environmental Engineering Lab (CE-L209)
+What floor is Environmental Engineering Lab (CE-L209) on?,find_location,Environmental Engineering Lab (CE-L209)
+Is Environmental Engineering Lab (CE-L209) open on Saturday?,ask_hours,Environmental Engineering Lab (CE-L209)
+What time does Environmental Engineering Lab (CE-L209) open?,ask_hours,Environmental Engineering Lab (CE-L209)
+Where is Instrumentation Lab (CE-L210)?,find_location,Instrumentation Lab (CE-L210)
+How do I find Instrumentation Lab (CE-L210)?,find_location,Instrumentation Lab (CE-L210)
+What floor is Instrumentation Lab (CE-L210) on?,find_location,Instrumentation Lab (CE-L210)
+Is Instrumentation Lab (CE-L210) open on Saturday?,ask_hours,Instrumentation Lab (CE-L210)
+What time does Instrumentation Lab (CE-L210) open?,ask_hours,Instrumentation Lab (CE-L210)
+Where is Programming Lab (IT-L301)?,find_location,Programming Lab (IT-L301)
+How do I find Programming Lab (IT-L301)?,find_location,Programming Lab (IT-L301)
+What floor is Programming Lab (IT-L301) on?,find_location,Programming Lab (IT-L301)
+Is Programming Lab (IT-L301) open on Saturday?,ask_hours,Programming Lab (IT-L301)
+What time does Programming Lab (IT-L301) open?,ask_hours,Programming Lab (IT-L301)
+Where is Networking Lab (IT-L302)?,find_location,Networking Lab (IT-L302)
+How do I find Networking Lab (IT-L302)?,find_location,Networking Lab (IT-L302)
+What floor is Networking Lab (IT-L302) on?,find_location,Networking Lab (IT-L302)
+Is Networking Lab (IT-L302) open on Saturday?,ask_hours,Networking Lab (IT-L302)
+What time does Networking Lab (IT-L302) open?,ask_hours,Networking Lab (IT-L302)
+Where is Database Lab (IT-L303)?,find_location,Database Lab (IT-L303)
+How do I find Database Lab (IT-L303)?,find_location,Database Lab (IT-L303)
+What floor is Database Lab (IT-L303) on?,find_location,Database Lab (IT-L303)
+Is Database Lab (IT-L303) open on Saturday?,ask_hours,Database Lab (IT-L303)
+What time does Database Lab (IT-L303) open?,ask_hours,Database Lab (IT-L303)
+Where is Cloud Computing Lab (IT-L304)?,find_location,Cloud Computing Lab (IT-L304)
+How do I find Cloud Computing Lab (IT-L304)?,find_location,Cloud Computing Lab (IT-L304)
+What floor is Cloud Computing Lab (IT-L304) on?,find_location,Cloud Computing Lab (IT-L304)
+Is Cloud Computing Lab (IT-L304) open on Saturday?,ask_hours,Cloud Computing Lab (IT-L304)
+What time does Cloud Computing Lab (IT-L304) open?,ask_hours,Cloud Computing Lab (IT-L304)
+Where is Cybersecurity Lab (IT-L305)?,find_location,Cybersecurity Lab (IT-L305)
+How do I find Cybersecurity Lab (IT-L305)?,find_location,Cybersecurity Lab (IT-L305)
+What floor is Cybersecurity Lab (IT-L305) on?,find_location,Cybersecurity Lab (IT-L305)
+Is Cybersecurity Lab (IT-L305) open on Saturday?,ask_hours,Cybersecurity Lab (IT-L305)
+What time does Cybersecurity Lab (IT-L305) open?,ask_hours,Cybersecurity Lab (IT-L305)
+Where is Web Development Lab (IT-L306)?,find_location,Web Development Lab (IT-L306)
+How do I find Web Development Lab (IT-L306)?,find_location,Web Development Lab (IT-L306)
+What floor is Web Development Lab (IT-L306) on?,find_location,Web Development Lab (IT-L306)
+Is Web Development Lab (IT-L306) open on Saturday?,ask_hours,Web Development Lab (IT-L306)
+What time does Web Development Lab (IT-L306) open?,ask_hours,Web Development Lab (IT-L306)
+Where is Mobile App Development Lab (IT-L307)?,find_location,Mobile App Development Lab (IT-L307)
+How do I find Mobile App Development Lab (IT-L307)?,find_location,Mobile App Development Lab (IT-L307)
+What floor is Mobile App Development Lab (IT-L307) on?,find_location,Mobile App Development Lab (IT-L307)
+Is Mobile App Development Lab (IT-L307) open on Saturday?,ask_hours,Mobile App Development Lab (IT-L307)
+What time does Mobile App Development Lab (IT-L307) open?,ask_hours,Mobile App Development Lab (IT-L307)
+Where is AI & Machine Learning Lab (IT-L308)?,find_location,AI & Machine Learning Lab (IT-L308)
+How do I find AI & Machine Learning Lab (IT-L308)?,find_location,AI & Machine Learning Lab (IT-L308)
+What floor is AI & Machine Learning Lab (IT-L308) on?,find_location,AI & Machine Learning Lab (IT-L308)
+Is AI & Machine Learning Lab (IT-L308) open on Saturday?,ask_hours,AI & Machine Learning Lab (IT-L308)
+What time does AI & Machine Learning Lab (IT-L308) open?,ask_hours,AI & Machine Learning Lab (IT-L308)
+Where is Data Analytics Lab (IT-L309)?,find_location,Data Analytics Lab (IT-L309)
+How do I find Data Analytics Lab (IT-L309)?,find_location,Data Analytics Lab (IT-L309)
+What floor is Data Analytics Lab (IT-L309) on?,find_location,Data Analytics Lab (IT-L309)
+Is Data Analytics Lab (IT-L309) open on Saturday?,ask_hours,Data Analytics Lab (IT-L309)
+What time does Data Analytics Lab (IT-L309) open?,ask_hours,Data Analytics Lab (IT-L309)
+Where is IoT Lab (IT-L310)?,find_location,IoT Lab (IT-L310)
+How do I find IoT Lab (IT-L310)?,find_location,IoT Lab (IT-L310)
+What floor is IoT Lab (IT-L310) on?,find_location,IoT Lab (IT-L310)
+Is IoT Lab (IT-L310) open on Saturday?,ask_hours,IoT Lab (IT-L310)
+What time does IoT Lab (IT-L310) open?,ask_hours,IoT Lab (IT-L310)
+Where is Computer Architecture Lab (CSE-L401)?,find_location,Computer Architecture Lab (CSE-L401)
+How do I find Computer Architecture Lab (CSE-L401)?,find_location,Computer Architecture Lab (CSE-L401)
+What floor is Computer Architecture Lab (CSE-L401) on?,find_location,Computer Architecture Lab (CSE-L401)
+Is Computer Architecture Lab (CSE-L401) open on Saturday?,ask_hours,Computer Architecture Lab (CSE-L401)
+What time does Computer Architecture Lab (CSE-L401) open?,ask_hours,Computer Architecture Lab (CSE-L401)
+Where is Operating Systems Lab (CSE-L402)?,find_location,Operating Systems Lab (CSE-L402)
+How do I find Operating Systems Lab (CSE-L402)?,find_location,Operating Systems Lab (CSE-L402)
+What floor is Operating Systems Lab (CSE-L402) on?,find_location,Operating Systems Lab (CSE-L402)
+Is Operating Systems Lab (CSE-L402) open on Saturday?,ask_hours,Operating Systems Lab (CSE-L402)
+What time does Operating Systems Lab (CSE-L402) open?,ask_hours,Operating Systems Lab (CSE-L402)
+Where is VLSI Design Lab (CSE-L403)?,find_location,VLSI Design Lab (CSE-L403)
+How do I find VLSI Design Lab (CSE-L403)?,find_location,VLSI Design Lab (CSE-L403)
+What floor is VLSI Design Lab (CSE-L403) on?,find_location,VLSI Design Lab (CSE-L403)
+Is VLSI Design Lab (CSE-L403) open on Saturday?,ask_hours,VLSI Design Lab (CSE-L403)
+What time does VLSI Design Lab (CSE-L403) open?,ask_hours,VLSI Design Lab (CSE-L403)
+Where is Embedded Systems Lab (CSE-L404)?,find_location,Embedded Systems Lab (CSE-L404)
+How do I find Embedded Systems Lab (CSE-L404)?,find_location,Embedded Systems Lab (CSE-L404)
+What floor is Embedded Systems Lab (CSE-L404) on?,find_location,Embedded Systems Lab (CSE-L404)
+Is Embedded Systems Lab (CSE-L404) open on Saturday?,ask_hours,Embedded Systems Lab (CSE-L404)
+What time does Embedded Systems Lab (CSE-L404) open?,ask_hours,Embedded Systems Lab (CSE-L404)
+Where is Software Engineering Lab (CSE-L405)?,find_location,Software Engineering Lab (CSE-L405)
+How do I find Software Engineering Lab (CSE-L405)?,find_location,Software Engineering Lab (CSE-L405)
+What floor is Software Engineering Lab (CSE-L405) on?,find_location,Software Engineering Lab (CSE-L405)
+Is Software Engineering Lab (CSE-L405) open on Saturday?,ask_hours,Software Engineering Lab (CSE-L405)
+What time does Software Engineering Lab (CSE-L405) open?,ask_hours,Software Engineering Lab (CSE-L405)
+Where is Computer Graphics Lab (CSE-L406)?,find_location,Computer Graphics Lab (CSE-L406)
+How do I find Computer Graphics Lab (CSE-L406)?,find_location,Computer Graphics Lab (CSE-L406)
+What floor is Computer Graphics Lab (CSE-L406) on?,find_location,Computer Graphics Lab (CSE-L406)
+Is Computer Graphics Lab (CSE-L406) open on Saturday?,ask_hours,Computer Graphics Lab (CSE-L406)
+What time does Computer Graphics Lab (CSE-L406) open?,ask_hours,Computer Graphics Lab (CSE-L406)
+Where is Compiler Design Lab (CSE-L407)?,find_location,Compiler Design Lab (CSE-L407)
+How do I find Compiler Design Lab (CSE-L407)?,find_location,Compiler Design Lab (CSE-L407)
+What floor is Compiler Design Lab (CSE-L407) on?,find_location,Compiler Design Lab (CSE-L407)
+Is Compiler Design Lab (CSE-L407) open on Saturday?,ask_hours,Compiler Design Lab (CSE-L407)
+What time does Compiler Design Lab (CSE-L407) open?,ask_hours,Compiler Design Lab (CSE-L407)
+Where is Microprocessor Lab (CSE-L408)?,find_location,Microprocessor Lab (CSE-L408)
+How do I find Microprocessor Lab (CSE-L408)?,find_location,Microprocessor Lab (CSE-L408)
+What floor is Microprocessor Lab (CSE-L408) on?,find_location,Microprocessor Lab (CSE-L408)
+Is Microprocessor Lab (CSE-L408) open on Saturday?,ask_hours,Microprocessor Lab (CSE-L408)
+What time does Microprocessor Lab (CSE-L408) open?,ask_hours,Microprocessor Lab (CSE-L408)
+Where is Digital Electronics Lab (CSE-L409)?,find_location,Digital Electronics Lab (CSE-L409)
+How do I find Digital Electronics Lab (CSE-L409)?,find_location,Digital Electronics Lab (CSE-L409)
+What floor is Digital Electronics Lab (CSE-L409) on?,find_location,Digital Electronics Lab (CSE-L409)
+Is Digital Electronics Lab (CSE-L409) open on Saturday?,ask_hours,Digital Electronics Lab (CSE-L409)
+What time does Digital Electronics Lab (CSE-L409) open?,ask_hours,Digital Electronics Lab (CSE-L409)
+Where is Advanced Computing Lab (CSE-L410)?,find_location,Advanced Computing Lab (CSE-L410)
+How do I find Advanced Computing Lab (CSE-L410)?,find_location,Advanced Computing Lab (CSE-L410)
+What floor is Advanced Computing Lab (CSE-L410) on?,find_location,Advanced Computing Lab (CSE-L410)
+Is Advanced Computing Lab (CSE-L410) open on Saturday?,ask_hours,Advanced Computing Lab (CSE-L410)
+What time does Advanced Computing Lab (CSE-L410) open?,ask_hours,Advanced Computing Lab (CSE-L410)
+Where is Analog Electronics Lab (ENTC-L501)?,find_location,Analog Electronics Lab (ENTC-L501)
+How do I find Analog Electronics Lab (ENTC-L501)?,find_location,Analog Electronics Lab (ENTC-L501)
+What floor is Analog Electronics Lab (ENTC-L501) on?,find_location,Analog Electronics Lab (ENTC-L501)
+Is Analog Electronics Lab (ENTC-L501) open on Saturday?,ask_hours,Analog Electronics Lab (ENTC-L501)
+What time does Analog Electronics Lab (ENTC-L501) open?,ask_hours,Analog Electronics Lab (ENTC-L501)
+Where is Digital Electronics Lab (ENTC-L502)?,find_location,Digital Electronics Lab (ENTC-L502)
+How do I find Digital Electronics Lab (ENTC-L502)?,find_location,Digital Electronics Lab (ENTC-L502)
+What floor is Digital Electronics Lab (ENTC-L502) on?,find_location,Digital Electronics Lab (ENTC-L502)
+Is Digital Electronics Lab (ENTC-L502) open on Saturday?,ask_hours,Digital Electronics Lab (ENTC-L502)
+What time does Digital Electronics Lab (ENTC-L502) open?,ask_hours,Digital Electronics Lab (ENTC-L502)
+Where is Signal Processing Lab (ENTC-L503)?,find_location,Signal Processing Lab (ENTC-L503)
+How do I find Signal Processing Lab (ENTC-L503)?,find_location,Signal Processing Lab (ENTC-L503)
+What floor is Signal Processing Lab (ENTC-L503) on?,find_location,Signal Processing Lab (ENTC-L503)
+Is Signal Processing Lab (ENTC-L503) open on Saturday?,ask_hours,Signal Processing Lab (ENTC-L503)
+What time does Signal Processing Lab (ENTC-L503) open?,ask_hours,Signal Processing Lab (ENTC-L503)
+Where is Communication Systems Lab (ENTC-L504)?,find_location,Communication Systems Lab (ENTC-L504)
+How do I find Communication Systems Lab (ENTC-L504)?,find_location,Communication Systems Lab (ENTC-L504)
+What floor is Communication Systems Lab (ENTC-L504) on?,find_location,Communication Systems Lab (ENTC-L504)
+Is Communication Systems Lab (ENTC-L504) open on Saturday?,ask_hours,Communication Systems Lab (ENTC-L504)
+What time does Communication Systems Lab (ENTC-L504) open?,ask_hours,Communication Systems Lab (ENTC-L504)
+Where is Antenna & Microwave Lab (ENTC-L505)?,find_location,Antenna & Microwave Lab (ENTC-L505)
+How do I find Antenna & Microwave Lab (ENTC-L505)?,find_location,Antenna & Microwave Lab (ENTC-L505)
+What floor is Antenna & Microwave Lab (ENTC-L505) on?,find_location,Antenna & Microwave Lab (ENTC-L505)
+Is Antenna & Microwave Lab (ENTC-L505) open on Saturday?,ask_hours,Antenna & Microwave Lab (ENTC-L505)
+What time does Antenna & Microwave Lab (ENTC-L505) open?,ask_hours,Antenna & Microwave Lab (ENTC-L505)
+Where is Embedded Systems Lab (ENTC-L506)?,find_location,Embedded Systems Lab (ENTC-L506)
+How do I find Embedded Systems Lab (ENTC-L506)?,find_location,Embedded Systems Lab (ENTC-L506)
+What floor is Embedded Systems Lab (ENTC-L506) on?,find_location,Embedded Systems Lab (ENTC-L506)
+Is Embedded Systems Lab (ENTC-L506) open on Saturday?,ask_hours,Embedded Systems Lab (ENTC-L506)
+What time does Embedded Systems Lab (ENTC-L506) open?,ask_hours,Embedded Systems Lab (ENTC-L506)
+Where is PCB Design Lab (ENTC-L507)?,find_location,PCB Design Lab (ENTC-L507)
+How do I find PCB Design Lab (ENTC-L507)?,find_location,PCB Design Lab (ENTC-L507)
+What floor is PCB Design Lab (ENTC-L507) on?,find_location,PCB Design Lab (ENTC-L507)
+Is PCB Design Lab (ENTC-L507) open on Saturday?,ask_hours,PCB Design Lab (ENTC-L507)
+What time does PCB Design Lab (ENTC-L507) open?,ask_hours,PCB Design Lab (ENTC-L507)
+Where is Optical Fibre Lab (ENTC-L508)?,find_location,Optical Fibre Lab (ENTC-L508)
+How do I find Optical Fibre Lab (ENTC-L508)?,find_location,Optical Fibre Lab (ENTC-L508)
+What floor is Optical Fibre Lab (ENTC-L508) on?,find_location,Optical Fibre Lab (ENTC-L508)
+Is Optical Fibre Lab (ENTC-L508) open on Saturday?,ask_hours,Optical Fibre Lab (ENTC-L508)
+What time does Optical Fibre Lab (ENTC-L508) open?,ask_hours,Optical Fibre Lab (ENTC-L508)
+Where is FPGA Lab (ENTC-L509)?,find_location,FPGA Lab (ENTC-L509)
+How do I find FPGA Lab (ENTC-L509)?,find_location,FPGA Lab (ENTC-L509)
+What floor is FPGA Lab (ENTC-L509) on?,find_location,FPGA Lab (ENTC-L509)
+Is FPGA Lab (ENTC-L509) open on Saturday?,ask_hours,FPGA Lab (ENTC-L509)
+What time does FPGA Lab (ENTC-L509) open?,ask_hours,FPGA Lab (ENTC-L509)
+Where is RF & Wireless Lab (ENTC-L510)?,find_location,RF & Wireless Lab (ENTC-L510)
+How do I find RF & Wireless Lab (ENTC-L510)?,find_location,RF & Wireless Lab (ENTC-L510)
+What floor is RF & Wireless Lab (ENTC-L510) on?,find_location,RF & Wireless Lab (ENTC-L510)
+Is RF & Wireless Lab (ENTC-L510) open on Saturday?,ask_hours,RF & Wireless Lab (ENTC-L510)
+What time does RF & Wireless Lab (ENTC-L510) open?,ask_hours,RF & Wireless Lab (ENTC-L510)
+Where is Power Systems Lab (EE-L601)?,find_location,Power Systems Lab (EE-L601)
+How do I find Power Systems Lab (EE-L601)?,find_location,Power Systems Lab (EE-L601)
+What floor is Power Systems Lab (EE-L601) on?,find_location,Power Systems Lab (EE-L601)
+Is Power Systems Lab (EE-L601) open on Saturday?,ask_hours,Power Systems Lab (EE-L601)
+What time does Power Systems Lab (EE-L601) open?,ask_hours,Power Systems Lab (EE-L601)
+Where is Electrical Machines Lab (EE-L602)?,find_location,Electrical Machines Lab (EE-L602)
+How do I find Electrical Machines Lab (EE-L602)?,find_location,Electrical Machines Lab (EE-L602)
+What floor is Electrical Machines Lab (EE-L602) on?,find_location,Electrical Machines Lab (EE-L602)
+Is Electrical Machines Lab (EE-L602) open on Saturday?,ask_hours,Electrical Machines Lab (EE-L602)
+What time does Electrical Machines Lab (EE-L602) open?,ask_hours,Electrical Machines Lab (EE-L602)
+Where is Control Systems Lab (EE-L603)?,find_location,Control Systems Lab (EE-L603)
+How do I find Control Systems Lab (EE-L603)?,find_location,Control Systems Lab (EE-L603)
+What floor is Control Systems Lab (EE-L603) on?,find_location,Control Systems Lab (EE-L603)
+Is Control Systems Lab (EE-L603) open on Saturday?,ask_hours,Control Systems Lab (EE-L603)
+What time does Control Systems Lab (EE-L603) open?,ask_hours,Control Systems Lab (EE-L603)
+Where is Renewable Energy Lab (EE-L604)?,find_location,Renewable Energy Lab (EE-L604)
+How do I find Renewable Energy Lab (EE-L604)?,find_location,Renewable Energy Lab (EE-L604)
+What floor is Renewable Energy Lab (EE-L604) on?,find_location,Renewable Energy Lab (EE-L604)
+Is Renewable Energy Lab (EE-L604) open on Saturday?,ask_hours,Renewable Energy Lab (EE-L604)
+What time does Renewable Energy Lab (EE-L604) open?,ask_hours,Renewable Energy Lab (EE-L604)
+Where is High Voltage Lab (EE-L605)?,find_location,High Voltage Lab (EE-L605)
+How do I find High Voltage Lab (EE-L605)?,find_location,High Voltage Lab (EE-L605)
+What floor is High Voltage Lab (EE-L605) on?,find_location,High Voltage Lab (EE-L605)
+Is High Voltage Lab (EE-L605) open on Saturday?,ask_hours,High Voltage Lab (EE-L605)
+What time does High Voltage Lab (EE-L605) open?,ask_hours,High Voltage Lab (EE-L605)
+Where is PLC & Automation Lab (EE-L606)?,find_location,PLC & Automation Lab (EE-L606)
+How do I find PLC & Automation Lab (EE-L606)?,find_location,PLC & Automation Lab (EE-L606)
+What floor is PLC & Automation Lab (EE-L606) on?,find_location,PLC & Automation Lab (EE-L606)
+Is PLC & Automation Lab (EE-L606) open on Saturday?,ask_hours,PLC & Automation Lab (EE-L606)
+What time does PLC & Automation Lab (EE-L606) open?,ask_hours,PLC & Automation Lab (EE-L606)
+Where is Power Electronics Lab (EE-L607)?,find_location,Power Electronics Lab (EE-L607)
+How do I find Power Electronics Lab (EE-L607)?,find_location,Power Electronics Lab (EE-L607)
+What floor is Power Electronics Lab (EE-L607) on?,find_location,Power Electronics Lab (EE-L607)
+Is Power Electronics Lab (EE-L607) open on Saturday?,ask_hours,Power Electronics Lab (EE-L607)
+What time does Power Electronics Lab (EE-L607) open?,ask_hours,Power Electronics Lab (EE-L607)
+Where is Switchgear & Protection Lab (EE-L608)?,find_location,Switchgear & Protection Lab (EE-L608)
+How do I find Switchgear & Protection Lab (EE-L608)?,find_location,Switchgear & Protection Lab (EE-L608)
+What floor is Switchgear & Protection Lab (EE-L608) on?,find_location,Switchgear & Protection Lab (EE-L608)
+Is Switchgear & Protection Lab (EE-L608) open on Saturday?,ask_hours,Switchgear & Protection Lab (EE-L608)
+What time does Switchgear & Protection Lab (EE-L608) open?,ask_hours,Switchgear & Protection Lab (EE-L608)
+Where is Simulation Lab (EE-L609)?,find_location,Simulation Lab (EE-L609)
+How do I find Simulation Lab (EE-L609)?,find_location,Simulation Lab (EE-L609)
+What floor is Simulation Lab (EE-L609) on?,find_location,Simulation Lab (EE-L609)
+Is Simulation Lab (EE-L609) open on Saturday?,ask_hours,Simulation Lab (EE-L609)
+What time does Simulation Lab (EE-L609) open?,ask_hours,Simulation Lab (EE-L609)
+Where is Smart Grid Lab (EE-L610)?,find_location,Smart Grid Lab (EE-L610)
+How do I find Smart Grid Lab (EE-L610)?,find_location,Smart Grid Lab (EE-L610)
+What floor is Smart Grid Lab (EE-L610) on?,find_location,Smart Grid Lab (EE-L610)
+Is Smart Grid Lab (EE-L610) open on Saturday?,ask_hours,Smart Grid Lab (EE-L610)
+What time does Smart Grid Lab (EE-L610) open?,ask_hours,Smart Grid Lab (EE-L610)
+Where is Structural Engineering Lab (CVL-L701)?,find_location,Structural Engineering Lab (CVL-L701)
+How do I find Structural Engineering Lab (CVL-L701)?,find_location,Structural Engineering Lab (CVL-L701)
+What floor is Structural Engineering Lab (CVL-L701) on?,find_location,Structural Engineering Lab (CVL-L701)
+Is Structural Engineering Lab (CVL-L701) open on Saturday?,ask_hours,Structural Engineering Lab (CVL-L701)
+What time does Structural Engineering Lab (CVL-L701) open?,ask_hours,Structural Engineering Lab (CVL-L701)
+Where is Geotechnical Lab (CVL-L702)?,find_location,Geotechnical Lab (CVL-L702)
+How do I find Geotechnical Lab (CVL-L702)?,find_location,Geotechnical Lab (CVL-L702)
+What floor is Geotechnical Lab (CVL-L702) on?,find_location,Geotechnical Lab (CVL-L702)
+Is Geotechnical Lab (CVL-L702) open on Saturday?,ask_hours,Geotechnical Lab (CVL-L702)
+What time does Geotechnical Lab (CVL-L702) open?,ask_hours,Geotechnical Lab (CVL-L702)
+Where is Surveying Lab (CVL-L703)?,find_location,Surveying Lab (CVL-L703)
+How do I find Surveying Lab (CVL-L703)?,find_location,Surveying Lab (CVL-L703)
+What floor is Surveying Lab (CVL-L703) on?,find_location,Surveying Lab (CVL-L703)
+Is Surveying Lab (CVL-L703) open on Saturday?,ask_hours,Surveying Lab (CVL-L703)
+What time does Surveying Lab (CVL-L703) open?,ask_hours,Surveying Lab (CVL-L703)
+Where is Concrete Technology Lab (CVL-L704)?,find_location,Concrete Technology Lab (CVL-L704)
+How do I find Concrete Technology Lab (CVL-L704)?,find_location,Concrete Technology Lab (CVL-L704)
+What floor is Concrete Technology Lab (CVL-L704) on?,find_location,Concrete Technology Lab (CVL-L704)
+Is Concrete Technology Lab (CVL-L704) open on Saturday?,ask_hours,Concrete Technology Lab (CVL-L704)
+What time does Concrete Technology Lab (CVL-L704) open?,ask_hours,Concrete Technology Lab (CVL-L704)
+Where is Transportation Engineering Lab (CVL-L705)?,find_location,Transportation Engineering Lab (CVL-L705)
+How do I find Transportation Engineering Lab (CVL-L705)?,find_location,Transportation Engineering Lab (CVL-L705)
+What floor is Transportation Engineering Lab (CVL-L705) on?,find_location,Transportation Engineering Lab (CVL-L705)
+Is Transportation Engineering Lab (CVL-L705) open on Saturday?,ask_hours,Transportation Engineering Lab (CVL-L705)
+What time does Transportation Engineering Lab (CVL-L705) open?,ask_hours,Transportation Engineering Lab (CVL-L705)
+Where is Hydraulics Lab (CVL-L706)?,find_location,Hydraulics Lab (CVL-L706)
+How do I find Hydraulics Lab (CVL-L706)?,find_location,Hydraulics Lab (CVL-L706)
+What floor is Hydraulics Lab (CVL-L706) on?,find_location,Hydraulics Lab (CVL-L706)
+Is Hydraulics Lab (CVL-L706) open on Saturday?,ask_hours,Hydraulics Lab (CVL-L706)
+What time does Hydraulics Lab (CVL-L706) open?,ask_hours,Hydraulics Lab (CVL-L706)
+Where is Environmental Engineering Lab (CVL-L707)?,find_location,Environmental Engineering Lab (CVL-L707)
+How do I find Environmental Engineering Lab (CVL-L707)?,find_location,Environmental Engineering Lab (CVL-L707)
+What floor is Environmental Engineering Lab (CVL-L707) on?,find_location,Environmental Engineering Lab (CVL-L707)
+Is Environmental Engineering Lab (CVL-L707) open on Saturday?,ask_hours,Environmental Engineering Lab (CVL-L707)
+What time does Environmental Engineering Lab (CVL-L707) open?,ask_hours,Environmental Engineering Lab (CVL-L707)
+Where is Construction Materials Lab (CVL-L708)?,find_location,Construction Materials Lab (CVL-L708)
+How do I find Construction Materials Lab (CVL-L708)?,find_location,Construction Materials Lab (CVL-L708)
+What floor is Construction Materials Lab (CVL-L708) on?,find_location,Construction Materials Lab (CVL-L708)
+Is Construction Materials Lab (CVL-L708) open on Saturday?,ask_hours,Construction Materials Lab (CVL-L708)
+What time does Construction Materials Lab (CVL-L708) open?,ask_hours,Construction Materials Lab (CVL-L708)
+Where is CAD & GIS Lab (CVL-L709)?,find_location,CAD & GIS Lab (CVL-L709)
+How do I find CAD & GIS Lab (CVL-L709)?,find_location,CAD & GIS Lab (CVL-L709)
+What floor is CAD & GIS Lab (CVL-L709) on?,find_location,CAD & GIS Lab (CVL-L709)
+Is CAD & GIS Lab (CVL-L709) open on Saturday?,ask_hours,CAD & GIS Lab (CVL-L709)
+What time does CAD & GIS Lab (CVL-L709) open?,ask_hours,CAD & GIS Lab (CVL-L709)
+Where is Water Resources Lab (CVL-L710)?,find_location,Water Resources Lab (CVL-L710)
+How do I find Water Resources Lab (CVL-L710)?,find_location,Water Resources Lab (CVL-L710)
+What floor is Water Resources Lab (CVL-L710) on?,find_location,Water Resources Lab (CVL-L710)
+Is Water Resources Lab (CVL-L710) open on Saturday?,ask_hours,Water Resources Lab (CVL-L710)
+What time does Water Resources Lab (CVL-L710) open?,ask_hours,Water Resources Lab (CVL-L710)
+Where is classroom ME-C101?,find_location,Classroom ME-C101
+How do I get to room ME-C101?,find_location,Classroom ME-C101
+What floor is ME-C101 on?,find_location,Classroom ME-C101
+Where is classroom ME-C102?,find_location,Classroom ME-C102
+How do I get to room ME-C102?,find_location,Classroom ME-C102
+What floor is ME-C102 on?,find_location,Classroom ME-C102
+Where is classroom ME-C103?,find_location,Classroom ME-C103
+How do I get to room ME-C103?,find_location,Classroom ME-C103
+What floor is ME-C103 on?,find_location,Classroom ME-C103
+Where is classroom ME-C104?,find_location,Classroom ME-C104
+How do I get to room ME-C104?,find_location,Classroom ME-C104
+What floor is ME-C104 on?,find_location,Classroom ME-C104
+Where is classroom ME-C105?,find_location,Classroom ME-C105
+How do I get to room ME-C105?,find_location,Classroom ME-C105
+What floor is ME-C105 on?,find_location,Classroom ME-C105
+Where is classroom ME-C106?,find_location,Classroom ME-C106
+How do I get to room ME-C106?,find_location,Classroom ME-C106
+What floor is ME-C106 on?,find_location,Classroom ME-C106
+Where is classroom CE-C201?,find_location,Classroom CE-C201
+How do I get to room CE-C201?,find_location,Classroom CE-C201
+What floor is CE-C201 on?,find_location,Classroom CE-C201
+Where is classroom CE-C202?,find_location,Classroom CE-C202
+How do I get to room CE-C202?,find_location,Classroom CE-C202
+What floor is CE-C202 on?,find_location,Classroom CE-C202
+Where is classroom CE-C203?,find_location,Classroom CE-C203
+How do I get to room CE-C203?,find_location,Classroom CE-C203
+What floor is CE-C203 on?,find_location,Classroom CE-C203
+Where is classroom CE-C204?,find_location,Classroom CE-C204
+How do I get to room CE-C204?,find_location,Classroom CE-C204
+What floor is CE-C204 on?,find_location,Classroom CE-C204
+Where is classroom CE-C205?,find_location,Classroom CE-C205
+How do I get to room CE-C205?,find_location,Classroom CE-C205
+What floor is CE-C205 on?,find_location,Classroom CE-C205
+Where is classroom CE-C206?,find_location,Classroom CE-C206
+How do I get to room CE-C206?,find_location,Classroom CE-C206
+What floor is CE-C206 on?,find_location,Classroom CE-C206
+Where is classroom IT-C301?,find_location,Classroom IT-C301
+How do I get to room IT-C301?,find_location,Classroom IT-C301
+What floor is IT-C301 on?,find_location,Classroom IT-C301
+Where is classroom IT-C302?,find_location,Classroom IT-C302
+How do I get to room IT-C302?,find_location,Classroom IT-C302
+What floor is IT-C302 on?,find_location,Classroom IT-C302
+Where is classroom IT-C303?,find_location,Classroom IT-C303
+How do I get to room IT-C303?,find_location,Classroom IT-C303
+What floor is IT-C303 on?,find_location,Classroom IT-C303
+Where is classroom IT-C304?,find_location,Classroom IT-C304
+How do I get to room IT-C304?,find_location,Classroom IT-C304
+What floor is IT-C304 on?,find_location,Classroom IT-C304
+Where is classroom IT-C305?,find_location,Classroom IT-C305
+How do I get to room IT-C305?,find_location,Classroom IT-C305
+What floor is IT-C305 on?,find_location,Classroom IT-C305
+Where is classroom IT-C306?,find_location,Classroom IT-C306
+How do I get to room IT-C306?,find_location,Classroom IT-C306
+What floor is IT-C306 on?,find_location,Classroom IT-C306
+Where is classroom CSE-C401?,find_location,Classroom CSE-C401
+How do I get to room CSE-C401?,find_location,Classroom CSE-C401
+What floor is CSE-C401 on?,find_location,Classroom CSE-C401
+Where is classroom CSE-C402?,find_location,Classroom CSE-C402
+How do I get to room CSE-C402?,find_location,Classroom CSE-C402
+What floor is CSE-C402 on?,find_location,Classroom CSE-C402
+Where is classroom CSE-C403?,find_location,Classroom CSE-C403
+How do I get to room CSE-C403?,find_location,Classroom CSE-C403
+What floor is CSE-C403 on?,find_location,Classroom CSE-C403
+Where is classroom CSE-C404?,find_location,Classroom CSE-C404
+How do I get to room CSE-C404?,find_location,Classroom CSE-C404
+What floor is CSE-C404 on?,find_location,Classroom CSE-C404
+Where is classroom CSE-C405?,find_location,Classroom CSE-C405
+How do I get to room CSE-C405?,find_location,Classroom CSE-C405
+What floor is CSE-C405 on?,find_location,Classroom CSE-C405
+Where is classroom CSE-C406?,find_location,Classroom CSE-C406
+How do I get to room CSE-C406?,find_location,Classroom CSE-C406
+What floor is CSE-C406 on?,find_location,Classroom CSE-C406
+Where is classroom ENTC-C501?,find_location,Classroom ENTC-C501
+How do I get to room ENTC-C501?,find_location,Classroom ENTC-C501
+What floor is ENTC-C501 on?,find_location,Classroom ENTC-C501
+Where is classroom ENTC-C502?,find_location,Classroom ENTC-C502
+How do I get to room ENTC-C502?,find_location,Classroom ENTC-C502
+What floor is ENTC-C502 on?,find_location,Classroom ENTC-C502
+Where is classroom ENTC-C503?,find_location,Classroom ENTC-C503
+How do I get to room ENTC-C503?,find_location,Classroom ENTC-C503
+What floor is ENTC-C503 on?,find_location,Classroom ENTC-C503
+Where is classroom ENTC-C504?,find_location,Classroom ENTC-C504
+How do I get to room ENTC-C504?,find_location,Classroom ENTC-C504
+What floor is ENTC-C504 on?,find_location,Classroom ENTC-C504
+Where is classroom ENTC-C505?,find_location,Classroom ENTC-C505
+How do I get to room ENTC-C505?,find_location,Classroom ENTC-C505
+What floor is ENTC-C505 on?,find_location,Classroom ENTC-C505
+Where is classroom ENTC-C506?,find_location,Classroom ENTC-C506
+How do I get to room ENTC-C506?,find_location,Classroom ENTC-C506
+What floor is ENTC-C506 on?,find_location,Classroom ENTC-C506
+Where is classroom EE-C601?,find_location,Classroom EE-C601
+How do I get to room EE-C601?,find_location,Classroom EE-C601
+What floor is EE-C601 on?,find_location,Classroom EE-C601
+Where is classroom EE-C602?,find_location,Classroom EE-C602
+How do I get to room EE-C602?,find_location,Classroom EE-C602
+What floor is EE-C602 on?,find_location,Classroom EE-C602
+Where is classroom EE-C603?,find_location,Classroom EE-C603
+How do I get to room EE-C603?,find_location,Classroom EE-C603
+What floor is EE-C603 on?,find_location,Classroom EE-C603
+Where is classroom EE-C604?,find_location,Classroom EE-C604
+How do I get to room EE-C604?,find_location,Classroom EE-C604
+What floor is EE-C604 on?,find_location,Classroom EE-C604
+Where is classroom EE-C605?,find_location,Classroom EE-C605
+How do I get to room EE-C605?,find_location,Classroom EE-C605
+What floor is EE-C605 on?,find_location,Classroom EE-C605
+Where is classroom EE-C606?,find_location,Classroom EE-C606
+How do I get to room EE-C606?,find_location,Classroom EE-C606
+What floor is EE-C606 on?,find_location,Classroom EE-C606
+Where is classroom CVL-C701?,find_location,Classroom CVL-C701
+How do I get to room CVL-C701?,find_location,Classroom CVL-C701
+What floor is CVL-C701 on?,find_location,Classroom CVL-C701
+Where is classroom CVL-C702?,find_location,Classroom CVL-C702
+How do I get to room CVL-C702?,find_location,Classroom CVL-C702
+What floor is CVL-C702 on?,find_location,Classroom CVL-C702
+Where is classroom CVL-C703?,find_location,Classroom CVL-C703
+How do I get to room CVL-C703?,find_location,Classroom CVL-C703
+What floor is CVL-C703 on?,find_location,Classroom CVL-C703
+Where is classroom CVL-C704?,find_location,Classroom CVL-C704
+How do I get to room CVL-C704?,find_location,Classroom CVL-C704
+What floor is CVL-C704 on?,find_location,Classroom CVL-C704
+Where is classroom CVL-C705?,find_location,Classroom CVL-C705
+How do I get to room CVL-C705?,find_location,Classroom CVL-C705
+What floor is CVL-C705 on?,find_location,Classroom CVL-C705
+Where is classroom CVL-C706?,find_location,Classroom CVL-C706
+How do I get to room CVL-C706?,find_location,Classroom CVL-C706
+What floor is CVL-C706 on?,find_location,Classroom CVL-C706
