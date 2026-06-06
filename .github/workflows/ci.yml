@@ -50,8 +50,7 @@ jobs:
 
       - name: Run unit tests only
         run: |
-          pytest tests/unit/ -v --tb=short \
-            --ignore=tests/unit/test_intent_entity.py
+          pytest tests/unit/ -v --tb=short
         env:
           APP_ENV: test
           GROQ_API_KEY: test_key
