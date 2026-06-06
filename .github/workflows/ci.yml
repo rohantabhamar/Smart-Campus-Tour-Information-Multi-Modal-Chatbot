@@ -37,7 +37,7 @@ jobs:
           pip install rapidfuzz langchain langchain-groq langchain-core langgraph
           pip install groq pydantic fastapi uvicorn httpx requests
           pip install torch --index-url https://download.pytorch.org/whl/cpu
-          pip install numpy transformers spacy
+          pip install numpy transformers spacy Pillow
           pip install "spacy[transformers]"
           python -m spacy download en_core_web_md
           pip install faiss-cpu rapidfuzz
