@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
 
   api:
@@ -10,7 +8,9 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - .:/app
+      - ./logs:/app/logs
+      - ./data:/app/data
+      - ./models:/app/models
     env_file:
       - .env.dev
     restart: always
@@ -28,7 +28,7 @@ services:
     ports:
       - "8501:8501"
     volumes:
-      - .:/app
+      - ./frontend/chat_history.json:/app/frontend/chat_history.json
     env_file:
       - .env.dev
     depends_on:
@@ -43,7 +43,8 @@ services:
     ports:
       - "8502:8502"
     volumes:
-      - .:/app
+      - ./logs:/app/logs
+      - ./frontend/chat_history.json:/app/frontend/chat_history.json
     env_file:
       - .env.dev
     depends_on:
