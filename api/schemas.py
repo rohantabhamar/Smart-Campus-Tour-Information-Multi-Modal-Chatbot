@@ -19,6 +19,6 @@ class MultiModalRequest(BaseModel):
 # ── Response ──────────────────────────────────────────────────────────────
 
 class ChatResponse(BaseModel):
-    answer:   str
+    answer: str
     pipeline: str
-    error:    Optional[str] = None
+    error: Optional[str] = None

@@ -17,14 +17,14 @@ async def image_query(file: UploadFile = File(...)):
         tmp.write(await file.read())
         tmp_path = tmp.name
     try:
-        loop   = asyncio.get_event_loop()
+        loop = asyncio.get_event_loop()
         result = await loop.run_in_executor(
             None, lambda: image_workflow.invoke({"image_path": tmp_path})
         )
     finally:
         os.unlink(tmp_path)
     return ChatResponse(
-        answer   = result.get("answer", ""),
-        pipeline = "image",
-        error    = result.get("error"),
+        answer=result.get("answer", ""),
+        pipeline="image",
+        error=result.get("error"),
     )

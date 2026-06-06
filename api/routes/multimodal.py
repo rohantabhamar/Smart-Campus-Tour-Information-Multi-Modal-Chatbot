@@ -13,7 +13,7 @@ logger = get_logger(__name__)
 
 @router.post("/query/multimodal", response_model=ChatResponse)
 async def multimodal_query(
-    query:      Optional[str]      = Form(None),
+    query: Optional[str] = Form(None),
     audio_file: Optional[UploadFile] = File(None),
     image_file: Optional[UploadFile] = File(None),
 ):
@@ -33,11 +33,11 @@ async def multimodal_query(
                 tmp.write(await image_file.read())
                 image_path = tmp.name
 
-        loop   = asyncio.get_event_loop()
+        loop = asyncio.get_event_loop()
         result = await loop.run_in_executor(
             None,
             lambda: multimodal_workflow.invoke({
-                "query":      query,
+                "query": query,
                 "audio_path": audio_path,
                 "image_path": image_path,
                 "transcript": None, "text_intent": None,
@@ -57,7 +57,7 @@ async def multimodal_query(
             os.unlink(image_path)
 
     return ChatResponse(
-        answer   = result.get("answer", ""),
-        pipeline = "multimodal",
-        error    = result.get("error"),
+        answer=result.get("answer", ""),
+        pipeline="multimodal",
+        error=result.get("error"),
     )

@@ -21,18 +21,18 @@ async def audio_text_query(
         tmp.write(await file.read())
         tmp_path = tmp.name
     try:
-        loop   = asyncio.get_event_loop()
+        loop = asyncio.get_event_loop()
         result = await loop.run_in_executor(
             None,
             lambda: audio_text_workflow.invoke({
-                "query":      tmp_path,
+                "query": tmp_path,
                 "text_query": text_query,
             })
         )
     finally:
         os.unlink(tmp_path)
     return ChatResponse(
-        answer   = result.get("answer", ""),
-        pipeline = "audio-text",
-        error    = result.get("error"),
+        answer=result.get("answer", ""),
+        pipeline="audio-text",
+        error=result.get("error"),
     )
