@@ -1,13 +1,9 @@
-import pytest
 from core.multimodel_graph import multimodal_workflow
 from core.state import MultiModalState
-from pathlib import Path
-
-DATA_DIR = Path("E:/Rohanta_AI_workbook/campus_chatbot/data")
 
 
 def default_state(
-    query:      str | None = None,
+    query: str | None = None,
     audio_path: str | None = None,
     image_path: str | None = None,
 ) -> MultiModalState:
@@ -34,42 +30,42 @@ def default_state(
     }
 
 
-def test_text_and_image():
+def test_text_and_image(mock_llm, mock_clip, mock_faiss, mock_kb):
     result = multimodal_workflow.invoke(default_state(
-        query      = "Where is this place and what are its opening hours?",
-        image_path = str(DATA_DIR / "images/library/library_01.jpg"),
+        query="Where is this place?",
+        image_path="fake_image.jpg",
     ))
     assert "answer" in result
     assert result["answer"] != ""
 
 
-def test_voice_and_image():
+def test_voice_and_image(mock_whisper, mock_llm, mock_clip, mock_faiss, mock_kb):
     result = multimodal_workflow.invoke(default_state(
-        audio_path = str(DATA_DIR / "audio_samples/sample_0050.wav"),
-        image_path = str(DATA_DIR / "images/gym/gym_01.jpg"),
+        audio_path="fake_audio.wav",
+        image_path="fake_image.jpg",
     ))
     assert "answer" in result
     assert result["answer"] != ""
 
 
-def test_text_voice_and_image():
+def test_text_voice_and_image(mock_whisper, mock_llm, mock_clip, mock_faiss, mock_kb):
     result = multimodal_workflow.invoke(default_state(
-        query      = "What events are happening here?",
-        audio_path = str(DATA_DIR / "audio_samples/sample_0010.wav"),
-        image_path = str(DATA_DIR / "images/cafeteria/cafeteria_01.jpg"),
+        query="What events are happening here?",
+        audio_path="fake_audio.wav",
+        image_path="fake_image.jpg",
     ))
     assert "answer" in result
     assert result["answer"] != ""
 
 
-def test_image_only():
+def test_image_only(mock_llm, mock_clip, mock_faiss, mock_kb):
     result = multimodal_workflow.invoke(default_state(
-        image_path = str(DATA_DIR / "images/medical_center/medical_01.jpg"),
+        image_path="fake_image.jpg",
     ))
     assert "answer" in result
     assert result["answer"] != ""
 
 
-def test_no_input():
+def test_no_input(mock_llm, mock_clip, mock_faiss, mock_kb):
     result = multimodal_workflow.invoke(default_state())
     assert "answer" in result

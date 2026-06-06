@@ -30,6 +30,7 @@ def mock_llm(monkeypatch):
     mock.invoke.return_value.content = "The library is on Floor 2 of Block A."
     monkeypatch.setattr("nodes.final_ans_generation.get_llm", lambda: mock)
     monkeypatch.setattr("nodes.llm_node.get_llm", lambda: mock)
+    monkeypatch.setattr("nodes.multimodel_all_nodes.get_llm", lambda: mock)
     return mock
 
 @pytest.fixture
@@ -38,6 +39,7 @@ def mock_whisper(monkeypatch):
     mock.transcribe.return_value = {"text": "where is the library"}
     monkeypatch.setattr("core.model_loader.get_whisper_model", lambda: mock)
     monkeypatch.setattr("nodes.audio_to_text.get_whisper_model", lambda: mock)
+    monkeypatch.setattr("nodes.multimodel_all_nodes.get_whisper_model", lambda: mock)
     return mock
 
 @pytest.fixture
@@ -48,8 +50,8 @@ def mock_clip(monkeypatch):
     dummy_emb       = torch.ones(1, 512)
     mock_model.encode_image.return_value = dummy_emb
     mock_preprocess.return_value         = torch.zeros(3, 224, 224)
-    monkeypatch.setattr("nodes.clip_node.clip_model",      mock_model)
-    monkeypatch.setattr("nodes.clip_node.clip_preprocess", mock_preprocess)
+    monkeypatch.setattr("nodes.clip_node.get_clip_model", lambda: (mock_model, mock_preprocess))
+    monkeypatch.setattr("nodes.multimodel_all_nodes.get_clip_model", lambda: (mock_model, mock_preprocess))
     return mock_model, mock_preprocess
 
 @pytest.fixture

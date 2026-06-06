@@ -1,9 +1,13 @@
 from core.audio_graph import audio_workflow
 
 
-result = audio_workflow.invoke({'query':r'E:\Rohanta_AI_workbook\campus_chatbot\data\audio_samples\sample_0032.wav'})
-print(result)
-print(f"Intent     : {result.get('intent')}")
-print(f"Entities   : {result.get('entities')}")
-print(f"KB context : {result.get('kb_context')}")
-print(f"Answer     : {result.get('answer')}")
+def test_audio_transcription_and_answer(mock_whisper, mock_llm, mock_kb):
+    result = audio_workflow.invoke({"query": "fake_audio.wav"})
+    assert "answer" in result
+    assert result["answer"] != ""
+
+
+def test_audio_missing_file(mock_whisper, mock_llm, mock_kb):
+    mock_whisper.transcribe.side_effect = FileNotFoundError
+    result = audio_workflow.invoke({"query": "nonexistent.wav"})
+    assert "answer" in result or "error" in result
