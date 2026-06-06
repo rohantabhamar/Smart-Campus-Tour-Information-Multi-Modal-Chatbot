@@ -31,10 +31,10 @@ st.title("⚙️ Campus Chatbot — Admin Dashboard")
 st.markdown("---")
 
 # ── Row 1 — Health metrics ────────────────────────────────────────────────
-health  = get_health()
-status  = health.get("status", "unknown")
-env     = health.get("env", "dev")
-models  = {k: v for k, v in health.get("models", {}).items() if k != "status"}
+health = get_health()
+status = health.get("status", "unknown")
+env    = health.get("env", "dev")
+models = {k: v for k, v in health.get("models", {}).items() if k != "status"}
 ok_count   = sum(1 for v in models.values() if v == "ok")
 fail_count = len(models) - ok_count
 
@@ -46,7 +46,6 @@ with col2:
 with col3:
     st.metric("Models OK", f"{ok_count}/{len(models)}")
 with col4:
-    # count total queries from log
     total_queries = 0
     if APP_LOG.exists():
         total_queries = sum(1 for l in APP_LOG.read_text(encoding="utf-8").splitlines() if "endpoint →" in l)
@@ -68,14 +67,19 @@ with col_left:
 with col_right:
     st.subheader("📊 Pipeline Usage")
     if APP_LOG.exists():
-        lines    = APP_LOG.read_text(encoding="utf-8").splitlines()
+        lines = APP_LOG.read_text(encoding="utf-8").splitlines()
         pipeline_counts = Counter()
         for line in lines:
-            if "text endpoint" in line:       pipeline_counts["text"] += 1
-            elif "audio-text endpoint" in line: pipeline_counts["audio-text"] += 1
-            elif "audio endpoint" in line:    pipeline_counts["audio"] += 1
-            elif "image endpoint" in line:    pipeline_counts["image"] += 1
-            elif "multimodal endpoint" in line: pipeline_counts["multimodal"] += 1
+            if "text endpoint" in line:
+                pipeline_counts["text"] += 1
+            elif "audio-text endpoint" in line:
+                pipeline_counts["audio-text"] += 1
+            elif "audio endpoint" in line:
+                pipeline_counts["audio"] += 1
+            elif "image endpoint" in line:
+                pipeline_counts["image"] += 1
+            elif "multimodal endpoint" in line:
+                pipeline_counts["multimodal"] += 1
 
         if pipeline_counts:
             df = pd.DataFrame(
@@ -98,10 +102,10 @@ if APP_LOG.exists():
                 node     = line.split("] [")[-1].split("]")[0]
                 duration = float(line.split("duration=")[1].split("s")[0])
                 timing_data.setdefault(node, []).append(duration)
-            except:
+            except (ValueError, IndexError):
                 pass
     if timing_data:
-        avg_times = {k: round(sum(v)/len(v), 3) for k, v in timing_data.items()}
+        avg_times = {k: round(sum(v) / len(v), 3) for k, v in timing_data.items()}
         df = pd.DataFrame(avg_times.items(), columns=["Node", "Avg (s)"]).sort_values("Avg (s)", ascending=False)
         st.bar_chart(df.set_index("Node"))
     else:
@@ -122,7 +126,7 @@ if APP_LOG.exists():
                 pipeline  = line.split("[api.routes.")[-1].split("]")[0] if "[api.routes." in line else "unknown"
                 query     = line.split("→")[-1].strip()
                 rows.append({"Time": timestamp, "Pipeline": pipeline, "Query": query})
-            except:
+            except (IndexError, ValueError):
                 rows.append({"Time": "", "Pipeline": "", "Query": line})
         st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
     else:
@@ -134,15 +138,15 @@ st.markdown("---")
 st.subheader("💬 Chat History")
 if HISTORY.exists():
     try:
-        history = json.loads(HISTORY.read_text(encoding="utf-8"))
+        history   = json.loads(HISTORY.read_text(encoding="utf-8"))
         user_msgs = [m for m in history if m["role"] == "user"]
         st.metric("Total conversations stored", len(user_msgs))
         if user_msgs:
             st.markdown("**Last 5 user queries:**")
             for msg in reversed(user_msgs[-5:]):
                 st.markdown(f"- `{msg.get('time', '')}` — {msg['content'][:80]}")
-    except:
-        st.info("Could not read chat history.")
+    except (json.JSONDecodeError, KeyError, OSError) as e:
+        st.info(f"Could not read chat history: {e}")
 else:
     st.info("No chat history yet.")
 
