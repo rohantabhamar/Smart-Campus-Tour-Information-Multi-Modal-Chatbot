@@ -1,0 +1,106 @@
+name: Campus Chatbot CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+
+  # ── Job 1: Tests ────────────────────────────────────────────────────────
+  test:
+    name: Run Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install pytest pytest-asyncio python-dotenv
+          pip install rapidfuzz langchain langchain-groq langchain-core langgraph
+          pip install groq pydantic fastapi uvicorn httpx requests
+
+      - name: Create mock env file
+        run: |
+          echo "APP_ENV=test" > .env.dev
+          echo "GROQ_API_KEY=test_key" >> .env.dev
+          echo "HUGGINGFACE_API_TOKEN=test_token" >> .env.dev
+
+      - name: Run unit tests only
+        run: |
+          pytest tests/unit/ -v --tb=short
+        env:
+          APP_ENV: test
+          GROQ_API_KEY: test_key
+          HUGGINGFACE_API_TOKEN: test_token
+
+  # ── Job 2: Code Quality ──────────────────────────────────────────────────
+  lint:
+    name: Code Quality
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install flake8
+        run: pip install flake8
+
+      - name: Run flake8
+        run: |
+          flake8 nodes/ core/ api/ config/ services/ \
+            --max-line-length=120 \
+            --exclude=__pycache__,venv \
+            --ignore=E501,W503,E203
+
+  # ── Job 3: Security ───────────────────────────────────────────────────────
+  security:
+    name: Security Scan
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install bandit and safety
+        run: pip install bandit safety
+
+      - name: Run bandit — check for hardcoded secrets
+        run: |
+          bandit -r nodes/ core/ api/ config/ services/ \
+            -x venv,__pycache__ \
+            --severity-level medium \
+            -f txt
+        continue-on-error: true
+
+      - name: Run safety — check for vulnerable packages
+        run: |
+          safety check -r requirements.txt
+        continue-on-error: true
