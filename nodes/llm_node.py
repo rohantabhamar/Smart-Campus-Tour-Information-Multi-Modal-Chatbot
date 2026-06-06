@@ -47,8 +47,8 @@ def llm_node(state: dict):
     for attempt in range(1, GROQ_MAX_RETRIES + 1):
         try:
             messages = [
-                    SystemMessage(content=SYSTEM_PROMPT),
-                    HumanMessage(content=prompt),
+                SystemMessage(content=SYSTEM_PROMPT),
+                HumanMessage(content=prompt),
             ]
             response = get_llm().invoke(messages)
             logger.info(f"llm_node → attempt={attempt} duration={time.perf_counter()-t0:.3f}s")
