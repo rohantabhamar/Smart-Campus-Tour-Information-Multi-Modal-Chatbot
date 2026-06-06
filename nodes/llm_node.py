@@ -49,7 +49,7 @@ def llm_node(state: dict):
             messages = [
                     SystemMessage(content=SYSTEM_PROMPT),
                     HumanMessage(content=prompt),
-                ]
+            ]
             response = get_llm().invoke(messages)
             logger.info(f"llm_node → attempt={attempt} duration={time.perf_counter()-t0:.3f}s")
             return {"answer": response.content.strip()}
