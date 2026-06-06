@@ -8,12 +8,11 @@ logger = get_logger(__name__)
 
 
 llm = ChatGroq(
-    model       = GROQ_MODEL,
-    temperature = LLM_TEMPERATURE,
-    max_tokens  = LLM_MAX_TOKENS,
-    api_key     = GROQ_API_KEY,
+    model=GROQ_MODEL,
+    temperature=LLM_TEMPERATURE,
+    max_tokens=LLM_MAX_TOKENS,
+    api_key=GROQ_API_KEY,
 )
-
 
 
 def final_ans_generation(state: dict):
@@ -24,15 +23,15 @@ def final_ans_generation(state: dict):
         logger.warning(f"final_ans_generation → skipped: {state['error']}")
         return {"answer": f"Sorry, something went wrong: {state['error']}"}
 
-    query      = state.get("merge_query") or state.get("query", "")
+    query = state.get("merge_query") or state.get("query", "")
     kb_context = state.get("kb_context", "")
     user_content = f"KB Context:\n{kb_context}\n\nUser Question:\n{query}"
-    messages     = [SystemMessage(content=SYSTEM_PROMPT), HumanMessage(content=user_content)]
+    messages = [SystemMessage(content=SYSTEM_PROMPT), HumanMessage(content=user_content)]
 
     for attempt in range(1, GROQ_MAX_RETRIES + 1):
         try:
             response = llm.invoke(messages)
-            answer   = response.content.strip()
+            answer = response.content.strip()
             logger.info(f"final_ans_generation → attempt={attempt} duration={time.perf_counter()-t0:.3f}s")
             return {"answer": answer}
         except Exception as e:

@@ -2,13 +2,12 @@ import time
 from core.model_loader import get_whisper_model
 from config.logger import get_logger
 
-logger       = get_logger(__name__)
+logger = get_logger(__name__)
 
 
-
-def audio_to_text(state:dict):
+def audio_to_text(state: dict):
     logger.debug("audio_to_text → entry")
-    t0          = time.perf_counter()
+    t0 = time.perf_counter()
     try:
         whisper_model = get_whisper_model()
         audio_query = state['query']

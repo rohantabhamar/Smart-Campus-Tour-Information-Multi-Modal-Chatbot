@@ -8,6 +8,7 @@ from __future__ import annotations
 import os
 import json
 
+
 def get_secret(secret_name: str, region: str = "ap-south-1") -> dict:
     """Fetch secret from AWS Secrets Manager."""
     import boto3
@@ -25,9 +26,9 @@ def load_secrets() -> dict:
 
     if env in ("prod", "staging"):
         return get_secret("campus_chatbot/secrets")
-    
+
     # dev — read from .env (already loaded by dotenv in settings.py)
     return {
-        "GROQ_API_KEY":           os.getenv("GROQ_API_KEY", ""),
-        "HUGGINGFACE_API_TOKEN":  os.getenv("HUGGINGFACE_API_TOKEN", ""),
+        "GROQ_API_KEY": os.getenv("GROQ_API_KEY", ""),
+        "HUGGINGFACE_API_TOKEN": os.getenv("HUGGINGFACE_API_TOKEN", ""),
     }

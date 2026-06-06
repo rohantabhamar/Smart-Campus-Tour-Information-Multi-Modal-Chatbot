@@ -17,6 +17,7 @@ from config.settings import KB_PATH, KB_TOP_N, KB_SCORE_THRESHOLD, KB_NAV_THRESH
 # Load and index KB
 # ---------------------------------------------------------------------------
 
+
 def _load_kb(path: Path = KB_PATH) -> list[dict]:
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
@@ -40,8 +41,9 @@ _KB: list[dict] = _load_kb()
 # ---------------------------------------------------------------------------
 _LIST_PATTERNS = [
     r"\bhow many\b", r"\ball\b", r"\blist\b",
-    r"\bcount\b",    r"\btotal\b", r"\bevery\b", r"\bshow all\b",
+    r"\bcount\b", r"\btotal\b", r"\bevery\b", r"\bshow all\b",
 ]
+
 
 def is_list_query(query: str) -> bool:
     q = query.lower()
@@ -51,17 +53,20 @@ def is_list_query(query: str) -> bool:
 # Scoring
 # ---------------------------------------------------------------------------
 
+
 def _score_entry(entry: dict, query_lower: str,
                  entity_texts: list[str], category_hints: list[str]) -> float:
-    score      = 0.0
+    score = 0.0
     name_lower = entry.get("name", "").lower()
-    st         = entry["_search_text"]
+    st = entry["_search_text"]
 
     if query_lower in name_lower or name_lower in query_lower:
         score += 80
     for ent in entity_texts:
-        if ent.lower() in name_lower:   score += 60
-        elif ent.lower() in st:         score += 20
+        if ent.lower() in name_lower:
+            score += 60
+        elif ent.lower() in st:
+            score += 20
     if entry.get("category") in category_hints:
         score += 40
     score += fuzz.token_set_ratio(query_lower, name_lower) * 0.3
@@ -75,6 +80,7 @@ def _score_entry(entry: dict, query_lower: str,
 # Public search API
 # ---------------------------------------------------------------------------
 
+
 def search_by_category(category_hints: list[str]) -> list[dict]:
     """Return ALL KB entries matching any of the given categories."""
     return [e for e in _KB if e.get("category") in category_hints]
@@ -84,8 +90,8 @@ def search(extracted: dict,
            top_n: int = KB_TOP_N,
            score_threshold: float = KB_SCORE_THRESHOLD) -> list[dict]:
     """Scored search — returns top_n best matching KB entries."""
-    query_lower    = extracted["raw_query"].lower()
-    entity_texts   = [e["text"] for e in extracted.get("entities", [])]
+    query_lower = extracted["raw_query"].lower()
+    entity_texts = [e["text"] for e in extracted.get("entities", [])]
     category_hints = extracted.get("category_hints", [])
 
     scored = []
@@ -106,8 +112,8 @@ def search_single(query_text: str, category_hints: list[str],
     Lower default threshold since location names are short.
     """
     extracted = {
-        "raw_query":      query_text,
-        "entities":       [],
+        "raw_query": query_text,
+        "entities": [],
         "category_hints": category_hints,
     }
     return search(extracted, top_n=top_n, score_threshold=score_threshold)
@@ -119,7 +125,7 @@ def smart_search(extracted: dict,
     Auto-detect list/count queries and switch to category-wide search.
     Returns (results, is_list_mode).
     """
-    query          = extracted["raw_query"]
+    query = extracted["raw_query"]
     category_hints = extracted.get("category_hints", [])
 
     if is_list_query(query) and category_hints:
@@ -130,6 +136,7 @@ def smart_search(extracted: dict,
 # ---------------------------------------------------------------------------
 # Context formatter
 # ---------------------------------------------------------------------------
+
 
 def format_kb_context(results: list[dict], intent: str,
                       is_list_mode: bool = False) -> str:
@@ -142,8 +149,10 @@ def format_kb_context(results: list[dict], intent: str,
         lines.append(f"Total found: {len(results)}\n")
         for i, r in enumerate(results, 1):
             line = f"{i}. {r['name']}"
-            if r.get("map_reference"): line += f" — {r['map_reference']}"
-            if r.get("department"):    line += f" ({r['department']})"
+            if r.get("map_reference"):
+                line += f" — {r['map_reference']}"
+            if r.get("department"):
+                line += f" ({r['department']})"
             lines.append(line)
     else:
         for i, r in enumerate(results, 1):

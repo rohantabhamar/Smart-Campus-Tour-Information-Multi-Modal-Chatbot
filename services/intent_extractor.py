@@ -58,34 +58,34 @@ _INTENT_PATTERNS: dict[str, list[str]] = {
 # Category keyword mapping
 # ---------------------------------------------------------------------------
 CATEGORY_KEYWORDS: dict[str, list[str]] = {
-    "library":             ["library", "books", "reading", "journal", "study"],
-    "cafeteria":           ["cafeteria", "canteen", "food", "eat", "meal", "lunch", "dinner", "breakfast", "dining"],
-    "gym":                 ["gym", "fitness", "sports", "yoga", "workout", "exercise", "basketball"],
-    "it_lab":              ["it lab", "computer lab", "pc", "workstation", "programming lab"],
-    "lecture_hall":        ["lecture hall", "auditorium", "hall", "lecture"],
-    "student_union":       ["student union", "union", "lounge", "games room"],
-    "admin_office":        ["admission", "registry", "enrollment", "transcript", "id card"],
-    "career_center":       ["career", "job", "internship", "cv", "placement"],
-    "medical_center":      ["medical", "health", "clinic", "doctor", "nurse", "pharmacy"],
-    "department":          ["department", "dept"],
-    "hod_office":          ["hod", "head of department"],
-    "seminar_room":        ["seminar room", "seminar"],
-    "classroom":           ["classroom", "class room"],
-    "lab":                 ["lab", "laboratory"],
-    "printing_room":       ["print", "photocopy", "xerox"],
-    "security_office":     ["security", "guard"],
-    "outdoor":             ["garden", "parking", "park", "outdoor"],
-    "teachers_room":       ["teacher", "faculty", "staff room"],
+    "library": ["library", "books", "reading", "journal", "study"],
+    "cafeteria": ["cafeteria", "canteen", "food", "eat", "meal", "lunch", "dinner", "breakfast", "dining"],
+    "gym": ["gym", "fitness", "sports", "yoga", "workout", "exercise", "basketball"],
+    "it_lab": ["it lab", "computer lab", "pc", "workstation", "programming lab"],
+    "lecture_hall": ["lecture hall", "auditorium", "hall", "lecture"],
+    "student_union": ["student union", "union", "lounge", "games room"],
+    "admin_office": ["admission", "registry", "enrollment", "transcript", "id card"],
+    "career_center": ["career", "job", "internship", "cv", "placement"],
+    "medical_center": ["medical", "health", "clinic", "doctor", "nurse", "pharmacy"],
+    "department": ["department", "dept"],
+    "hod_office": ["hod", "head of department"],
+    "seminar_room": ["seminar room", "seminar"],
+    "classroom": ["classroom", "class room"],
+    "lab": ["lab", "laboratory"],
+    "printing_room": ["print", "photocopy", "xerox"],
+    "security_office": ["security", "guard"],
+    "outdoor": ["garden", "parking", "park", "outdoor"],
+    "teachers_room": ["teacher", "faculty", "staff room"],
     "engineering_college": ["engineering block", "engineering college", "engg"],
-    "auditorium":          ["auditorium"],
+    "auditorium": ["auditorium"],
 }
 
 # ---------------------------------------------------------------------------
 # Navigation split
 # ---------------------------------------------------------------------------
-_NAV_SPLIT  = re.compile(r"\bfrom\s+(.+?)\s+to\s+(.+?)(?:\?|$)", re.IGNORECASE)
-_NAV_STOPS  = {"the","a","an","please","how","do","i","go","get",
-               "way","route","travel","move","can","you","tell","me"}
+_NAV_SPLIT = re.compile(r"\bfrom\s+(.+?)\s+to\s+(.+?)(?:\?|$)", re.IGNORECASE)
+_NAV_STOPS = {"the", "a", "an", "please", "how", "do", "i", "go", "get",
+              "way", "route", "travel", "move", "can", "you", "tell", "me"}
 
 
 def _clean_nav(text: str) -> str:
@@ -133,12 +133,12 @@ def extract(query: str) -> dict:
     Full extraction — returns intent, entities, category_hints, nav_pair.
     This is the main function called by extract_node.
     """
-    intent   = classify_intent(query)
+    intent = classify_intent(query)
     nav_pair = extract_navigation_pair(query) if intent == "navigation" else None
     return {
-        "intent":         intent,
-        "entities":       extract_entities(query),
+        "intent": intent,
+        "entities": extract_entities(query),
         "category_hints": extract_category_hints(query),
-        "nav_pair":       nav_pair,
-        "raw_query":      query,
+        "nav_pair": nav_pair,
+        "raw_query": query,
     }

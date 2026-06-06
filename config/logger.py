@@ -16,21 +16,22 @@ from datetime import datetime, timezone
 
 # ── Log directory ─────────────────────────────────────────────────────────
 BASE_DIR = Path(__file__).resolve().parent.parent
-APP_ENV  = os.getenv("APP_ENV", "dev")
-LOG_DIR  = BASE_DIR / "logs" / APP_ENV
+APP_ENV = os.getenv("APP_ENV", "dev")
+LOG_DIR = BASE_DIR / "logs" / APP_ENV
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 
 class JsonFormatter(logging.Formatter):
     """Formats log records as JSON for staging/prod."""
+
     def format(self, record: logging.LogRecord) -> str:
         return json.dumps({
             "timestamp": datetime.now(timezone.utc).isoformat(),
-            "level":     record.levelname,
-            "logger":    record.name,
-            "message":   record.getMessage(),
-            "module":    record.module,
-            "function":  record.funcName,
+            "level": record.levelname,
+            "logger": record.name,
+            "message": record.getMessage(),
+            "module": record.module,
+            "function": record.funcName,
         })
 
 

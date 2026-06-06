@@ -6,11 +6,12 @@ from config.logger import get_logger
 logger = get_logger(__name__)
 
 llm = ChatGroq(
-    model       = GROQ_MODEL,
-    temperature = LLM_TEMPERATURE,
-    max_tokens  = LLM_MAX_TOKENS,
-    api_key     = GROQ_API_KEY,
+    model=GROQ_MODEL,
+    temperature=LLM_TEMPERATURE,
+    max_tokens=LLM_MAX_TOKENS,
+    api_key=GROQ_API_KEY,
 )
+
 
 def llm_node(state: dict):
     logger.debug("llm_node → entry")
@@ -23,7 +24,7 @@ def llm_node(state: dict):
     prompt = f"""
     You are a campus navigation assistant.
 
-    The user uploaded an image. It was identified as: {state['name']} 
+    The user uploaded an image. It was identified as: {state['name']}
     (confidence: {state['best_match']['score'] if state.get('best_match') else 'N/A'})
     Location   : {state['map_ref']}
     Directions : {state['directions']}
