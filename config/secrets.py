@@ -18,17 +18,15 @@ def get_secret(secret_name: str, region: str = "ap-south-1") -> dict:
 
 
 def load_secrets() -> dict:
-    """
-    In prod/staging  → fetch from AWS Secrets Manager.
-    In dev           → fall back to environment variables.
-    """
     env = os.getenv("APP_ENV", "dev")
 
     if env in ("prod", "staging"):
-        return get_secret("campus_chatbot/secrets")
+        try:
+            return get_secret("campus_chatbot/secrets")
+        except Exception:
+            pass
 
-    # dev — read from .env (already loaded by dotenv in settings.py)
     return {
-        "GROQ_API_KEY": os.getenv("GROQ_API_KEY", ""),
+        "GROQ_API_KEY":          os.getenv("GROQ_API_KEY", ""),
         "HUGGINGFACE_API_TOKEN": os.getenv("HUGGINGFACE_API_TOKEN", ""),
     }
