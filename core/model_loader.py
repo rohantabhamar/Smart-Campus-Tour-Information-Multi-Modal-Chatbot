@@ -108,7 +108,7 @@ def get_fusion_mlp():
             checkpoint = torch.load(
                 FUSION_MLP_DIR / "fusion_mlp.pt",
                 map_location=DEVICE,
-                weights_only=False,
+                weights_only=True,
             )
             model = FusionMLP(
                 input_dim=1280,
