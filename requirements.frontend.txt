@@ -5,3 +5,4 @@ pandas>=1.4.0,<3.0.0
 streamlit>=1.36.0,<2.0.0
 folium==0.17.0
 streamlit-folium==0.20.0
+streamlit-autorefresh==1.0.1

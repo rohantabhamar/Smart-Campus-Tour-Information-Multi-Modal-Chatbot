@@ -1,11 +1,11 @@
 import streamlit as st
 import sys
-import time
 import json
 import pandas as pd
 from pathlib import Path
-from datetime import datetime, timedelta
+from datetime import datetime
 from collections import Counter
+from streamlit_autorefresh import st_autorefresh
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from frontend.utils import get_health
@@ -165,5 +165,4 @@ else:
     st.success("✅ No error log found — system is clean.")
 
 # ── Auto refresh ──────────────────────────────────────────────────────────
-time.sleep(refresh)
-st.rerun()
+st_autorefresh(interval=refresh * 1000, key="admin_refresh")
