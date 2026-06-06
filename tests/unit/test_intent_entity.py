@@ -8,8 +8,11 @@ def test_library_query():
     assert "nav_pair"       in result
 
 def test_navigation_query():
-    result = intent_entity_extraction({"query": "directions from library to mechanical department"})
-    assert result["intent"] == "find_location"
+    result = intent_entity_extraction({"query": "route from library to gym"})
+    assert result["intent"] == "navigation"
+    assert result["nav_pair"] is not None
+    assert result["nav_pair"]["source"] != ""
+    assert result["nav_pair"]["destination"] != ""
     assert "entities" in result
     assert "category_hints" in result
 
