@@ -1,6 +1,8 @@
 import asyncio
-from fastapi import APIRouter
-from api.schemas import AudioRequest, ChatResponse
+import tempfile
+import os
+from fastapi import APIRouter, UploadFile, File
+from api.schemas import ChatResponse
 from core.audio_graph import audio_workflow
 from config.logger import get_logger
 
@@ -9,11 +11,21 @@ logger = get_logger(__name__)
 
 
 @router.post("/query/audio", response_model=ChatResponse)
-async def audio_query(request: AudioRequest):
-    from api.main import whisper_semaphore
-    async with whisper_semaphore:
-        loop = asyncio.get_event_loop()
+async def audio_query(file: UploadFile = File(...)):
+    logger.info(f"audio endpoint → filename='{file.filename}'")
+    # save uploaded file to a temp file then transcribe
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp:
+        tmp.write(await file.read())
+        tmp_path = tmp.name
+    try:
+        loop   = asyncio.get_event_loop()
         result = await loop.run_in_executor(
-            None, lambda: audio_workflow.invoke({"query": request.audio_path})
+            None, lambda: audio_workflow.invoke({"query": tmp_path})
         )
-    return ChatResponse(answer=result.get("answer", ""), pipeline="audio", error=result.get("error"))
+    finally:
+        os.unlink(tmp_path)
+    return ChatResponse(
+        answer   = result.get("answer", ""),
+        pipeline = "audio",
+        error    = result.get("error"),
+    )
