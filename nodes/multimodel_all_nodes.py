@@ -9,7 +9,6 @@ import time
 from config.logger import get_logger
 logger = get_logger(__name__)
 
-
 _llm = None
 
 
@@ -23,6 +22,7 @@ def get_llm():
             api_key=GROQ_API_KEY,
         )
     return _llm
+
 
 def whisper_node(state: dict) -> dict:
     logger.debug("whisper_node → entry")
