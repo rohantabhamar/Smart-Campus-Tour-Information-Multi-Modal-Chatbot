@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
     g++ \
     git \
     ffmpeg \
+    libsndfile1 \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements and install
