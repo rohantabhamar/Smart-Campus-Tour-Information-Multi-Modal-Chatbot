@@ -21,7 +21,7 @@ def load_history() -> list:
     if HISTORY_FILE.exists():
         try:
             return json.loads(HISTORY_FILE.read_text(encoding="utf-8"))
-        except:
+        except Exception:
             return []
     return []
 
@@ -46,7 +46,7 @@ with st.sidebar:
     st.image("https://img.icons8.com/color/96/university.png", width=80)
     st.title("Campus Chatbot")
     st.markdown("---")
-    
+
     st.markdown("### 🗺️ Campus Map")
     st.caption("Click any pin to see details and sample questions.")
     campus_map = build_campus_map()
@@ -71,8 +71,6 @@ with st.sidebar:
         st.session_state.messages = []
         save_history([])
         st.rerun()
-    
-    
 
 # ── Main area ─────────────────────────────────────────────────────────────
 st.title("🏫 Campus Navigation Assistant")
@@ -85,9 +83,9 @@ with st.form("input_form", clear_on_submit=True):
     with col1:
         text_query = st.text_input("💬 Text query", placeholder="Where is the library?")
     with col2:
-        audio_path = st.text_input("🎵 Audio file path", placeholder="E:/path/to/audio.wav")
+        audio_file = st.file_uploader("🎵 Audio file", type=["wav", "mp3", "m4a"])
     with col3:
-        image_path = st.text_input("🖼️ Image file path", placeholder="E:/path/to/image.jpg")
+        image_file = st.file_uploader("🖼️ Image file", type=["jpg", "jpeg", "png"])
     submitted = st.form_submit_button("🚀 Send", use_container_width=True)
 
 st.markdown("---")
@@ -95,7 +93,6 @@ st.markdown("---")
 # ── Chat history — scrollable container below input ───────────────────────
 chat_container = st.container(height=500)
 with chat_container:
-    # show only user query and assistant answer — nothing else
     pairs = []
     msgs  = st.session_state.messages
     i     = 0
@@ -109,7 +106,6 @@ with chat_container:
     pairs = pairs[-1:] if pairs else []
     for user_msg, assistant_msg in pairs:
         with st.chat_message("user"):
-            # show only text query — strip emoji prefixes
             content = user_msg["content"]
             lines   = [l for l in content.split("\n") if l.startswith("💬")]
             display = lines[0].replace("💬 **", "").replace("**", "").strip() if lines else content
@@ -121,45 +117,42 @@ with chat_container:
 # ── Pipeline decision + API call ──────────────────────────────────────────
 if submitted:
     has_text  = bool(text_query.strip())
-    has_audio = bool(audio_path.strip())
-    has_image = bool(image_path.strip())
+    has_audio = audio_file is not None
+    has_image = image_file is not None
 
     if not any([has_text, has_audio, has_image]):
         st.warning("Please provide at least one input.")
     else:
-        # Build user message
         parts = []
         if has_text:  parts.append(f"💬 **{text_query}**")
-        if has_audio: parts.append(f"🎵 `{audio_path}`")
-        if has_image: parts.append(f"🖼️ `{image_path}`")
+        if has_audio: parts.append(f"🎵 `{audio_file.name}`")
+        if has_image: parts.append(f"🖼️ `{image_file.name}`")
 
         user_entry = {
-            "role":       "user",
-            "content":    "\n".join(parts),
-            "image_path": image_path if has_image else None,
-            "time":       datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "role":    "user",
+            "content": "\n".join(parts),
+            "time":    datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         }
         st.session_state.messages.append(user_entry)
 
-        # Call API
         with st.spinner("Processing your request..."):
             if has_text and not has_audio and not has_image:
                 result   = call_text(text_query)
                 pipeline = "text"
             elif has_audio and not has_text and not has_image:
-                result   = call_audio(audio_path)
+                result   = call_audio(audio_file)
                 pipeline = "audio"
             elif has_image and not has_text and not has_audio:
-                result   = call_image(image_path)
+                result   = call_image(image_file)
                 pipeline = "image"
             elif has_audio and has_text and not has_image:
-                result   = call_audio_text(audio_path, text_query)
+                result   = call_audio_text(audio_file, text_query)
                 pipeline = "audio-text"
             else:
                 result   = call_multimodal(
                     query      = text_query or None,
-                    audio_path = audio_path or None,
-                    image_path = image_path or None,
+                    audio_file = audio_file or None,
+                    image_file = image_file or None,
                 )
                 pipeline = "multimodal"
 
