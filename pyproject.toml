@@ -6,25 +6,11 @@ build-backend = "setuptools.backends.legacy:build"
 name = "campus_chatbot"
 version = "1.0.0"
 description = "Campus navigation chatbot with multimodal support"
-requires-python = ">=3.10"
-dependencies = [
-    "requests==2.31.0",
-    "python-dotenv==1.0.1",
-    "rapidfuzz==3.9.0",
-    "groq>=0.30.0,<1.0.0",
-    "langchain",
-    "langchain-groq",
-    "langchain-core",
-    "langgraph",
-    "torch",
-    "transformers",
-    "Pillow",
-    "numpy",
-    "faiss-cpu",
-    "openai-whisper",
-    "pandas",
-    "matplotlib",
-]
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
 
 [project.scripts]
 chatbot-text       = "campus_chatbot.entrypoints.text:main"
@@ -32,3 +18,7 @@ chatbot-audio      = "campus_chatbot.entrypoints.audio:main"
 chatbot-image      = "campus_chatbot.entrypoints.image:main"
 chatbot-multimodal = "campus_chatbot.entrypoints.multimodal:main"
 chatbot-audio-text = "campus_chatbot.entrypoints.audio_with_text:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "strict"
