@@ -3,8 +3,24 @@ core/model_loader.py
 """
 import torch
 import json
+import torch.nn as nn
+
 
 DEVICE = torch.device("cpu")
+
+
+class FusionMLP(nn.Module):
+    def __init__(self, input_dim=1280, num_classes=11):
+        super().__init__()
+        self.network = nn.Sequential(
+            nn.Linear(input_dim, 512), nn.ReLU(), nn.Dropout(0.3),
+            nn.Linear(512, 128), nn.ReLU(), nn.Dropout(0.2),
+            nn.Linear(128, num_classes),
+        )
+
+    def forward(self, x):
+        return self.network(x)
+
 
 _whisper_model = None
 _clip_model = None
@@ -88,19 +104,6 @@ def get_fusion_mlp():
     global _fusion
     if _fusion is None:
         try:
-            import torch.nn as nn
-
-            class FusionMLP(nn.Module):
-                def __init__(self, input_dim=1280, num_classes=11):
-                    super().__init__()
-                    self.network = nn.Sequential(
-                        nn.Linear(input_dim, 512), nn.ReLU(), nn.Dropout(0.3),
-                        nn.Linear(512, 128), nn.ReLU(), nn.Dropout(0.2),
-                        nn.Linear(128, num_classes),
-                    )
-
-                def forward(self, x):
-                    return self.network(x)
             from config.settings import FUSION_MLP_DIR
             checkpoint = torch.load(
                 FUSION_MLP_DIR / "fusion_mlp.pt",
@@ -113,12 +116,9 @@ def get_fusion_mlp():
             ).to(DEVICE)
             model.load_state_dict(checkpoint["model_state_dict"])
             model.eval()
-
             _fusion = (model, checkpoint["idx_to_class"])
-
         except Exception as e:
             raise RuntimeError(f"Failed to load fusion model: {e}") from e
-
     return _fusion
 
 
