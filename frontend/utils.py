@@ -1,7 +1,8 @@
 import requests
 import time
 
-API_BASE = "http://127.0.0.1:8000"
+import os
+API_BASE = os.getenv("API_BASE", "http://campus_api:8000")
 
 
 def call_text(query: str) -> dict:
